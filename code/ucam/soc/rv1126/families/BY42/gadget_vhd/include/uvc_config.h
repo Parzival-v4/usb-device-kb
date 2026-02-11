@@ -1,0 +1,856 @@
+#ifndef _UVC_CONFIG_H
+#define _UVC_CONFIG_H
+
+#include <usb_types.h>
+#include <usb/video.h>
+#include <gadget_ex.h>
+
+#define WEBCAM_VERSION "V1.1.64"
+
+/*******************************************************************************************/
+
+//只用于驱动配置
+#ifdef __KERNEL__
+
+#ifndef USB_UVC_SUPPORT
+#define USB_UVC_SUPPORT			
+#endif
+
+#if (defined CHIP_RV1126 || CHIP_VS819)
+//RNDIS ACM storage
+#ifndef USB_MULTI_SUPPORT
+//#define USB_MULTI_SUPPORT			
+#endif
+
+#ifndef USB_MULTI_MSG_SUPPORT
+#define USB_MULTI_MSG_SUPPORT			
+#endif
+#endif
+
+#ifndef USB_MULTI_HID_SUPPORT
+#define USB_MULTI_HID_SUPPORT			
+#endif
+
+#ifndef DFU_SUPPORT
+#define DFU_SUPPORT			
+#endif
+
+#ifndef UAC_AUDIO_SUPPORT
+#define UAC_AUDIO_SUPPORT
+#endif
+
+
+#ifndef UVC_S2_SUPPORT
+#define UVC_S2_SUPPORT			
+#endif
+
+#ifndef UVC_V150_SUPPORT
+#define UVC_V150_SUPPORT			
+#endif
+
+#ifndef USB3_WIN7_SUPPORT
+#define USB3_WIN7_SUPPORT			
+#endif
+
+
+#ifndef USB_ZTE_HID_SUPPORT
+#define USB_ZTE_HID_SUPPORT
+#endif
+
+#if (defined CHIP_RV1126)
+#ifndef USB_NCM_SUPPORT
+#define USB_NCM_SUPPORT			
+#endif
+#endif
+
+#if (defined CHIP_SSC268)
+#ifndef USB_POLYCOM_HID_SUPPORT
+#define USB_POLYCOM_HID_SUPPORT
+#endif
+#endif 
+
+#ifndef SFB_HID_SUPPORT
+#define SFB_HID_SUPPORT
+#endif
+
+//端点可能不够用，3519V101 5个IN，5个OUT， EP0 ：1IN、1OUT，UVC 2IN、双流1IN
+//#ifndef USB_ZTE_HID_SUPPORT
+#ifndef UVC_INTERRUPT_ENDPOINT_SUPPORT
+#define UVC_INTERRUPT_ENDPOINT_SUPPORT
+#endif
+//#endif
+
+#endif
+
+
+
+//用于内核和应用程序配置
+
+//#define UVC_PTZ_CTRL_SUPPORT
+//#define UVC_PROCESS_CTRL_SUPPORT
+//#define UVC_XU_CTRL_SUPPORT
+
+#ifndef UVC_VIDEO_FORMAT_4K_SUPPORT
+//#define UVC_VIDEO_FORMAT_4K_SUPPORT			
+#endif
+
+#ifndef UVC_VIDEO_FORMAT_NV12_SUPPORT
+//#define UVC_VIDEO_FORMAT_NV12_SUPPORT
+#endif
+
+#ifndef UVC_VIDEO_FORMAT_H264_SUPPORT
+//#define UVC_VIDEO_FORMAT_H264_SUPPORT	
+#endif
+
+#ifndef UVC_VIDEO_FORMAT_H265_SUPPORT
+//#define UVC_VIDEO_FORMAT_H265_SUPPORT	
+#endif
+
+
+#ifndef SIMULCAST_SUPPORT
+//#define SIMULCAST_SUPPORT			
+#endif
+
+
+
+#define DEV_HID_FIRST_NUM				0
+#define DEV_HID_NUM_MAX					10
+
+#define DEV_DFU_FIRST_NUM				10
+#define DEV_DFU_NUM_MAX					10
+
+#define DEV_HID_ZTE_FIRST_NUM			20
+#define DEV_HID_ZTE_NUM_MAX				10
+
+#define DEV_HID_ZTE_UPGRADE_FIRST_NUM	30
+#define DEV_HID_ZTE_UPGRADE_NUM_MAX		10
+
+#define DEV_HID_CONSUMER_FIRST_NUM		40
+#define DEV_HID_CONSUMER_NUM_MAX		10
+
+#define DEV_HID_KEYBOARD_FIRST_NUM		50
+#define DEV_HID_KEYBOARD_NUM_MAX		10
+
+#define DEV_HID_POLYCOM_FIRST_NUM		60
+#define DEV_HID_POLYCOM_NUM_MAX			10
+/*******************************************************************************************/
+
+//(1/fps) * 10000000
+#define	UVC_FORMAT_60FPS						  (uint32_t)(0x00028B0A)
+#define	UVC_FORMAT_50FPS						  (uint32_t)(0x00030D40)
+#define	UVC_FORMAT_30FPS						  (uint32_t)(0x00051615)
+#define	UVC_FORMAT_25FPS						  (uint32_t)(0x00061A80)
+#define	UVC_FORMAT_24FPS						  (uint32_t)(0x00065b9a)
+#define	UVC_FORMAT_20FPS						  (uint32_t)(0x0007a120)
+#define	UVC_FORMAT_15FPS						  (uint32_t)(0x000a2c2a)
+#define	UVC_FORMAT_10FPS						  (uint32_t)(0x000F4240)
+#define	UVC_FORMAT_7FPS						  	  (uint32_t)(0x00145855)
+#define	UVC_FORMAT_5FPS						  	  (uint32_t)(0x001E8480)
+#define	UVC_FORMAT_1FPS						  	  (uint32_t)(0x00989680)
+
+//usb端点大小定义
+typedef enum {
+	//USB2
+	USB2_EP_ISOC_PKTS_COUNT_ALT1 = 1,
+	USB2_EP_ISOC_PKT_SIZE_ALT1 = 192,
+	USB2_EP_ISOC_PACKET_SIZE_ALT1 = (USB2_EP_ISOC_PKTS_COUNT_ALT1 * USB2_EP_ISOC_PKT_SIZE_ALT1),//1.5M
+
+	USB2_EP_ISOC_PKTS_COUNT_ALT2 = 1,
+	USB2_EP_ISOC_PKT_SIZE_ALT2 = 384,
+	USB2_EP_ISOC_PACKET_SIZE_ALT2 = (USB2_EP_ISOC_PKTS_COUNT_ALT2 * USB2_EP_ISOC_PKT_SIZE_ALT2),//3M
+
+	USB2_EP_ISOC_PKTS_COUNT_ALT3 = 1,
+	USB2_EP_ISOC_PKT_SIZE_ALT3 = 512,
+	USB2_EP_ISOC_PACKET_SIZE_ALT3 = (USB2_EP_ISOC_PKTS_COUNT_ALT3 * USB2_EP_ISOC_PKT_SIZE_ALT3),//4M
+
+	USB2_EP_ISOC_PKTS_COUNT_ALT4 = 1,
+	USB2_EP_ISOC_PKT_SIZE_ALT4 = 640,
+	USB2_EP_ISOC_PACKET_SIZE_ALT4 = (USB2_EP_ISOC_PKTS_COUNT_ALT4 * USB2_EP_ISOC_PKT_SIZE_ALT4),//5M
+
+	USB2_EP_ISOC_PKTS_COUNT_ALT5 = 1,
+	USB2_EP_ISOC_PKT_SIZE_ALT5 = 800,
+	USB2_EP_ISOC_PACKET_SIZE_ALT5 = (USB2_EP_ISOC_PKTS_COUNT_ALT5 * USB2_EP_ISOC_PKT_SIZE_ALT5),//6.25M
+
+	USB2_EP_ISOC_PKTS_COUNT_ALT6 = 1,
+	USB2_EP_ISOC_PKT_SIZE_ALT6 = 944,
+	USB2_EP_ISOC_PACKET_SIZE_ALT6 = (USB2_EP_ISOC_PKTS_COUNT_ALT6 * USB2_EP_ISOC_PKT_SIZE_ALT6),//7.375M
+
+	USB2_EP_ISOC_PKTS_COUNT_ALT7 = 2,
+	USB2_EP_ISOC_PKT_SIZE_ALT7 = 0x280,
+	USB2_EP_ISOC_PACKET_SIZE_ALT7 = (USB2_EP_ISOC_PKTS_COUNT_ALT7 * USB2_EP_ISOC_PKT_SIZE_ALT7),//10M
+
+	USB2_EP_ISOC_PKTS_COUNT_ALT8 = 2,
+	USB2_EP_ISOC_PKT_SIZE_ALT8 = 0x320,
+	USB2_EP_ISOC_PACKET_SIZE_ALT8 = (USB2_EP_ISOC_PKTS_COUNT_ALT8 * USB2_EP_ISOC_PKT_SIZE_ALT8),//12.5M
+
+	USB2_EP_ISOC_PKTS_COUNT_ALT9 = 2,
+	USB2_EP_ISOC_PKT_SIZE_ALT9 = 0x3E0,
+	USB2_EP_ISOC_PACKET_SIZE_ALT9 = (USB2_EP_ISOC_PKTS_COUNT_ALT9 * USB2_EP_ISOC_PKT_SIZE_ALT9),//15.5M
+
+	USB2_EP_ISOC_PKTS_COUNT_ALT10 = 3,
+	USB2_EP_ISOC_PKT_SIZE_ALT10 = 0x380,
+	USB2_EP_ISOC_PACKET_SIZE_ALT10 = (USB2_EP_ISOC_PKTS_COUNT_ALT10 * USB2_EP_ISOC_PKT_SIZE_ALT10),//21M
+
+	USB2_EP_ISOC_PKTS_COUNT_ALT11 = 3,
+	USB2_EP_ISOC_PKT_SIZE_ALT11 = 0x400,
+	USB2_EP_ISOC_PACKET_SIZE_ALT11 = (USB2_EP_ISOC_PKTS_COUNT_ALT11 * USB2_EP_ISOC_PKT_SIZE_ALT11),//24M
+
+	USB2_EP_ISOC_ALT_INDEX_MAX = 11,
+	USB2_EP_ISOC_PACKET_SIZE_MIN = USB2_EP_ISOC_PACKET_SIZE_ALT1,
+	USB2_EP_ISOC_PACKET_SIZE_MAX = USB2_EP_ISOC_PACKET_SIZE_ALT11,
+
+
+	//USB3
+	USB3_EP_ISOC_PKTS_COUNT_ALT1 = 1,
+	USB3_EP_ISOC_PKT_SIZE_ALT1 = 192,
+	USB3_EP_ISOC_PACKET_SIZE_ALT1 = (USB3_EP_ISOC_PKTS_COUNT_ALT1 * USB3_EP_ISOC_PKT_SIZE_ALT1),//1.5M
+
+	USB3_EP_ISOC_PKTS_COUNT_ALT2 = 1,
+	USB3_EP_ISOC_PKT_SIZE_ALT2 = 384,
+	USB3_EP_ISOC_PACKET_SIZE_ALT2 = (USB3_EP_ISOC_PKTS_COUNT_ALT2 * USB3_EP_ISOC_PKT_SIZE_ALT2),//3M
+
+	USB3_EP_ISOC_PKTS_COUNT_ALT3 = 1,
+	USB3_EP_ISOC_PKT_SIZE_ALT3 = 512,
+	USB3_EP_ISOC_PACKET_SIZE_ALT3 = (USB3_EP_ISOC_PKTS_COUNT_ALT3 * USB3_EP_ISOC_PKT_SIZE_ALT3),//4M
+
+	USB3_EP_ISOC_PKTS_COUNT_ALT4 = 1,
+	USB3_EP_ISOC_PKT_SIZE_ALT4 = 640,
+	USB3_EP_ISOC_PACKET_SIZE_ALT4 = (USB3_EP_ISOC_PKTS_COUNT_ALT4 * USB3_EP_ISOC_PKT_SIZE_ALT4),//5M
+
+	USB3_EP_ISOC_PKTS_COUNT_ALT5 = 1,
+	USB3_EP_ISOC_PKT_SIZE_ALT5 = 800,
+	USB3_EP_ISOC_PACKET_SIZE_ALT5 = (USB3_EP_ISOC_PKTS_COUNT_ALT5 * USB3_EP_ISOC_PKT_SIZE_ALT5),//6.25M
+
+	USB3_EP_ISOC_PKTS_COUNT_ALT6 = 1,
+	USB3_EP_ISOC_PKT_SIZE_ALT6 = 1024,
+	USB3_EP_ISOC_PACKET_SIZE_ALT6 = (USB3_EP_ISOC_PKTS_COUNT_ALT6 * USB3_EP_ISOC_PKT_SIZE_ALT6),//8M
+
+	//ISOC模式下，如果bMaxBurst大于0，wMaxPacketSize则为1024
+	USB3_EP_ISOC_PKTS_COUNT_ALT7 = 2,
+	USB3_EP_ISOC_PKT_SIZE_ALT7 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT7 = (USB3_EP_ISOC_PKTS_COUNT_ALT7 * USB3_EP_ISOC_PKT_SIZE_ALT7),//16M
+
+	USB3_EP_ISOC_PKTS_COUNT_ALT8 = 3,
+	USB3_EP_ISOC_PKT_SIZE_ALT8 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT8 = (USB3_EP_ISOC_PKTS_COUNT_ALT8 * USB3_EP_ISOC_PKT_SIZE_ALT8),//24M
+
+	USB3_EP_ISOC_PKTS_COUNT_ALT9 = 4,
+	USB3_EP_ISOC_PKT_SIZE_ALT9 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT9 = (USB3_EP_ISOC_PKTS_COUNT_ALT9 * USB3_EP_ISOC_PKT_SIZE_ALT9),//32M
+
+	USB3_EP_ISOC_PKTS_COUNT_ALT10 = 5,
+	USB3_EP_ISOC_PKT_SIZE_ALT10 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT10 = (USB3_EP_ISOC_PKTS_COUNT_ALT10 * USB3_EP_ISOC_PKT_SIZE_ALT10),//40M
+
+	USB3_EP_ISOC_PKTS_COUNT_ALT11 = 6,
+	USB3_EP_ISOC_PKT_SIZE_ALT11 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT11 = (USB3_EP_ISOC_PKTS_COUNT_ALT11 * USB3_EP_ISOC_PKT_SIZE_ALT11),//48M
+
+	USB3_EP_ISOC_PKTS_COUNT_ALT12 = 7,
+	USB3_EP_ISOC_PKT_SIZE_ALT12 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT12 = (USB3_EP_ISOC_PKTS_COUNT_ALT12 * USB3_EP_ISOC_PKT_SIZE_ALT12),//56M
+
+	USB3_EP_ISOC_PKTS_COUNT_ALT13 = 8,
+	USB3_EP_ISOC_PKT_SIZE_ALT13 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT13 = (USB3_EP_ISOC_PKTS_COUNT_ALT13 * USB3_EP_ISOC_PKT_SIZE_ALT13),//64M
+
+	USB3_EP_ISOC_PKTS_COUNT_ALT14 = 9,
+	USB3_EP_ISOC_PKT_SIZE_ALT14 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT14 = (USB3_EP_ISOC_PKTS_COUNT_ALT14 * USB3_EP_ISOC_PKT_SIZE_ALT14),//72M
+
+	USB3_EP_ISOC_PKTS_COUNT_ALT15 = 11,
+	USB3_EP_ISOC_PKT_SIZE_ALT15 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT15 = (USB3_EP_ISOC_PKTS_COUNT_ALT15 * USB3_EP_ISOC_PKT_SIZE_ALT15),//88M
+
+	USB3_EP_ISOC_PKTS_COUNT_ALT16 = 13,
+	USB3_EP_ISOC_PKT_SIZE_ALT16 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT16 = (USB3_EP_ISOC_PKTS_COUNT_ALT16 * USB3_EP_ISOC_PKT_SIZE_ALT16),//104M
+
+
+	USB3_EP_ISOC_PKTS_COUNT_ALT17 = 16,
+	USB3_EP_ISOC_PKT_SIZE_ALT17 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT17 = (USB3_EP_ISOC_PKTS_COUNT_ALT17 * USB3_EP_ISOC_PKT_SIZE_ALT17),//128M
+	
+	
+	//(bMaxBurst + 1)x(Mult + 1); MAX :(15+1)x(2+1)=48 ,48*8M=384MB/s
+	
+	//2的整数倍
+	USB3_EP_ISOC_PKTS_COUNT_ALT18 = 20,
+	USB3_EP_ISOC_PKT_SIZE_ALT18 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT18 = (USB3_EP_ISOC_PKTS_COUNT_ALT18 * USB3_EP_ISOC_PKT_SIZE_ALT18),//160M
+	
+	USB3_EP_ISOC_PKTS_COUNT_ALT19 = 24,
+	USB3_EP_ISOC_PKT_SIZE_ALT19 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT19 = (USB3_EP_ISOC_PKTS_COUNT_ALT19 * USB3_EP_ISOC_PKT_SIZE_ALT19),//192M
+	
+	USB3_EP_ISOC_PKTS_COUNT_ALT20 = 28,
+	USB3_EP_ISOC_PKT_SIZE_ALT20 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT20 = (USB3_EP_ISOC_PKTS_COUNT_ALT20 * USB3_EP_ISOC_PKT_SIZE_ALT20),//224M
+	
+	USB3_EP_ISOC_PKTS_COUNT_ALT21 = 32,
+	USB3_EP_ISOC_PKT_SIZE_ALT21 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT21 = (USB3_EP_ISOC_PKTS_COUNT_ALT21 * USB3_EP_ISOC_PKT_SIZE_ALT21),//256M
+	
+	
+	//3的整数倍
+	USB3_EP_ISOC_PKTS_COUNT_ALT22 = 36,
+	USB3_EP_ISOC_PKT_SIZE_ALT22 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT22 = (USB3_EP_ISOC_PKTS_COUNT_ALT22 * USB3_EP_ISOC_PKT_SIZE_ALT22),//288M
+	
+	USB3_EP_ISOC_PKTS_COUNT_ALT23 = 39,
+	USB3_EP_ISOC_PKT_SIZE_ALT23 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT23 = (USB3_EP_ISOC_PKTS_COUNT_ALT23 * USB3_EP_ISOC_PKT_SIZE_ALT23),//320M
+	
+	USB3_EP_ISOC_PKTS_COUNT_ALT24 = 45,
+	USB3_EP_ISOC_PKT_SIZE_ALT24 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT24 = (USB3_EP_ISOC_PKTS_COUNT_ALT24 * USB3_EP_ISOC_PKT_SIZE_ALT24),//352M
+	
+	USB3_EP_ISOC_PKTS_COUNT_ALT25 = 48,
+	USB3_EP_ISOC_PKT_SIZE_ALT25 = 0x400,
+	USB3_EP_ISOC_PACKET_SIZE_ALT25 = (USB3_EP_ISOC_PKTS_COUNT_ALT25 * USB3_EP_ISOC_PKT_SIZE_ALT25),//384M
+
+
+	USB3_EP_ISOC_ALT_INDEX_MAX = 25,
+	USB3_EP_ISOC_PACKET_SIZE_MIN = USB3_EP_ISOC_PACKET_SIZE_ALT1,
+	USB3_EP_ISOC_PACKET_SIZE_MAX = USB3_EP_ISOC_PACKET_SIZE_ALT25,
+
+}uvc_ep_isoc_t;
+
+
+#define USB_EP_ISO_PKT_SIZE(count, pkt_size)		(u16)(((u32)pkt_size & 0x7FF) | (((u32)count - 1) << 11))
+
+/* FrameIndex */
+
+//UVC定义的视频格式索引
+typedef enum
+{
+	//视频分辨率索引
+	//YUY2
+	UVC_YUV_FORMAT_INDEX_640x480 = 1,
+	//UVC_YUV_FORMAT_INDEX_320x180 ,
+	//UVC_YUV_FORMAT_INDEX_320x240 ,
+	UVC_YUV_FORMAT_INDEX_352x288 ,
+	UVC_YUV_FORMAT_INDEX_424x240 ,
+	UVC_YUV_FORMAT_INDEX_424x320 ,	
+	UVC_YUV_FORMAT_INDEX_480x270 ,
+	UVC_YUV_FORMAT_INDEX_512x288 ,
+	UVC_YUV_FORMAT_INDEX_640x360 ,
+	UVC_YUV_FORMAT_INDEX_720x480 ,
+	UVC_YUV_FORMAT_INDEX_720x576 ,
+	UVC_YUV_FORMAT_INDEX_800x448 ,
+	UVC_YUV_FORMAT_INDEX_800x600 ,
+	UVC_YUV_FORMAT_INDEX_848x480 ,
+	UVC_YUV_FORMAT_INDEX_960x540 ,
+	UVC_YUV_FORMAT_INDEX_1024x576,
+	UVC_YUV_FORMAT_INDEX_1024x768,
+	UVC_YUV_FORMAT_INDEX_1280x720 ,
+	UVC_YUV_FORMAT_INDEX_1600x896 ,
+	//UVC_YUV_FORMAT_INDEX_1600x900 ,
+	UVC_YUV_FORMAT_INDEX_1920x1080 ,
+	//UVC_YUV_FORMAT_INDEX_2560x1440 ,
+	
+	
+	//MJPEG
+	UVC_MJPEG_FORMAT_INDEX_640x480 = 1,
+	//UVC_MJPEG_FORMAT_INDEX_320x180 ,
+	//UVC_MJPEG_FORMAT_INDEX_320x240 ,
+	UVC_MJPEG_FORMAT_INDEX_352x288 ,
+	UVC_MJPEG_FORMAT_INDEX_424x240 ,
+	UVC_MJPEG_FORMAT_INDEX_424x320 ,
+	UVC_MJPEG_FORMAT_INDEX_480x270 ,
+	UVC_MJPEG_FORMAT_INDEX_512x288 ,
+	UVC_MJPEG_FORMAT_INDEX_640x360 ,
+	UVC_MJPEG_FORMAT_INDEX_720x480 ,
+	UVC_MJPEG_FORMAT_INDEX_720x576 ,
+	UVC_MJPEG_FORMAT_INDEX_800x448 ,
+	UVC_MJPEG_FORMAT_INDEX_800x600 ,
+	UVC_MJPEG_FORMAT_INDEX_848x480 ,
+	UVC_MJPEG_FORMAT_INDEX_960x540 ,
+	UVC_MJPEG_FORMAT_INDEX_1024x576 ,
+	UVC_MJPEG_FORMAT_INDEX_1024x768 ,
+	UVC_MJPEG_FORMAT_INDEX_1280x720 ,
+	UVC_MJPEG_FORMAT_INDEX_1600x896 ,
+	//UVC_MJPEG_FORMAT_INDEX_1600x900 ,
+	UVC_MJPEG_FORMAT_INDEX_1920x1080 ,
+#ifdef	UVC_VIDEO_FORMAT_4K_SUPPORT
+	UVC_MJPEG_FORMAT_INDEX_2560x1440 ,
+	UVC_MJPEG_FORMAT_INDEX_3840x2160 ,	
+#endif	
+
+	//H264 UVC1.1
+	UVC110_H264_FORMAT_INDEX_640x480 = 1,
+	//UVC110_H264_FORMAT_INDEX_320x180 ,
+	//UVC110_H264_FORMAT_INDEX_320x240 ,
+	UVC110_H264_FORMAT_INDEX_352x288 ,
+	UVC110_H264_FORMAT_INDEX_424x240 ,
+	UVC110_H264_FORMAT_INDEX_424x320 ,
+	UVC110_H264_FORMAT_INDEX_480x270 ,
+	UVC110_H264_FORMAT_INDEX_512x288 ,
+	UVC110_H264_FORMAT_INDEX_640x360 ,
+	UVC110_H264_FORMAT_INDEX_720x480 ,
+	UVC110_H264_FORMAT_INDEX_720x576 ,
+	UVC110_H264_FORMAT_INDEX_800x448 ,
+	UVC110_H264_FORMAT_INDEX_800x600 ,
+	UVC110_H264_FORMAT_INDEX_848x480 ,
+	UVC110_H264_FORMAT_INDEX_960x540 ,
+	UVC110_H264_FORMAT_INDEX_1024x576 ,
+	UVC110_H264_FORMAT_INDEX_1024x768 ,
+	UVC110_H264_FORMAT_INDEX_1280x720 ,
+	UVC110_H264_FORMAT_INDEX_1600x896 ,
+	//UVC110_H264_FORMAT_INDEX_1600x900 ,
+	UVC110_H264_FORMAT_INDEX_1920x1080 ,
+#ifdef	UVC_VIDEO_FORMAT_4K_SUPPORT
+	UVC110_H264_FORMAT_INDEX_2560x1440 ,
+	UVC110_H264_FORMAT_INDEX_3840x2160 ,	
+#endif
+
+	//H264 UVC1.5
+	UVC_H264_FORMAT_INDEX_640x480 = 1,
+	//UVC_H264_FORMAT_INDEX_160x120 ,
+	//UVC_H264_FORMAT_INDEX_176x144 ,
+	//UVC_H264_FORMAT_INDEX_320x180 ,
+	//UVC_H264_FORMAT_INDEX_320x240 ,
+	UVC_H264_FORMAT_INDEX_352x288 ,
+	UVC_H264_FORMAT_INDEX_424x240 ,
+	UVC_H264_FORMAT_INDEX_424x320 ,
+	UVC_H264_FORMAT_INDEX_480x270 ,
+	UVC_H264_FORMAT_INDEX_512x288 ,
+	UVC_H264_FORMAT_INDEX_640x360 ,
+	UVC_H264_FORMAT_INDEX_720x480 ,
+	UVC_H264_FORMAT_INDEX_720x576 ,
+	UVC_H264_FORMAT_INDEX_800x448 ,
+	UVC_H264_FORMAT_INDEX_800x600 ,
+	UVC_H264_FORMAT_INDEX_848x480 ,
+	UVC_H264_FORMAT_INDEX_960x540 ,
+	UVC_H264_FORMAT_INDEX_1024x576 ,
+	UVC_H264_FORMAT_INDEX_1024x768 ,
+	UVC_H264_FORMAT_INDEX_1280x720 ,
+	UVC_H264_FORMAT_INDEX_1600x896 ,
+	//UVC_H264_FORMAT_INDEX_1600x900 ,
+	UVC_H264_FORMAT_INDEX_1920x1080 ,
+
+#ifdef	UVC_VIDEO_FORMAT_4K_SUPPORT
+	UVC_H264_FORMAT_INDEX_2560x1440 ,
+	UVC_H264_FORMAT_INDEX_3840x2160 ,
+#endif
+	//H264 第二编码格式
+	UVC_H264_FORMAT2_INDEX_640x480 ,
+	//UVC_H264_FORMAT2_INDEX_160x120 ,
+	//UVC_H264_FORMAT2_INDEX_176x144 ,
+	//UVC_H264_FORMAT2_INDEX_320x180 ,
+	//UVC_H264_FORMAT2_INDEX_320x240 ,
+	UVC_H264_FORMAT2_INDEX_352x288 ,
+	UVC_H264_FORMAT2_INDEX_424x240 ,
+	UVC_H264_FORMAT2_INDEX_424x320 ,
+	UVC_H264_FORMAT2_INDEX_480x270 ,
+	UVC_H264_FORMAT2_INDEX_512x288 ,
+	UVC_H264_FORMAT2_INDEX_640x360 ,
+	UVC_H264_FORMAT2_INDEX_720x480 ,
+	UVC_H264_FORMAT2_INDEX_720x576 ,
+	UVC_H264_FORMAT2_INDEX_800x448 ,
+	UVC_H264_FORMAT2_INDEX_800x600 ,
+	UVC_H264_FORMAT2_INDEX_848x480 ,
+	UVC_H264_FORMAT2_INDEX_960x540 ,
+	UVC_H264_FORMAT2_INDEX_1024x576 ,
+	UVC_H264_FORMAT2_INDEX_1024x768 ,
+	UVC_H264_FORMAT2_INDEX_1280x720 ,
+	UVC_H264_FORMAT2_INDEX_1600x896 ,
+	//UVC_H264_FORMAT2_INDEX_1600x900 ,
+	UVC_H264_FORMAT2_INDEX_1920x1080 ,
+#ifdef	UVC_VIDEO_FORMAT_4K_SUPPORT
+	UVC_H264_FORMAT2_INDEX_2560x1440 ,
+	UVC_H264_FORMAT2_INDEX_3840x2160 ,
+#endif	
+
+	//NV12
+	UVC_NV12_FORMAT_INDEX_640x480 = 1,
+	//UVC_NV12_FORMAT_INDEX_160x120 ,
+	//UVC_NV12_FORMAT_INDEX_176x144 ,
+	//UVC_NV12_FORMAT_INDEX_320x180 ,
+	//UVC_NV12_FORMAT_INDEX_320x240 ,
+	UVC_NV12_FORMAT_INDEX_352x288 ,
+	//UVC_NV12_FORMAT_INDEX_424x240 ,
+	//UVC_NV12_FORMAT_INDEX_424x320 ,
+	UVC_NV12_FORMAT_INDEX_480x270 ,
+	//UVC_NV12_FORMAT_INDEX_512x288 ,
+	UVC_NV12_FORMAT_INDEX_640x360 ,
+	UVC_NV12_FORMAT_INDEX_720x480 ,
+	UVC_NV12_FORMAT_INDEX_720x576 ,
+	//UVC_NV12_FORMAT_INDEX_800x448 ,
+	UVC_NV12_FORMAT_INDEX_800x600 ,
+	//UVC_NV12_FORMAT_INDEX_848x480 ,
+	UVC_NV12_FORMAT_INDEX_960x540 ,
+	UVC_NV12_FORMAT_INDEX_1024x576,
+	//UVC_NV12_FORMAT_INDEX_1024x768,
+	UVC_NV12_FORMAT_INDEX_1280x720 ,
+	UVC_NV12_FORMAT_INDEX_1600x900 ,
+	UVC_NV12_FORMAT_INDEX_1920x1080 ,
+	//UVC_NV12_FORMAT_INDEX_2560x1440 ,
+
+	//H265
+	UVC_H265_FORMAT_INDEX_640x480 = 1,
+	UVC_H265_FORMAT_INDEX_1920x1080 = 2,
+
+
+
+	//视频编码索引
+	UVC_FORMAT_INDEX_YUV2 = 1,
+	UVC_FORMAT_INDEX_MJPEG,
+#ifdef UVC_VIDEO_FORMAT_NV12_SUPPORT
+	UVC_FORMAT_INDEX_NV12,
+#endif
+#ifdef UVC_VIDEO_FORMAT_H264_SUPPORT
+	UVC_FORMAT_INDEX_H264,
+#endif
+	UVC_FORMAT_INDEX_H265,
+	
+	UVC_FORMAT_INDEX_H264_S2 = 1,
+	UVC_FORMAT_INDEX_H264_SIMULCAST_S2 = 2,
+	
+} uvc_video_format_index;
+
+
+enum usb_connect_state
+{
+	USB_STATE_DISCONNECT,
+	USB_STATE_CONNECT,
+	USB_STATE_CONNECT_RESET,
+};
+
+#if 0
+// 单流配置
+enum usb_intf_config_1
+{
+#ifdef DFU_SUPPORT
+	DFU_INTF_CONTROL,
+#endif
+	UVC_INTF_CONTROL,
+	UVC_INTF_STREAMING,
+#ifdef USB_MULTI_HID_SUPPORT
+	HID_INTF_CONTROL,
+#endif
+	UAC2_INTF_CONTROL,
+	UAC2_INTF_STREAMING,
+};
+
+// 双流配置
+enum usb_intf_config_2
+{
+#ifdef DFU_SUPPORT
+	DFU_INTF_CONTROL_S2,
+#endif
+	UVC_INTF_CONTROL_S2,
+	UVC_INTF_STREAMING_S2,
+	UVC_INTF_STREAMING_2_S2,
+#ifdef USB_MULTI_HID_SUPPORT
+	HID_INTF_CONTROL_S2,
+#endif
+	UAC2_INTF_CONTROL_S2,
+	UAC2_INTF_STREAMING_S2,
+};
+#endif
+
+#define UAC2_IO_IN_IT_ID        1
+#define UAC2_USB_IN_OT_ID       3
+#define UAC2_FEATURE_UNIT_ID    5
+#define UAC2_USB_IN_CLK_ID      4
+
+
+#define UVC_ENTITY_ID_INPUT_TERMINAL  			1
+#define UVC_ENTITY_ID_PROCESSING_UNIT 			3
+#define UVC_ENTITY_ID_OUTPUT_TERMINAL 			4
+#define UVC_ENTITY_ID_ENCODING_UNIT   			5
+#define UVC_ENTITY_ID_OUTPUT_ENCODING 			6
+#define UVC_ENTITY_ID_XU_CONTROL_POLYCOM_DEV    7
+#define UVC_ENTITY_ID_LOGITECH_UPGRADE      	8//guidExtensionCode: {69678EE4-410F-40DB-A850-7420D7D8240E}
+#define UVC_ENTITY_ID_XU_H264         			0xC
+#define UVC_ENTITY_ID_XU_H264_S2         		0xD
+#define UVC_ENTITY_ID_XU_CUSTOM_COMMANDS    	0x10
+
+
+//#define SVC_LAYERS_DISCARD//SVC 3层丢1层变为2层SVC
+
+#define SVC_MAX_LAYERS	 	(0x00000002)
+//.bmSVCCapabilities		= 0x00000001,
+/*
+ D2..D0   = 1  Maximum number of temporal layers = 2
+ D3       = 0  no - Rewrite Support
+ D6..D4   = 0  Maximum number of CGS layers = 1
+ D9..D7   = 0  Number of MGS sublayers
+ D10      = 0  no - Additional SNR scalability support in spatial enhancement layers
+ D13..D11 = 0  Maximum number of spatial layers = 1
+ D14      = 0  no - Reserved
+ D15      = 0  no - Reserved
+ D16      = 0  no - Reserved
+ D17      = 0  no - Reserved
+ D18      = 0  no - Reserved
+ D19      = 0  no - Reserved
+ D20      = 0  no - Reserved
+ D21      = 0  no - Reserved
+ D22      = 0  no - Reserved
+ D23      = 0  no - Reserved
+ D24      = 0  no - Reserved
+ D25      = 0  no - Reserved
+ D26      = 0  no - Reserved
+ D27      = 0  no - Reserved
+ D28      = 0  no - Reserved
+ D29      = 0  no - Reserved
+ D30      = 0  no - Reserved
+ D31      = 0  no - Reserved
+ */
+
+#define UVC_GUID_FORMAT_H264 \
+{ 'H',  '2',  '6',  '4', 0x00, 0x00, 0x10, 0x00, \
+0x80, 0x00, 0x00, 0xaa, 0x00, 0x38, 0x9b, 0x71}
+
+
+#define V4L2_PIX_FMT_H265     v4l2_fourcc('H', '2', '6', '5') /* H265 with start codes */
+
+#define UVC_GUID_FORMAT_H265 \
+{ 'H',  '2',  '6',  '5', 0x00, 0x00, 0x10, 0x00, \
+0x80, 0x00, 0x00, 0xaa, 0x00, 0x38, 0x9b, 0x71}
+
+//{A29E7641-DE04-47E3-8B2B-F4341AFF003B}
+#define UVC_GUID_XUCONTROL_H264 \
+{ 0x41, 0x76, 0x9e, 0xa2, 0x04, 0xde, 0xe3, 0x47, \
+0x8b, 0x2b, 0xf4, 0x34, 0x1a, 0xff, 0x00, 0x3b}
+
+// {A7A6A934-3A4A-4351-85F4-042EF2CDCAAB}
+//DEFINE_GUID(<<name>>, 
+#define UVC_GUID_XU_CUSTOM_COMMANDS {0x34, 0xa9, 0xa6, 0xa7, 0x4a, 0x3a, 0x51, 0x43, 0x85, 0xf4, 0x04, 0x2e, 0xf2, 0xcd, 0xca, 0xab}
+
+//{71b15625-9cba-4eec-833b-5a72fb4c0fdd}
+#define UVC_GUID_XU_CONTROL_POLYCOM_DEV \
+{ 0x25, 0x56, 0xb1, 0x71, 0xba, 0x9c, 0xec, 0x4e, \
+0x83, 0x3b, 0x5a, 0x72, 0xfb, 0x4c, 0x0f, 0xdd}
+
+
+/*********************UVC Controls Setting*******************************/
+
+// Video Class-specific Processing Unit Controls
+#define UVC_PU_BACKLIGHT_COMPENSATION_CONTROL_SUPPORTED         1
+#define UVC_PU_BRIGHTNESS_CONTROL_SUPPORTED                     1
+#define UVC_PU_CONTRAST_CONTROL_SUPPORTED                       1
+#define UVC_PU_GAIN_CONTROL_SUPPORTED                           0
+#define UVC_PU_POWER_LINE_FREQUENCY_CONTROL_SUPPORTED           1
+#define UVC_PU_HUE_CONTROL_SUPPORTED                            1
+#define UVC_PU_SATURATION_CONTROL_SUPPORTED                     1
+#define UVC_PU_SHARPNESS_CONTROL_SUPPORTED                      1
+#define UVC_PU_GAMMA_CONTROL_SUPPORTED                          0
+#define UVC_PU_WHITE_BALANCE_TEMPERATURE_CONTROL_SUPPORTED      1
+#define UVC_PU_WHITE_BALANCE_TEMPERATURE_AUTO_CONTROL_SUPPORTED 1
+#define UVC_PU_WHITE_BALANCE_COMPONENT_CONTROL_SUPPORTED        0
+#define UVC_PU_WHITE_BALANCE_COMPONENT_AUTO_CONTROL_SUPPORTED   0
+#define UVC_PU_DIGITAL_MULTIPLIER_CONTROL_SUPPORTED             0
+#define UVC_PU_DIGITAL_MULTIPLIER_LIMIT_CONTROL_SUPPORTED       0
+#define UVC_PU_HUE_AUTO_CONTROL_SUPPORTED                       0
+#define UVC_PU_ANALOG_VIDEO_STANDARD_CONTROL_SUPPORTED          0
+#define UVC_PU_ANALOG_LOCK_STATUS_CONTROL_SUPPORTED            	0
+
+// Video Class-specific Camera Terminal Controls
+#define UVC_CT_SCANNING_MODE_CONTROL_SUPPORTED          		0
+#define UVC_CT_AE_MODE_CONTROL_SUPPORTED                		1
+#define UVC_CT_AE_PRIORITY_CONTROL_SUPPORTED            		0
+#define UVC_CT_EXPOSURE_TIME_ABSOLUTE_CONTROL_SUPPORTED 		1
+#define UVC_CT_EXPOSURE_TIME_RELATIVE_CONTROL_SUPPORTED 		0
+#define UVC_CT_FOCUS_ABSOLUTE_CONTROL_SUPPORTED         		1
+#define UVC_CT_FOCUS_RELATIVE_CONTROL_SUPPORTED         		0
+#define UVC_CT_FOCUS_AUTO_CONTROL_SUPPORTED             		1
+#define UVC_CT_IRIS_ABSOLUTE_CONTROL_SUPPORTED          		1
+#define UVC_CT_IRIS_RELATIVE_CONTROL_SUPPORTED          		0
+#define UVC_CT_ZOOM_ABSOLUTE_CONTROL_SUPPORTED          		1
+#define UVC_CT_ZOOM_RELATIVE_CONTROL_SUPPORTED          		0
+#define UVC_CT_PANTILT_ABSOLUTE_CONTROL_SUPPORTED       		1
+#define UVC_CT_PANTILT_RELATIVE_CONTROL_SUPPORTED       		0
+#define UVC_CT_ROLL_ABSOLUTE_CONTROL_SUPPORTED          		0
+#define UVC_CT_ROLL_RELATIVE_CONTROL_SUPPORTED          		0
+#define UVC_CT_PRIVACY_CONTROL_SUPPORTED                		0
+
+/*********************UVC_COPY_DESCRIPTOR*******************************/
+
+#define UVC_COPY_DESCRIPTOR(mem, dst, desc) \
+	do { \
+		memcpy(mem, desc, (desc)->bLength); \
+		*(dst)++ = mem; \
+		mem += (desc)->bLength; \
+	} while (0);
+
+#define UVC_COPY_DESCRIPTORS(mem, dst, src) \
+	do { \
+		const struct usb_descriptor_header * const *__src; \
+		for (__src = src; *__src; ++__src) { \
+			memcpy(mem, *__src, (*__src)->bLength); \
+			*dst++ = mem; \
+			mem += (*__src)->bLength; \
+		} \
+	} while (0)
+
+#define UVC_COPY_DESCRIPTOR_TO_BUF(mem, desc) \
+	do { \
+		memcpy(mem, desc, (desc)->bLength); \
+		mem += (desc)->bLength; \
+	} while (0);
+
+#define UVC_COPY_DESCRIPTORS_TO_BUF(mem, src) \
+	do { \
+		const struct usb_descriptor_header * const *__src; \
+		for (__src = src; *__src; ++__src) { \
+			memcpy(mem, *__src, (*__src)->bLength); \
+			mem += (*__src)->bLength; \
+		} \
+	} while (0)
+
+#define UVC_COPY_DESCRIPTORS_FROM_BUF(mem, dst, buf, buf_len) \
+	do { \
+		unsigned int i; \
+		for (i = 0; i < buf_len;) { \
+			const struct usb_descriptor_header * desc_header = (const struct usb_descriptor_header *)(buf + i); \
+			if(desc_header->bLength > buf_len) \
+				break;\
+			memcpy(mem, desc_header, desc_header->bLength); \
+			*dst++ = mem; \
+			mem += desc_header->bLength; \
+			i += desc_header->bLength; \
+		} \
+	} while (0)
+
+		
+#ifdef __LINUX_USB__
+
+struct uvc_ioctl_uvc_config_t {
+	unsigned int  control_intf;
+	unsigned int  streaming_intf;
+
+	unsigned int  status_interrupt_ep_address;
+	unsigned int  streaming_ep_address;
+	unsigned int  bulk_streaming_ep;
+	
+	unsigned int  dfu_enable;
+	unsigned int  uac_enable;
+	unsigned int  uvc_s2_enable;
+	unsigned int  uvc_v150_enable;
+	unsigned int  win7_usb3_enable;
+	unsigned int  zte_hid_enable;
+	unsigned int  bConfigurationValue;
+	__u32  	  	  bulk_max_size;
+} __attribute__ ((packed));
+
+
+struct uvc_ioctl_desc_t {
+	__u32 speed;
+	__u32 n_desc;
+	__u32 desc_buf_length;
+
+	const unsigned char *desc_buf;
+	
+	unsigned long long desc_buf_phy_addr;
+	__u32 desc_buf_phy_length;
+} __attribute__ ((packed));
+
+#define UVC_DESC_BUF_LEN 4064//4096 - 32
+struct uvc_ioctl_desc_buf_t {
+	__u32 speed;
+	void *mem;
+	__u32 mem_offset;
+	__u32 total_length;
+	__u32 buf_length;
+	__u8 buf[UVC_DESC_BUF_LEN];
+} __attribute__ ((packed));
+
+struct uvc_ioctl_usb_sn_string_t {
+	__u32 string_buff_length;
+	const unsigned char string[64];
+} __attribute__ ((packed));
+
+struct uvc_ioctl_usb_vendor_string_t {
+	__u32 string_buff_length;
+	const unsigned char string[64];
+} __attribute__ ((packed));
+
+struct uvc_ioctl_usb_product_string_t {
+	__u32 string_buff_length;
+	const unsigned char string[64];
+} __attribute__ ((packed));
+
+struct uvc_ioctl_reqbufs_config_t {
+	unsigned int enable;
+	unsigned int cache_enable;
+	__u32	 	 data_offset;
+} __attribute__ ((packed));
+
+struct uvc_ioctl_reqbufs_addr_t {
+	__u32 				index;
+	unsigned long long	addr;
+	__u32 				length;
+} __attribute__ ((packed));
+
+struct uvc_ioctl_reqbufs_buf_used_t {
+	__u32 				index;
+	__u32 				buf_used;
+} __attribute__ ((packed));
+
+#define UVC_EP0_DATA_LEN (4092)
+struct uvc_ep0_data_t
+{
+	__s32 length;	
+	__u8 data[UVC_EP0_DATA_LEN];
+
+};
+
+struct uvc_ioctl_cma_dma_buf {
+    unsigned long long phys_addr;
+    unsigned long long length;
+};
+
+#define HID_REPORT_LENGTH_EP_IN_MAX 64
+struct hid_ep_in_data
+{
+	__s32 length;
+	__u8 data[HID_REPORT_LENGTH_EP_IN_MAX];
+};
+
+struct hid_custom_report_desc
+{
+    __s32 report_desc_length;
+    __s32 report_length;    //item最大数据长度,包括report id
+    __u8 report_desc[];
+}; 
+ 
+#define UVCIOC_SEND_RESPONSE            		_IOW('U', 1, struct uvc_request_data)
+#define UVCIOC_USB_CONNECT_STATE                _IOW('U', 2, int)
+#define UVCIOC_GET_USB_SOFT_CONNECT_STATE       _IOR('U', 3, uint32_t)
+#define UVCIOC_SET_USB_SOFT_CONNECT_CTRL        _IOW('U', 4, uint32_t)
+#define UVCIOC_GET_USB_SOFT_CONNECT_CTRL        _IOR('U', 5, uint32_t)
+#define UVCIOC_GET_HID_REPORT_LEN				_IOR('U', 6, uint32_t)
+#define UVCIOC_SET_SIMULCAST_ENABLE				_IOW('U', 7, uint32_t)
+#define UVCIOC_SEND_STATUS						_IOW('U', 8, struct uvc_request_data)
+
+#define UVCIOC_GET_UVC_CONFIG					_IOR('U', 9, struct uvc_ioctl_uvc_config_t)
+#define UVCIOC_SET_UVC_DESCRIPTORS				_IOW('U', 10, struct uvc_ioctl_desc_t)
+#define UVCIOC_SET_USB_SN						_IOW('U', 11, struct uvc_ioctl_usb_sn_string_t)
+#define UVCIOC_GET_USB_LINK_STATE             	_IOR('U', 12, int)
+#define UVCIOC_SET_REQBUFS_CONFIG				_IOW('U', 13, struct uvc_ioctl_reqbufs_config_t)
+#define UVCIOC_SET_REQBUFS_ADDR					_IOW('U', 14, struct uvc_ioctl_reqbufs_addr_t)
+#define UVCIOC_SET_REQBUFS_BUF_USED				_IOW('U', 15, struct uvc_ioctl_reqbufs_buf_used_t)
+
+#define UVCIOC_SEND_EP0_DATA           			_IOW('U', 16, struct uvc_ep0_data_t)
+#define UVCIOC_RECEIVE_EP0_DATA					_IOWR('U', 17, struct uvc_ep0_data_t)
+
+#define UVCIOC_SET_UVC_DESC_BUF_MODE			_IOWR('U', 18, struct uvc_ioctl_desc_buf_t)
+
+#define UVCIOC_SET_WINDOWS_HELLO_ENABLE			_IOW('U', 19, uint32_t)
+#define UVCIOC_SET_UVC_PTS_COPY					_IOW('U', 20, uint32_t)
+
+#define UVCIOC_CMA_DMA_BUF_ENABLE				_IOW('U', 21, uint32_t)
+#define UVCIOC_CMA_DMA_BUF_ALLOC				_IOWR('U', 22, struct uvc_ioctl_cma_dma_buf)
+#define UVCIOC_CMA_DMA_BUF_FREE					_IOW('U', 23, struct uvc_ioctl_cma_dma_buf)
+
+#define UVCIOC_SET_USB_VENDOR_STR				_IOW('U', 24, struct uvc_ioctl_usb_vendor_string_t)
+#define UVCIOC_SET_USB_PRODUCT_STR				_IOW('U', 25, struct uvc_ioctl_usb_product_string_t)
+
+#define UVCIOC_SEND_HID_EP_DATA            	    _IOW('H', 24, struct hid_ep_in_data)
+#define UVCIOC_SET_HID_REPORT_DESC         	    _IOW('H', 25, struct hid_custom_report_desc)
+
+#endif /* #ifdef _LINUX_USB_ */
+
+#endif /* _UVC_CONFIG_H */
