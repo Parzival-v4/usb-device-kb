@@ -1,0 +1,46 @@
+# Build artifacts / generated
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.obj
+*.elf
+*.map
+*.hex
+*.bin
+*.dfu
+*.uf2
+
+# CMake / Make / Ninja
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+compile_commands.json
+.ninja_*
+*.ninja
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs / dumps
+*.log
+*.pcap
+*.pcapng
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (common patterns)
+*.pem
+*.key
+*.pfx
+*.p12
+.env
+.env.*
