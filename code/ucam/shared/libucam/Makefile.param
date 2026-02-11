@@ -1,0 +1,100 @@
+
+ifeq ($(CHIP), HI3519V101)
+VHD_CROSS :=arm-hisiv500-linux
+CHIP_CFLAGS :=-DHISI_SDK
+CHIP_CFLAGS += -lstdc++ -mcpu=cortex-a17.cortex-a7 -mfloat-abi=softfp -mfpu=neon-vfpv4 -mno-unaligned-access -fno-aggressive-loop-optimizations -ffunction-sections -fdata-sections -fstack-protector
+CHIP_CFLAGS += -I /home/qhc/work_space/hisi_sdk/3519V101_050/mpp/include
+else ifeq ($(CHIP), HI3519A)
+VHD_CROSS :=arm-himix200-linux
+CHIP_CFLAGS :=-DHISI_SDK
+CHIP_CFLAGS += -lstdc++ -mcpu=cortex-a53 -mfloat-abi=softfp -mfpu=neon-vfpv4 -mno-unaligned-access -fno-aggressive-loop-optimizations -ffunction-sections -fdata-sections -fstack-protector
+CHIP_CFLAGS += -I /home/qhc/work_space/hisi_sdk/3519AV100_SDK020/mpp/include
+else ifeq ($(CHIP), HI3516EV300)
+VHD_CROSS :=arm-himix100-linux
+CHIP_CFLAGS :=-DHISI_SDK 
+CHIP_CFLAGS += -lstdc++ -mcpu=cortex-a7 -mfloat-abi=softfp -mfpu=neon-vfpv4 -mno-unaligned-access -fno-aggressive-loop-optimizations -ffunction-sections -fdata-sections -fstack-protector
+#CHIP_CFLAGS += -I /home/qhc/work_space/hisi_sdk/3516EV200_010/mpp/include
+#CHIP_CFLAGS += -I /home/qhc/work_space/hi3518ev300/vhd_app/include
+CHIP_CFLAGS += -I /home/cwj/data_ext/hi3518ev300/vhd_app/include
+else ifeq ($(CHIP), SSC9381)
+VHD_CROSS :=arm-linux-gnueabihf-9.1.0
+CHIP_CFLAGS :=-DSIGMASTAR_SDK
+CHIP_CFLAGS +=-Wno-address-of-packed-member
+CHIP_CFLAGS += -lstdc++ -mcpu=cortex-a7 -mfloat-abi=hard -mfpu=neon
+#CHIP_CFLAGS += -I /data/qhc/sigmastar/JX1704US/project/release/include
+CHIP_CFLAGS += -I /data/lsh/sigmastar/JX1700US_SDK0106/project/release/include
+else ifeq ($(CHIP), SSC333)
+VHD_CROSS :=arm-buildroot-linux-uclibcgnueabihf
+CHIP_CFLAGS :=-DSIGMASTAR_SDK
+CHIP_CFLAGS += -lstdc++ -mcpu=cortex-a7 -mfloat-abi=hard -mfpu=neon
+CHIP_CFLAGS += -I /data/qhc/sigmastar/J1702CS_SDK20200924/project/release/include
+else ifeq ($(CHIP), SSC337)
+VHD_CROSS :=arm-buildroot-linux-uclibcgnueabihf
+CHIP_CFLAGS :=-DSIGMASTAR_SDK
+CHIP_CFLAGS += -lstdc++ -mcpu=cortex-a7 -mfloat-abi=hard -mfpu=neon
+CHIP_CFLAGS += -I /data/qhc/sigmastar/J1702CS_SDK20200924/project/release/include
+else ifeq ($(CHIP), SSC268)
+VHD_CROSS :=/opt/sigmastar/gcc-sigmastar-9.1.0-2020.07-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-sigmastar-9.1.0
+CHIP_CFLAGS := -DSIGMASTAR_SDK
+CHIP_CFLAGS +=-Wno-address-of-packed-member
+CHIP_CFLAGS += -lstdc++ -mcpu=cortex-a53 -mfloat-abi=hard -mfpu=neon
+CHIP_CFLAGS += -I /data/qhc/sigmastar/ssd268g_super_sound/project/release/include
+else ifeq ($(CHIP), SSC369)
+VHD_CROSS :=/opt/sigmastar/gcc-10.2.1-20210303-sigmastar-glibc-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-sigmastar-10.2.1
+CHIP_CFLAGS := -DSIGMASTAR_SDK
+CHIP_CFLAGS += -I /home/wld/data_ext/wld/m2000/Project/ssc369g_m2000_sdk00430/project/release/include
+CHIP_CFLAGS +=-Wno-address-of-packed-member
+else ifeq ($(CHIP), RV1126)
+VHD_CROSS :=/opt/rockchip/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf
+CHIP_CFLAGS := -DROCKCHIP_SDK
+CHIP_CFLAGS += -lstdc++ -mcpu=cortex-a7 -mfloat-abi=hard -mfpu=neon
+else ifeq ($(CHIP), RK3588)
+#VHD_CROSS :=/home/huxiang/rk/rk3588_linux/prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu
+VHD_CROSS :=/home/huxiang/rk/rk3588_linux/buildroot/output/rockchip_rk3588/host/bin/aarch64-buildroot-linux-gnu
+CHIP_CFLAGS :=-DROCKCHIP_SDK
+CHIP_CFLAGS +=-Wno-address-of-packed-member
+else ifeq ($(CHIP), GK7205V300)
+VHD_CROSS :=/data_ext/qhc/GK_SDK020/tools/toolchains/arm-gcc6.3-linux-uclibceabi/bin/arm-gcc6.3-linux-uclibceabi
+CHIP_CFLAGS :=-DGK_SDK 
+CHIP_CFLAGS += -lstdc++ -mcpu=cortex-a7 -mfloat-abi=softfp -mfpu=neon-vfpv4 -mno-unaligned-access -fno-aggressive-loop-optimizations -ffunction-sections -fdata-sections -fstack-protector
+CHIP_CFLAGS += -I /data_ext/qhc/GK_SDK020/out/gk7205v300/include
+else ifeq ($(CHIP), NT98530)
+#VHD_CROSS :=/opt/aarch64-ca53-linux-gnueabihf-8.4.01/bin/aarch64-ca53-linux-gnu
+VHD_CROSS :=/data/hgy/bin/toolchain/aarch64-ca53-linux-gnueabihf-8.4.01/bin/aarch64-ca53-linux-gnu
+CHIP_CFLAGS :=-DNVT_SDK 
+#CHIP_CFLAGS += -lstdc++ -march=armv8-a -mtune=cortex-a53 -ftree-vectorize -fno-builtin -fno-common -Wformat=1
+#SDK_DIR=/data_ext/cwj/NT98530_SDK_Package/na51102_linux_sdk/code
+#CHIP_CFLAGS += -I$(SDK_DIR)/hdal/include -I$(SDK_DIR)/vos/drivers/include
+else ifeq ($(CHIP), CV5)
+VHD_CROSS :=/usr/local/cortex-a76-2023.04-gcc12.2-linux5.15/bin/aarch64-linux-gnu
+CHIP_CFLAGS :=-DAMBARELLA_SDK
+CHIP_CFLAGS +=-DUSB_SSP_SUPPORT
+CHIP_CFLAGS +=-Wno-address-of-packed-member
+LIB_MAKE_SAFE = 0
+else ifeq ($(CHIP), VS816)
+VHD_CROSS :=/opt/vs-linux/x86-arm/gcc-linaro-7.5.0-aarch64-linux-gnu/bin/aarch64-linux-gnu
+CHIP_CFLAGS := -DVISINEX_SDK
+LIB_MAKE_SAFE = 1
+else ifeq ($(CHIP), X3)
+VHD_CROSS := /data/hgy/bin/toolchain/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu
+CHIP_CFLAGS := -DHOBOT_SDK
+CHIP_CFLAGS +=-Wno-address-of-packed-member
+LIB_MAKE_SAFE = 0
+else
+VHD_GCC ?= gcc
+VHD_CPP ?= g++
+VHD_AR ?= ar
+VHD_STRIP ?= strip
+endif
+
+VHD_GCC ?= $(VHD_CROSS)-gcc
+VHD_CPP ?= $(VHD_CROSS)-g++
+VHD_AR ?= $(VHD_CROSS)-ar
+VHD_STRIP ?= $(VHD_CROSS)-strip
+
+
+export VHD_CROSS
+export VHD_AR
+export VHD_GCC
+export VHD_CPP
+export VHD_STRIP

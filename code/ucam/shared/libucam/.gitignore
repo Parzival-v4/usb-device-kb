@@ -1,0 +1,9 @@
+
+# /alsa/out/
+/alsa/out/*.a *.so
+*.o
+libvhducam.a
+libvhducam.so
+/lib_release
+/git_release
+.vscode/
