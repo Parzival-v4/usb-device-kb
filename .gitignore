@@ -44,3 +44,11 @@ Thumbs.db
 *.p12
 .env
 .env.*
+
+#
+*.mod.c
+*.mod
+modules.order
+Module.symvers
+*.cmd
+.*.cmd
