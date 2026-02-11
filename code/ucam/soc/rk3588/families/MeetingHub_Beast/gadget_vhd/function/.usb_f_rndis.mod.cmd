@@ -1,0 +1,1 @@
+cmd_/home/wyc/workspace/rk3588_ucam/gadget_vhd/function/usb_f_rndis.mod := printf '%s\n'   f_rndis.o rndis.o | awk '!x[$$0]++ { print("/home/wyc/workspace/rk3588_ucam/gadget_vhd/function/"$$0) }' > /home/wyc/workspace/rk3588_ucam/gadget_vhd/function/usb_f_rndis.mod

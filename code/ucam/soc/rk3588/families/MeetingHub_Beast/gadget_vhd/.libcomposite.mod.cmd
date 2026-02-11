@@ -1,0 +1,1 @@
+cmd_/home/wyc/workspace/rk3588_ucam/gadget_vhd/libcomposite.mod := printf '%s\n'   usbstring.o config.o epautoconf.o composite.o functions.o u_f.o | awk '!x[$$0]++ { print("/home/wyc/workspace/rk3588_ucam/gadget_vhd/"$$0) }' > /home/wyc/workspace/rk3588_ucam/gadget_vhd/libcomposite.mod

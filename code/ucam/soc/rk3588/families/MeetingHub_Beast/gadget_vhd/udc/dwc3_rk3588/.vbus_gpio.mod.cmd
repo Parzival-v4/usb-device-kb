@@ -1,0 +1,1 @@
+cmd_/home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/dwc3_rk3588/vbus_gpio.mod := printf '%s\n'   vbus_gpio.o | awk '!x[$$0]++ { print("/home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/dwc3_rk3588/"$$0) }' > /home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/dwc3_rk3588/vbus_gpio.mod

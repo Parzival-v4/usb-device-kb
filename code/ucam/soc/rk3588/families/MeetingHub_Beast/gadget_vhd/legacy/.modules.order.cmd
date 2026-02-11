@@ -1,0 +1,1 @@
+cmd_/home/wyc/workspace/rk3588_ucam/gadget_vhd/legacy/modules.order := {   echo /home/wyc/workspace/rk3588_ucam/gadget_vhd/legacy/g_webcam.ko; :; } > /home/wyc/workspace/rk3588_ucam/gadget_vhd/legacy/modules.order

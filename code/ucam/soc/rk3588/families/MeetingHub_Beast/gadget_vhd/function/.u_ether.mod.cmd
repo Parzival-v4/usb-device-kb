@@ -1,0 +1,1 @@
+cmd_/home/wyc/workspace/rk3588_ucam/gadget_vhd/function/u_ether.mod := printf '%s\n'   u_ether.o | awk '!x[$$0]++ { print("/home/wyc/workspace/rk3588_ucam/gadget_vhd/function/"$$0) }' > /home/wyc/workspace/rk3588_ucam/gadget_vhd/function/u_ether.mod

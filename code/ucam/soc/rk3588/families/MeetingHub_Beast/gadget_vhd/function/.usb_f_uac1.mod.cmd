@@ -1,0 +1,1 @@
+cmd_/home/wyc/workspace/rk3588_ucam/gadget_vhd/function/usb_f_uac1.mod := printf '%s\n'   f_uac1.o uac_audio_ex.o uac_queue_ex.o uac_v4l2_ex.o | awk '!x[$$0]++ { print("/home/wyc/workspace/rk3588_ucam/gadget_vhd/function/"$$0) }' > /home/wyc/workspace/rk3588_ucam/gadget_vhd/function/usb_f_uac1.mod

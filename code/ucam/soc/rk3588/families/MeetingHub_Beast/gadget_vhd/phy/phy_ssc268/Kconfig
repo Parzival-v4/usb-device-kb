@@ -1,0 +1,11 @@
+config SS_USB3_PHY
+tristate "USB3 PHY Driver"
+
+select GENERIC_PHY
+
+	help
+	  Enable this to support Sigmastar USB PHY driver for Sigmastar
+	  SoC. This driver will do the PHY initialization and shutdown.
+	  The PHY driver will be used by Sigmastar USB3.0 driver.
+
+	  To compile this driver as a module, choose M here.

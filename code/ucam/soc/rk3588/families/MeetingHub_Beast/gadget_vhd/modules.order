@@ -1,0 +1,14 @@
+/home/wyc/workspace/rk3588_ucam/gadget_vhd/libcomposite.ko
+/home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/udc-core.ko
+/home/wyc/workspace/rk3588_ucam/gadget_vhd/function/u_ether.ko
+/home/wyc/workspace/rk3588_ucam/gadget_vhd/function/usb_f_rndis.ko
+/home/wyc/workspace/rk3588_ucam/gadget_vhd/function/usb_f_uac1.ko
+/home/wyc/workspace/rk3588_ucam/gadget_vhd/function/usb_f_uac2.ko
+/home/wyc/workspace/rk3588_ucam/gadget_vhd/function/usb_f_uvc.ko
+/home/wyc/workspace/rk3588_ucam/gadget_vhd/function/usb_f_uvc_s2.ko
+/home/wyc/workspace/rk3588_ucam/gadget_vhd/function/usb_f_uac1_speak.ko
+/home/wyc/workspace/rk3588_ucam/gadget_vhd/legacy/g_webcam.ko
+/home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/dwc3_rk3588/dwc3.ko
+/home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/dwc3_rk3588/vbus_gpio.ko
+/home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/dwc3_rk3588/dwc3-haps.ko
+/home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/dwc3_rk3588/dwc3-of-simple.ko

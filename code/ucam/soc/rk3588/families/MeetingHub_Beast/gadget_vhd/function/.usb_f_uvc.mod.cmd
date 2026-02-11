@@ -1,0 +1,1 @@
+cmd_/home/wyc/workspace/rk3588_ucam/gadget_vhd/function/usb_f_uvc.mod := printf '%s\n'   f_uvc.o uvc_queue.o uvc_v4l2.o uvc_video.o cma_dma.o videobuf2-vmalloc-rk3588.o | awk '!x[$$0]++ { print("/home/wyc/workspace/rk3588_ucam/gadget_vhd/function/"$$0) }' > /home/wyc/workspace/rk3588_ucam/gadget_vhd/function/usb_f_uvc.mod

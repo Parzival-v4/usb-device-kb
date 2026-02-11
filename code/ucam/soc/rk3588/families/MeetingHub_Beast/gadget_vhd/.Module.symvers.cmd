@@ -1,0 +1,1 @@
+cmd_/home/wyc/workspace/rk3588_ucam/gadget_vhd/Module.symvers :=  sed 's/ko$$/o/'  /home/wyc/workspace/rk3588_ucam/gadget_vhd/modules.order | scripts/mod/modpost       -o /home/wyc/workspace/rk3588_ucam/gadget_vhd/Module.symvers -e -i Module.symvers -T - 

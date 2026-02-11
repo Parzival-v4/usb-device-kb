@@ -1,0 +1,1 @@
+cmd_/home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/modules.order := {   echo /home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/udc-core.ko; :; } > /home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/modules.order

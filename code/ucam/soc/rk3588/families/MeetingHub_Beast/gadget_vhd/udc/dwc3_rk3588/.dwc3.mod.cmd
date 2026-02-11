@@ -1,0 +1,1 @@
+cmd_/home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/dwc3_rk3588/dwc3.mod := printf '%s\n'   core.o debug.o usb_ctrl.o trace.o gadget.o ep0.o debugfs.o | awk '!x[$$0]++ { print("/home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/dwc3_rk3588/"$$0) }' > /home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/dwc3_rk3588/dwc3.mod

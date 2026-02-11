@@ -1,0 +1,1 @@
+cmd_/home/wyc/workspace/rk3588_ucam/gadget_vhd/legacy/g_webcam.mod := printf '%s\n'   webcam.o ../function/f_hid_consumer.o ../function/f_hid_keyboard.o | awk '!x[$$0]++ { print("/home/wyc/workspace/rk3588_ucam/gadget_vhd/legacy/"$$0) }' > /home/wyc/workspace/rk3588_ucam/gadget_vhd/legacy/g_webcam.mod

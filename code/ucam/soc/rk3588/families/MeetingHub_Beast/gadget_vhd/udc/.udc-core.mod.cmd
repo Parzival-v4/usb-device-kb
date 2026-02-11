@@ -1,0 +1,1 @@
+cmd_/home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/udc-core.mod := printf '%s\n'   core.o trace.o | awk '!x[$$0]++ { print("/home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/"$$0) }' > /home/wyc/workspace/rk3588_ucam/gadget_vhd/udc/udc-core.mod
