@@ -1,95 +1,82 @@
 # UCAM USB gadget code map (entry points & wiring)
 
-> This is a navigation index. It is not a full design doc.
+## EP0 / Setup request handling (end-to-end)
 
-## 0. Where the code lives (imported)
-- Shared userspace library (common):
-  - `code/ucam/shared/libucam/`
-- Kernel gadget driver trees (legacy, per family):
-  - rk3588 / MeetingHub_Beast:
-    - `code/ucam/soc/rk3588/families/MeetingHub_Beast/gadget_vhd/`
-  - rk3588 / RB10_RB20:
-    - `code/ucam/soc/rk3588/families/RB10_RB20/gadget_vhd/`
-  - rv1126 / BY42:
-    - `code/ucam/soc/rv1126/families/BY42/gadget_vhd/`
+### A) UDC driver level (receives SETUP packet on EP0)
+Depending on controller, the EP0 handler reads the 8-byte setup packet and decides:
+- handle standard requests in UDC (some do)
+- otherwise delegate to gadget layer (`gadget_driver->setup()`)
 
----
+Examples in this repo:
 
-## 1. Legacy gadget top-level (“binder” / composition)
+#### DWC3 (rk3588 families, hisi/rk variants)
+- `code/ucam/soc/rk3588/families/RB10_RB20/gadget_vhd/udc/dwc3_hisi/ep0.c`
+- `code/ucam/soc/rk3588/families/MeetingHub_Beast/gadget_vhd/udc/dwc3_hisi/ep0.c`
 
-### 1.1 Main legacy gadget driver
-- Declared main entry (per `GADGET_MODES.md`): `gadget_vhd/legacy/g_webcam.c`
-  - NOTE: `g_webcam.c` exists in the original trees (confirmed via build cmd artifacts under legacy/ for MeetingHub_Beast),
-    but the current repo search results that surfaced were mainly the generated build files, not the source file itself.
+Delegation pattern:
+- standard: `dwc3_ep0_std_request(dwc, ctrl)`
+- non-standard: `dwc3_ep0_delegate_req(dwc, ctrl)` → gadget driver
 
-MeetingHub_Beast legacy build artifacts referencing g_webcam:
-- `code/ucam/soc/rk3588/families/MeetingHub_Beast/gadget_vhd/legacy/.g_webcam.o.cmd`
-- `code/ucam/soc/rk3588/families/MeetingHub_Beast/gadget_vhd/legacy/.g_webcam.ko.cmd`
-- `code/ucam/soc/rk3588/families/MeetingHub_Beast/gadget_vhd/legacy/.g_webcam.mod.cmd`
-- `code/ucam/soc/rk3588/families/MeetingHub_Beast/gadget_vhd/legacy/.g_webcam.mod.o.cmd`
+Note: RB10_RB20 `dwc3_hisi/ep0.c` has extra vendor logic:
+- `g_ep0_setup_flag`, `g_ep0_setup_timeout`, `EP0_SETUP_TIMEOUT_JIFFIES`
+- for CLASS requests with `wLength > 0`, it sets timeout/flag before delegating.
 
-Module list for MeetingHub_Beast shows the expected stacking:
-- `.../gadget_vhd/modules.order` includes:
-  - `.../udc/udc-core.ko`
-  - `.../function/usb_f_uvc.ko`, `.../function/usb_f_uac1.ko`, `.../function/usb_f_uac2.ko`, ...
-  - `.../legacy/g_webcam.ko`
+Related helper header with EP0 task hooks:
+- `.../udc/dwc3_ssc9381/gadget.h` (has `ep0_setup_task_init/exit`, `ep0_setup_flag_clear`, etc.)
 
----
+#### Cadence (cdns3) EP0 delegation
+- `.../udc/cdns3_cv5/cdns3-ep0.c`
+  - `cdns3_ep0_delegate_req()` calls:
+    `priv_dev->gadget_driver->setup(&priv_dev->gadget, ctrl_req)`
 
-## 2. Function drivers: UVC / UAC wiring
+#### “cdnsp” EP0 std/delegate split (another Cadence path)
+- `.../udc/cdns3_cv5/cdnsp-ep0.c`
+  - `cdnsp_ep0_std_request()` handles standard requests, else delegates.
 
-### 2.1 UVC function driver
-RB10_RB20 UVC function registration:
-- `code/ucam/soc/rk3588/families/RB10_RB20/gadget_vhd/function/f_uvc.c`
-  - function ops are assigned (bind/unbind/get_alt/set_alt/disable/setup/suspend/resume)
-  - declares function init: `DECLARE_USB_FUNCTION_INIT(uvc, uvc_alloc_inst, uvc_alloc);`
-
-Related headers/options:
-- `.../gadget_vhd/function/f_uvc.h`
-- `.../gadget_vhd/function/u_uvc.h`
-  - shows many runtime opts, e.g. `streaming_interval/maxpacket/maxburst`, `uac_enable`, `uvc_s2_enable`, `win7_usb3_enable`, etc.
-
-### 2.2 UAC function driver(s)
-You have multiple UAC flavors in-tree:
-- UAC1:
-  - `code/ucam/soc/rv1126/families/BY42/gadget_vhd/function/f_uac1.c`
-  - plus speak variant: `.../function/f_uac1_speak.c`
-- UAC2:
-  - `code/ucam/soc/rk3588/families/MeetingHub_Beast/gadget_vhd/function/f_uac2.c`
-- UAC2 helper/options:
-  - `code/ucam/soc/rk3588/families/MeetingHub_Beast/gadget_vhd/function/u_uac2.h`
-
-UAC legacy binder example (shows how function instances are acquired):
-- `.../gadget_vhd/legacy/audio.c` and `.../legacy/audio.inl` (multiple families)
-  - uses `usb_get_function_instance("uac2")` or `usb_get_function_instance("uac1")` or `"uac1_legacy"` depending on config macros.
+(There are also other UDC examples in-tree like `udc-xilinx.c`, `bcm63xx_udc.c`, etc., but the key point is the same: delegate to gadget layer for most requests.)
 
 ---
 
-## 3. UDC / core glue (useful for bind/uevent/debug)
-Example UDC core:
-- `code/ucam/soc/rk3588/families/RB10_RB20/gadget_vhd/udc/core_v6.1.c`
-  - adds uevent vars `USB_UDC_NAME`, `USB_UDC_DRIVER`
-  - defines `gadget_bus_type` with `.probe = gadget_bind_driver`
+### B) Gadget layer / composite core dispatch
+Once UDC delegates, it eventually calls the gadget driver's `.setup()`.
+
+In composite gadgets, the `.setup()` implementation is the composite framework setup handler in:
+- `code/ucam/soc/rk3588/families/RB10_RB20/gadget_vhd/composite.c`
+- `code/ucam/soc/rk3588/families/MeetingHub_Beast/gadget_vhd/composite.c`
+- `code/ucam/soc/rv1126/families/BY42/gadget_vhd/composite.c`
+
+Composite setup logic (high level, from composite.c):
+1) Determine recipient (device/interface/endpoint) and locate matching `usb_function`
+2) Call in order:
+   - matched function `f->setup(f, ctrl)` if present
+   - else current configuration `c->setup(c, ctrl)` if present
+   - else (if only one function) call that function’s setup
+3) Queue EP0 response via `composite_ep0_queue()` unless delayed status
+
+Relevant snippet area (dispatch to `f->setup` / `c->setup`):
+- `.../gadget_vhd/composite.c` around the big setup switch and `if (f && f->setup) value = f->setup(f, ctrl); ...`
 
 ---
 
-## 4. Userspace “libucam” (UVC/UAC logic that interacts with kernel)
-UVC control & descriptor buffer mode:
-- `code/ucam/shared/libucam/ucam/src/uvc/uvc_ctrl.c`
-- `code/ucam/shared/libucam/ucam/src/uvc/uvc_config.c`
-  - contains `UVCIOC_SET_UVC_DESC_BUF_MODE` ioctl usage (descriptor buffer mode)
+### C) Function-level setup handlers (where class/vendor requests are handled)
+Most class/vendor control requests end up here.
 
-UVC stream helpers:
-- `code/ucam/shared/libucam/ucam/src/uvc/uvc_stream.h`
-- `code/ucam/shared/libucam/ucam/src/uvc/uvc_stream_yuv.c`
+Examples:
+- UVC function:
+  - `code/ucam/soc/rk3588/families/RB10_RB20/gadget_vhd/function/f_uvc.c`
+    - registers `uvc->func.setup = uvc_function_setup;` (via function ops table)
+- UAC2 function:
+  - `.../function/f_uac2.c` sets `agdev->func.setup = afunc_setup;`
+- DFU function:
+  - `.../function/f_dfu.c` implements `dfug_setup()` and may return `USB_GADGET_DELAYED_STATUS` in some cases
 
-UAC userspace ALSA helper:
-- `code/ucam/shared/libucam/ucam/src/uac/uac_alsa.c`
+So debug EP0 issues usually means:
+- confirm UDC is delegating (UDC ep0.c logs)
+- confirm composite setup is reached (composite.c logs)
+- confirm function setup returns expected value/queues response.
 
 ---
 
-## 5. Build/config entry points (for reference)
-Per-family make config examples (these hint which modules are expected):
-- `code/ucam/soc/rv1126/families/BY42/gadget_vhd/make_config/*.mk`
-  - e.g. `.../make_config/GK7205V300.mk` has a `default:` rule building kernel modules with `M=$(PWD)`
-  - exports `CONFIG_USB_F_UVC`, `CONFIG_USB_F_UAC1`, `CONFIG_USB_G_WEBCAM`, etc.
+### D) Legacy top-level gadget (g_webcam) vs ConfigFS
+- Legacy (e.g. `legacy/g_webcam.c`) is responsible for composing which functions exist in the configuration.
+- ConfigFS composes functions at runtime but still uses the same underlying function drivers under `function/`.
