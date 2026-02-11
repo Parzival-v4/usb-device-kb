@@ -1,0 +1,1362 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CALL	videobuf-core.c	52;"	d	file:
+CLEAR_AFTER_FIELD	v4l2-ioctl.c	36;"	d	file:
+CREATE_TRACE_POINTS	v4l2-ioctl.c	31;"	d	file:
+CVT_C	v4l2-dv-timings.c	318;"	d	file:
+CVT_CELL_GRAN	v4l2-dv-timings.c	316;"	d	file:
+CVT_C_PRIME	v4l2-dv-timings.c	321;"	d	file:
+CVT_J	v4l2-dv-timings.c	320;"	d	file:
+CVT_K	v4l2-dv-timings.c	319;"	d	file:
+CVT_M	v4l2-dv-timings.c	317;"	d	file:
+CVT_MIN_VSYNC_BP	v4l2-dv-timings.c	313;"	d	file:
+CVT_MIN_V_BPORCH	v4l2-dv-timings.c	311;"	d	file:
+CVT_MIN_V_PORCH_RND	v4l2-dv-timings.c	312;"	d	file:
+CVT_M_PRIME	v4l2-dv-timings.c	322;"	d	file:
+CVT_PXL_CLK_GRAN	v4l2-dv-timings.c	308;"	d	file:
+CVT_RB_H_BLANK	v4l2-dv-timings.c	330;"	d	file:
+CVT_RB_H_BPORCH	v4l2-dv-timings.c	329;"	d	file:
+CVT_RB_H_SYNC	v4l2-dv-timings.c	328;"	d	file:
+CVT_RB_MIN_V_BLANK	v4l2-dv-timings.c	327;"	d	file:
+CVT_RB_MIN_V_BPORCH	v4l2-dv-timings.c	325;"	d	file:
+CVT_RB_V_FPORCH	v4l2-dv-timings.c	326;"	d	file:
+DST_QUEUE_OFF_BASE	v4l2-mem2mem.c	51;"	d	file:
+GTF_CELL_GRAN	v4l2-dv-timings.c	470;"	d	file:
+GTF_D_C	v4l2-dv-timings.c	474;"	d	file:
+GTF_D_C_PRIME	v4l2-dv-timings.c	477;"	d	file:
+GTF_D_J	v4l2-dv-timings.c	476;"	d	file:
+GTF_D_K	v4l2-dv-timings.c	475;"	d	file:
+GTF_D_M	v4l2-dv-timings.c	473;"	d	file:
+GTF_D_M_PRIME	v4l2-dv-timings.c	478;"	d	file:
+GTF_MIN_VSYNC_BP	v4l2-dv-timings.c	468;"	d	file:
+GTF_PXL_CLK_GRAN	v4l2-dv-timings.c	466;"	d	file:
+GTF_S_C	v4l2-dv-timings.c	482;"	d	file:
+GTF_S_C_PRIME	v4l2-dv-timings.c	485;"	d	file:
+GTF_S_J	v4l2-dv-timings.c	484;"	d	file:
+GTF_S_K	v4l2-dv-timings.c	483;"	d	file:
+GTF_S_M	v4l2-dv-timings.c	481;"	d	file:
+GTF_S_M_PRIME	v4l2-dv-timings.c	486;"	d	file:
+GTF_V_FP	v4l2-dv-timings.c	469;"	d	file:
+INFO_FL_CLEAR	v4l2-ioctl.c	2158;"	d	file:
+INFO_FL_CLEAR_MASK	v4l2-ioctl.c	2161;"	d	file:
+INFO_FL_CTRL	v4l2-ioctl.c	2150;"	d	file:
+INFO_FL_FUNC	v4l2-ioctl.c	2154;"	d	file:
+INFO_FL_PRIO	v4l2-ioctl.c	2148;"	d	file:
+INFO_FL_QUEUE	v4l2-ioctl.c	2156;"	d	file:
+INFO_FL_STD	v4l2-ioctl.c	2152;"	d	file:
+IOCTL_INFO_FNC	v4l2-ioctl.c	2172;"	d	file:
+IOCTL_INFO_STD	v4l2-ioctl.c	2163;"	d	file:
+MAGIC_BUFFER	videobuf-core.c	26;"	d	file:
+MAGIC_CHECK	videobuf-core.c	27;"	d	file:
+MAGIC_CHECK	videobuf-dma-contig.c	34;"	d	file:
+MAGIC_CHECK	videobuf-dma-sg.c	40;"	d	file:
+MAGIC_CHECK	videobuf-vmalloc.c	33;"	d	file:
+MAGIC_DC_MEM	videobuf-dma-contig.c	33;"	d	file:
+MAGIC_DMABUF	videobuf-dma-sg.c	37;"	d	file:
+MAGIC_DMABUF	videobuf-vmalloc.c	30;"	d	file:
+MAGIC_SG_MEM	videobuf-dma-sg.c	38;"	d	file:
+MAGIC_VMAL_MEM	videobuf-vmalloc.c	31;"	d	file:
+PREFIX	tuner-core.c	46;"	d	file:
+ROUND_TO_RANGE	v4l2-ctrls.c	1352;"	d	file:
+SET_VALID_IOCTL	v4l2-dev.c	533;"	d	file:
+TRANS_ABORT	v4l2-mem2mem.c	45;"	d	file:
+TRANS_QUEUED	v4l2-mem2mem.c	41;"	d	file:
+TRANS_RUNNING	v4l2-mem2mem.c	43;"	d	file:
+UNSET	tuner-core.c	44;"	d	file:
+V4L2_BUFFER_MASK_FLAGS	videobuf2-core.c	176;"	d	file:
+V4L2_BUFFER_OUT_FLAGS	videobuf2-core.c	181;"	d	file:
+V4L2_IOCTLS	v4l2-ioctl.c	2265;"	d	file:
+VIDEO_MAJOR	v4l2-dev.c	/^MODULE_ALIAS_CHARDEV_MAJOR(VIDEO_MAJOR);$/;"	v
+VIDEO_NAME	v4l2-dev.c	35;"	d	file:
+VIDEO_NUM_DEVICES	v4l2-dev.c	34;"	d	file:
+VIDIOC_CREATE_BUFS32	v4l2-compat-ioctl32.c	816;"	d	file:
+VIDIOC_DQBUF32	v4l2-compat-ioctl32.c	806;"	d	file:
+VIDIOC_DQEVENT32	v4l2-compat-ioctl32.c	815;"	d	file:
+VIDIOC_ENUMINPUT32	v4l2-compat-ioctl32.c	808;"	d	file:
+VIDIOC_ENUMSTD32	v4l2-compat-ioctl32.c	807;"	d	file:
+VIDIOC_G_EDID32	v4l2-compat-ioctl32.c	809;"	d	file:
+VIDIOC_G_EXT_CTRLS32	v4l2-compat-ioctl32.c	812;"	d	file:
+VIDIOC_G_FBUF32	v4l2-compat-ioctl32.c	803;"	d	file:
+VIDIOC_G_FMT32	v4l2-compat-ioctl32.c	800;"	d	file:
+VIDIOC_G_INPUT32	v4l2-compat-ioctl32.c	822;"	d	file:
+VIDIOC_G_OUTPUT32	v4l2-compat-ioctl32.c	824;"	d	file:
+VIDIOC_OVERLAY32	v4l2-compat-ioctl32.c	819;"	d	file:
+VIDIOC_PREPARE_BUF32	v4l2-compat-ioctl32.c	817;"	d	file:
+VIDIOC_QBUF32	v4l2-compat-ioctl32.c	805;"	d	file:
+VIDIOC_QUERYBUF32	v4l2-compat-ioctl32.c	802;"	d	file:
+VIDIOC_STREAMOFF32	v4l2-compat-ioctl32.c	821;"	d	file:
+VIDIOC_STREAMON32	v4l2-compat-ioctl32.c	820;"	d	file:
+VIDIOC_S_EDID32	v4l2-compat-ioctl32.c	810;"	d	file:
+VIDIOC_S_EXT_CTRLS32	v4l2-compat-ioctl32.c	813;"	d	file:
+VIDIOC_S_FBUF32	v4l2-compat-ioctl32.c	804;"	d	file:
+VIDIOC_S_FMT32	v4l2-compat-ioctl32.c	801;"	d	file:
+VIDIOC_S_INPUT32	v4l2-compat-ioctl32.c	823;"	d	file:
+VIDIOC_S_OUTPUT32	v4l2-compat-ioctl32.c	825;"	d	file:
+VIDIOC_TRY_EXT_CTRLS32	v4l2-compat-ioctl32.c	814;"	d	file:
+VIDIOC_TRY_FMT32	v4l2-compat-ioctl32.c	811;"	d	file:
+__buf_prepare	videobuf2-core.c	/^static int __buf_prepare(struct vb2_buffer *vb, const struct v4l2_buffer *b)$/;"	f	file:
+__buffer_in_use	videobuf2-core.c	/^static bool __buffer_in_use(struct vb2_queue *q, struct vb2_buffer *vb)$/;"	f	file:
+__buffers_in_use	videobuf2-core.c	/^static bool __buffers_in_use(struct vb2_queue *q)$/;"	f	file:
+__create_bufs	videobuf2-core.c	/^static int __create_bufs(struct vb2_queue *q, struct v4l2_create_buffers *create)$/;"	f	file:
+__enqueue_in_driver	videobuf2-core.c	/^static void __enqueue_in_driver(struct vb2_buffer *vb)$/;"	f	file:
+__fill_v4l2_buffer	videobuf2-core.c	/^static void __fill_v4l2_buffer(struct vb2_buffer *vb, struct v4l2_buffer *b)$/;"	f	file:
+__fill_vb2_buffer	videobuf2-core.c	/^static void __fill_vb2_buffer(struct vb2_buffer *vb, const struct v4l2_buffer *b,$/;"	f	file:
+__find_plane_by_offset	videobuf2-core.c	/^static int __find_plane_by_offset(struct vb2_queue *q, unsigned long off,$/;"	f	file:
+__get_v4l2_format32	v4l2-compat-ioctl32.c	/^static int __get_v4l2_format32(struct v4l2_format *kp, struct v4l2_format32 __user *up)$/;"	f	file:
+__put_v4l2_format32	v4l2-compat-ioctl32.c	/^static int __put_v4l2_format32(struct v4l2_format *kp, struct v4l2_format32 __user *up)$/;"	f	file:
+__qbuf_dmabuf	videobuf2-core.c	/^static int __qbuf_dmabuf(struct vb2_buffer *vb, const struct v4l2_buffer *b)$/;"	f	file:
+__qbuf_mmap	videobuf2-core.c	/^static int __qbuf_mmap(struct vb2_buffer *vb, const struct v4l2_buffer *b)$/;"	f	file:
+__qbuf_userptr	videobuf2-core.c	/^static int __qbuf_userptr(struct vb2_buffer *vb, const struct v4l2_buffer *b)$/;"	f	file:
+__reqbufs	videobuf2-core.c	/^static int __reqbufs(struct vb2_queue *q, struct v4l2_requestbuffers *req)$/;"	f	file:
+__setup_lengths	videobuf2-core.c	/^static void __setup_lengths(struct vb2_queue *q, unsigned int n)$/;"	f	file:
+__setup_offsets	videobuf2-core.c	/^static void __setup_offsets(struct vb2_queue *q, unsigned int n)$/;"	f	file:
+__this_module	v4l2-common.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	v4l2-dv-timings.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	videobuf2-core.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	videobuf2-memops.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	videobuf2-vmalloc.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	videodev.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	v4l2-common.mod.c	/^__used$/;"	v	file:
+__used	v4l2-dv-timings.mod.c	/^__used$/;"	v	file:
+__used	videobuf2-core.mod.c	/^__used$/;"	v	file:
+__used	videobuf2-memops.mod.c	/^__used$/;"	v	file:
+__used	videobuf2-vmalloc.mod.c	/^__used$/;"	v	file:
+__used	videodev.mod.c	/^__used$/;"	v	file:
+__v4l2_clk_register_fixed	v4l2-clk.c	/^EXPORT_SYMBOL(__v4l2_clk_register_fixed);$/;"	v
+__v4l2_clk_register_fixed	v4l2-clk.c	/^struct v4l2_clk *__v4l2_clk_register_fixed(const char *dev_id,$/;"	f
+__v4l2_ctrl_modify_range	v4l2-ctrls.c	/^EXPORT_SYMBOL(__v4l2_ctrl_modify_range);$/;"	v
+__v4l2_ctrl_modify_range	v4l2-ctrls.c	/^int __v4l2_ctrl_modify_range(struct v4l2_ctrl *ctrl,$/;"	f
+__v4l2_ctrl_s_ctrl	v4l2-ctrls.c	/^EXPORT_SYMBOL(__v4l2_ctrl_s_ctrl);$/;"	v
+__v4l2_ctrl_s_ctrl	v4l2-ctrls.c	/^int __v4l2_ctrl_s_ctrl(struct v4l2_ctrl *ctrl, s32 val)$/;"	f
+__v4l2_ctrl_s_ctrl_int64	v4l2-ctrls.c	/^EXPORT_SYMBOL(__v4l2_ctrl_s_ctrl_int64);$/;"	v
+__v4l2_ctrl_s_ctrl_int64	v4l2-ctrls.c	/^int __v4l2_ctrl_s_ctrl_int64(struct v4l2_ctrl *ctrl, s64 val)$/;"	f
+__v4l2_ctrl_s_ctrl_string	v4l2-ctrls.c	/^EXPORT_SYMBOL(__v4l2_ctrl_s_ctrl_string);$/;"	v
+__v4l2_ctrl_s_ctrl_string	v4l2-ctrls.c	/^int __v4l2_ctrl_s_ctrl_string(struct v4l2_ctrl *ctrl, const char *s)$/;"	f
+__v4l2_event_dequeue	v4l2-event.c	/^static int __v4l2_event_dequeue(struct v4l2_fh *fh, struct v4l2_event *event)$/;"	f	file:
+__v4l2_event_queue_fh	v4l2-event.c	/^static void __v4l2_event_queue_fh(struct v4l2_fh *fh, const struct v4l2_event *ev,$/;"	f	file:
+__v4l2_qmenu_int_len	v4l2-ctrls.c	572;"	d	file:
+__vb2_buf_dmabuf_put	videobuf2-core.c	/^static void __vb2_buf_dmabuf_put(struct vb2_buffer *vb)$/;"	f	file:
+__vb2_buf_mem_alloc	videobuf2-core.c	/^static int __vb2_buf_mem_alloc(struct vb2_buffer *vb)$/;"	f	file:
+__vb2_buf_mem_free	videobuf2-core.c	/^static void __vb2_buf_mem_free(struct vb2_buffer *vb)$/;"	f	file:
+__vb2_buf_userptr_put	videobuf2-core.c	/^static void __vb2_buf_userptr_put(struct vb2_buffer *vb)$/;"	f	file:
+__vb2_cleanup_fileio	videobuf2-core.c	/^static int __vb2_cleanup_fileio(struct vb2_queue *q)$/;"	f	file:
+__vb2_dqbuf	videobuf2-core.c	/^static void __vb2_dqbuf(struct vb2_buffer *vb)$/;"	f	file:
+__vb2_free_mem	videobuf2-core.c	/^static void __vb2_free_mem(struct vb2_queue *q, unsigned int buffers)$/;"	f	file:
+__vb2_get_done_vb	videobuf2-core.c	/^static int __vb2_get_done_vb(struct vb2_queue *q, struct vb2_buffer **vb,$/;"	f	file:
+__vb2_init_fileio	videobuf2-core.c	/^static int __vb2_init_fileio(struct vb2_queue *q, int read)$/;"	f	file:
+__vb2_perform_fileio	videobuf2-core.c	/^static size_t __vb2_perform_fileio(struct vb2_queue *q, char __user *data, size_t count,$/;"	f	file:
+__vb2_plane_dmabuf_put	videobuf2-core.c	/^static void __vb2_plane_dmabuf_put(struct vb2_buffer *vb, struct vb2_plane *p)$/;"	f	file:
+__vb2_queue_alloc	videobuf2-core.c	/^static int __vb2_queue_alloc(struct vb2_queue *q, enum v4l2_memory memory,$/;"	f	file:
+__vb2_queue_cancel	videobuf2-core.c	/^static void __vb2_queue_cancel(struct vb2_queue *q)$/;"	f	file:
+__vb2_queue_free	videobuf2-core.c	/^static int __vb2_queue_free(struct vb2_queue *q, unsigned int buffers)$/;"	f	file:
+__vb2_wait_for_done_vb	videobuf2-core.c	/^static int __vb2_wait_for_done_vb(struct vb2_queue *q, int nonblocking)$/;"	f	file:
+__verify_dmabuf_ops	videobuf2-core.c	/^static int __verify_dmabuf_ops(struct vb2_queue *q)$/;"	f	file:
+__verify_length	videobuf2-core.c	/^static int __verify_length(struct vb2_buffer *vb, const struct v4l2_buffer *b)$/;"	f	file:
+__verify_memory_type	videobuf2-core.c	/^static int __verify_memory_type(struct vb2_queue *q,$/;"	f	file:
+__verify_mmap_ops	videobuf2-core.c	/^static int __verify_mmap_ops(struct vb2_queue *q)$/;"	f	file:
+__verify_planes_array	videobuf2-core.c	/^static int __verify_planes_array(struct vb2_buffer *vb, const struct v4l2_buffer *b)$/;"	f	file:
+__verify_userptr_ops	videobuf2-core.c	/^static int __verify_userptr_ops(struct vb2_queue *q)$/;"	f	file:
+__video_do_ioctl	v4l2-ioctl.c	/^static long __video_do_ioctl(struct file *file,$/;"	f	file:
+__video_register_device	v4l2-dev.c	/^EXPORT_SYMBOL(__video_register_device);$/;"	v
+__video_register_device	v4l2-dev.c	/^int __video_register_device(struct video_device *vdev, int type, int nr,$/;"	f
+__videobuf_alloc	videobuf-dma-contig.c	/^static struct videobuf_buffer *__videobuf_alloc(size_t size)$/;"	f	file:
+__videobuf_alloc_vb	videobuf-dma-sg.c	/^static struct videobuf_buffer *__videobuf_alloc_vb(size_t size)$/;"	f	file:
+__videobuf_alloc_vb	videobuf-vmalloc.c	/^static struct videobuf_buffer *__videobuf_alloc_vb(size_t size)$/;"	f	file:
+__videobuf_copy_stream	videobuf-core.c	/^static int __videobuf_copy_stream(struct videobuf_queue *q,$/;"	f	file:
+__videobuf_copy_to_user	videobuf-core.c	/^static int __videobuf_copy_to_user(struct videobuf_queue *q,$/;"	f	file:
+__videobuf_dc_alloc	videobuf-dma-contig.c	/^static int __videobuf_dc_alloc(struct device *dev,$/;"	f	file:
+__videobuf_dc_free	videobuf-dma-contig.c	/^static void __videobuf_dc_free(struct device *dev,$/;"	f	file:
+__videobuf_free	videobuf-core.c	/^static int __videobuf_free(struct videobuf_queue *q)$/;"	f	file:
+__videobuf_iolock	videobuf-dma-contig.c	/^static int __videobuf_iolock(struct videobuf_queue *q,$/;"	f	file:
+__videobuf_iolock	videobuf-dma-sg.c	/^static int __videobuf_iolock(struct videobuf_queue *q,$/;"	f	file:
+__videobuf_iolock	videobuf-vmalloc.c	/^static int __videobuf_iolock(struct videobuf_queue *q,$/;"	f	file:
+__videobuf_mmap_mapper	videobuf-dma-contig.c	/^static int __videobuf_mmap_mapper(struct videobuf_queue *q,$/;"	f	file:
+__videobuf_mmap_mapper	videobuf-dma-sg.c	/^static int __videobuf_mmap_mapper(struct videobuf_queue *q,$/;"	f	file:
+__videobuf_mmap_mapper	videobuf-vmalloc.c	/^static int __videobuf_mmap_mapper(struct videobuf_queue *q,$/;"	f	file:
+__videobuf_mmap_setup	videobuf-core.c	/^EXPORT_SYMBOL_GPL(__videobuf_mmap_setup);$/;"	v
+__videobuf_mmap_setup	videobuf-core.c	/^int __videobuf_mmap_setup(struct videobuf_queue *q,$/;"	f
+__videobuf_read_start	videobuf-core.c	/^static int __videobuf_read_start(struct videobuf_queue *q)$/;"	f	file:
+__videobuf_read_stop	videobuf-core.c	/^static void __videobuf_read_stop(struct videobuf_queue *q)$/;"	f	file:
+__videobuf_streamoff	videobuf-core.c	/^static int __videobuf_streamoff(struct videobuf_queue *q)$/;"	f	file:
+__videobuf_sync	videobuf-dma-sg.c	/^static int __videobuf_sync(struct videobuf_queue *q,$/;"	f	file:
+__videobuf_to_vaddr	videobuf-dma-contig.c	/^static void *__videobuf_to_vaddr(struct videobuf_buffer *buf)$/;"	f	file:
+__videobuf_to_vaddr	videobuf-dma-sg.c	/^static void *__videobuf_to_vaddr(struct videobuf_buffer *buf)$/;"	f	file:
+_vb2_fop_release	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(_vb2_fop_release);$/;"	v
+_vb2_fop_release	videobuf2-core.c	/^int _vb2_fop_release(struct file *file, struct mutex *lock)$/;"	f
+addr	tuner-core.c	/^static unsigned int addr;$/;"	v	file:
+audioset	v4l2-compat-ioctl32.c	/^	__u32	     audioset;		\/*  Associated audios (bitfield) *\/$/;"	m	struct:v4l2_input32	file:
+audmode	tuner-core.c	/^	unsigned int        audmode;$/;"	m	struct:tuner	file:
+b	videobuf2-core.c	/^	struct v4l2_buffer b;$/;"	m	struct:vb2_fileio_data	typeref:struct:vb2_fileio_data::v4l2_buffer	file:
+base	v4l2-compat-ioctl32.c	/^	compat_caddr_t 		base;$/;"	m	struct:v4l2_framebuffer32	file:
+bitmap	v4l2-compat-ioctl32.c	/^	compat_caddr_t		bitmap;$/;"	m	struct:v4l2_window32	file:
+blocks	v4l2-compat-ioctl32.c	/^	__u32 blocks;$/;"	m	struct:v4l2_edid32	file:
+bufs	videobuf2-core.c	/^	struct vb2_fileio_buf bufs[VIDEO_MAX_FRAME];$/;"	m	struct:vb2_fileio_data	typeref:struct:vb2_fileio_data::vb2_fileio_buf	file:
+bytesperline	v4l2-compat-ioctl32.c	/^		__u32		bytesperline;$/;"	m	struct:v4l2_framebuffer32::__anon4	file:
+bytesused	v4l2-compat-ioctl32.c	/^	__u32			bytesused;$/;"	m	struct:v4l2_buffer32	file:
+bytesused	v4l2-compat-ioctl32.c	/^	__u32			bytesused;$/;"	m	struct:v4l2_plane32	file:
+c	v4l2-compat-ioctl32.c	/^	struct v4l2_rect        c;$/;"	m	struct:v4l2_clip32	typeref:struct:v4l2_clip32::v4l2_rect	file:
+call_memop	videobuf2-core.c	141;"	d	file:
+call_memop	videobuf2-core.c	57;"	d	file:
+call_op	v4l2-ctrls.c	32;"	d	file:
+call_ptr_memop	videobuf2-core.c	145;"	d	file:
+call_ptr_memop	videobuf2-core.c	69;"	d	file:
+call_qop	videobuf2-core.c	155;"	d	file:
+call_qop	videobuf2-core.c	95;"	d	file:
+call_vb_qop	videobuf2-core.c	119;"	d	file:
+call_vb_qop	videobuf2-core.c	164;"	d	file:
+call_void_memop	videobuf2-core.c	149;"	d	file:
+call_void_memop	videobuf2-core.c	81;"	d	file:
+call_void_qop	videobuf2-core.c	106;"	d	file:
+call_void_qop	videobuf2-core.c	158;"	d	file:
+call_void_vb_qop	videobuf2-core.c	131;"	d	file:
+call_void_vb_qop	videobuf2-core.c	167;"	d	file:
+capability	v4l2-compat-ioctl32.c	/^	__u32			capability;$/;"	m	struct:v4l2_framebuffer32	file:
+check_array_args	v4l2-ioctl.c	/^static int check_array_args(unsigned int cmd, void *parg, size_t *array_size,$/;"	f	file:
+check_crop	v4l2-subdev.c	/^static int check_crop(struct v4l2_subdev *sd, struct v4l2_subdev_crop *crop)$/;"	f	file:
+check_edid	v4l2-subdev.c	/^static int check_edid(struct v4l2_subdev *sd, struct v4l2_subdev_edid *edid)$/;"	f	file:
+check_ext_ctrls	v4l2-ioctl.c	/^static int check_ext_ctrls(struct v4l2_ext_controls *c, int allow_priv)$/;"	f	file:
+check_fmt	v4l2-ioctl.c	/^static int check_fmt(struct file *file, enum v4l2_buf_type type)$/;"	f	file:
+check_format	v4l2-subdev.c	/^static int check_format(struct v4l2_subdev *sd,$/;"	f	file:
+check_mode	tuner-core.c	/^static inline int check_mode(struct tuner *t, enum v4l2_tuner_type mode)$/;"	f	file:
+check_range	v4l2-ctrls.c	/^static int check_range(enum v4l2_ctrl_type type,$/;"	f	file:
+check_selection	v4l2-subdev.c	/^static int check_selection(struct v4l2_subdev *sd,$/;"	f	file:
+chromakey	v4l2-compat-ioctl32.c	/^	__u32			chromakey;$/;"	m	struct:v4l2_window32	file:
+clamp_align	v4l2-common.c	/^static unsigned int clamp_align(unsigned int x, unsigned int min,$/;"	f	file:
+class_check	v4l2-ctrls.c	/^static int class_check(struct v4l2_ctrl_handler *hdl, u32 ctrl_class)$/;"	f	file:
+clipcount	v4l2-compat-ioctl32.c	/^	__u32			clipcount;$/;"	m	struct:v4l2_window32	file:
+clips	v4l2-compat-ioctl32.c	/^	compat_caddr_t		clips; \/* actually struct v4l2_clip32 * *\/$/;"	m	struct:v4l2_window32	file:
+cluster_changed	v4l2-ctrls.c	/^static int cluster_changed(struct v4l2_ctrl *master)$/;"	f	file:
+colorspace	v4l2-compat-ioctl32.c	/^		__u32		colorspace;$/;"	m	struct:v4l2_framebuffer32::__anon4	file:
+config	tuner-core.c	/^	void                *config;$/;"	m	struct:tuner	file:
+controls	v4l2-compat-ioctl32.c	/^       compat_caddr_t controls; \/* actually struct v4l2_ext_control32 * *\/$/;"	m	struct:v4l2_ext_controls32	file:
+count	v4l2-compat-ioctl32.c	/^	__u32			count;$/;"	m	struct:v4l2_create_buffers32	file:
+count	v4l2-compat-ioctl32.c	/^       __u32 count;$/;"	m	struct:v4l2_ext_controls32	file:
+ctrl	v4l2-ctrls.c	/^	struct v4l2_ctrl *ctrl;$/;"	m	struct:v4l2_ctrl_helper	typeref:struct:v4l2_ctrl_helper::v4l2_ctrl	file:
+ctrl_class	v4l2-compat-ioctl32.c	/^       __u32 ctrl_class;$/;"	m	struct:v4l2_ext_controls32	file:
+ctrl_is_pointer	v4l2-compat-ioctl32.c	/^static inline int ctrl_is_pointer(u32 id)$/;"	f	file:
+cur_index	videobuf2-core.c	/^	unsigned int cur_index;$/;"	m	struct:vb2_fileio_data	file:
+cur_to_new	v4l2-ctrls.c	/^static void cur_to_new(struct v4l2_ctrl *ctrl)$/;"	f	file:
+cur_to_user	v4l2-ctrls.c	/^static int cur_to_user(struct v4l2_ext_control *c,$/;"	f	file:
+curr_ctx	v4l2-mem2mem.c	/^	struct v4l2_m2m_ctx	*curr_ctx;$/;"	m	struct:v4l2_m2m_dev	typeref:struct:v4l2_m2m_dev::v4l2_m2m_ctx	file:
+data	v4l2-compat-ioctl32.c	/^		__u8			data[64];$/;"	m	union:v4l2_event32::__anon6	file:
+data_offset	v4l2-compat-ioctl32.c	/^	__u32			data_offset;$/;"	m	struct:v4l2_plane32	file:
+db_attach	videobuf2-dma-contig.c	/^	struct dma_buf_attachment	*db_attach;$/;"	m	struct:vb2_dc_buf	typeref:struct:vb2_dc_buf::dma_buf_attachment	file:
+dbuf	videobuf2-vmalloc.c	/^	struct dma_buf			*dbuf;$/;"	m	struct:vb2_vmalloc_buf	typeref:struct:vb2_vmalloc_buf::dma_buf	file:
+debug	v4l2-ioctl.c	/^	void (*debug)(const void *arg, bool write_only);$/;"	m	struct:v4l2_ioctl_info	file:
+debug	v4l2-mem2mem.c	/^static bool debug;$/;"	v	file:
+debug	videobuf-core.c	/^static int debug;$/;"	v	file:
+debug	videobuf-dma-sg.c	/^static int debug;$/;"	v	file:
+debug	videobuf-dvb.c	/^static unsigned int debug;$/;"	v	file:
+debug	videobuf-vmalloc.c	/^static int debug;$/;"	v	file:
+debug	videobuf2-core.c	/^static int debug;$/;"	v	file:
+debug	videobuf2-dma-sg.c	/^static int debug;$/;"	v	file:
+debug_show	v4l2-dev.c	/^static ssize_t debug_show(struct device *cd,$/;"	f	file:
+debug_store	v4l2-dev.c	/^static ssize_t debug_store(struct device *cd, struct device_attribute *attr,$/;"	f	file:
+descr	v4l2-ioctl.c	/^	const char *descr;$/;"	m	struct:std_descr	file:
+determine_valid_ioctls	v4l2-dev.c	/^static void determine_valid_ioctls(struct video_device *vdev)$/;"	f	file:
+dev	videobuf2-dma-contig.c	/^	struct device			*dev;$/;"	m	struct:vb2_dc_buf	typeref:struct:vb2_dc_buf::device	file:
+dev	videobuf2-dma-contig.c	/^	struct device		*dev;$/;"	m	struct:vb2_dc_conf	typeref:struct:vb2_dc_conf::device	file:
+devnode_bits	v4l2-dev.c	/^static inline unsigned long *devnode_bits(int vfl_type)$/;"	f	file:
+devnode_clear	v4l2-dev.c	/^static inline void devnode_clear(struct video_device *vdev)$/;"	f	file:
+devnode_find	v4l2-dev.c	/^static inline int devnode_find(struct video_device *vdev, int from, int to)$/;"	f	file:
+devnode_set	v4l2-dev.c	/^static inline void devnode_set(struct video_device *vdev)$/;"	f	file:
+dir	videobuf2-dma-contig.c	/^	enum dma_data_direction dir;$/;"	m	struct:vb2_dc_attachment	typeref:enum:vb2_dc_attachment::dma_data_direction	file:
+dma_addr	videobuf2-dma-contig.c	/^	dma_addr_t			dma_addr;$/;"	m	struct:vb2_dc_buf	file:
+dma_dir	videobuf2-dma-contig.c	/^	enum dma_data_direction		dma_dir;$/;"	m	struct:vb2_dc_buf	typeref:enum:vb2_dc_buf::dma_data_direction	file:
+dma_handle	videobuf-dma-contig.c	/^	dma_addr_t dma_handle;$/;"	m	struct:videobuf_dma_contig_memory	file:
+dma_sgt	videobuf2-dma-contig.c	/^	struct sg_table			*dma_sgt;$/;"	m	struct:vb2_dc_buf	typeref:struct:vb2_dc_buf::sg_table	file:
+do_video_ioctl	v4l2-compat-ioctl32.c	/^static long do_video_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+dprintk	v4l2-mem2mem.c	33;"	d	file:
+dprintk	videobuf-core.c	44;"	d	file:
+dprintk	videobuf-dma-sg.c	54;"	d	file:
+dprintk	videobuf-dvb.c	38;"	d	file:
+dprintk	videobuf-vmalloc.c	47;"	d	file:
+dprintk	videobuf2-core.c	36;"	d	file:
+dprintk	videobuf2-dma-sg.c	27;"	d	file:
+dq_count	videobuf2-core.c	/^	unsigned int dq_count;$/;"	m	struct:vb2_fileio_data	file:
+dvb_fnc	videobuf2-dvb.c	/^static int dvb_fnc(struct vb2_buffer *vb, void *priv)$/;"	f	file:
+edid	v4l2-compat-ioctl32.c	/^	compat_caddr_t edid;$/;"	m	struct:v4l2_edid32	file:
+error_idx	v4l2-compat-ioctl32.c	/^       __u32 error_idx;$/;"	m	struct:v4l2_ext_controls32	file:
+fd	v4l2-compat-ioctl32.c	/^		__s32		fd;$/;"	m	union:v4l2_buffer32::__anon3	file:
+fd	v4l2-compat-ioctl32.c	/^		__s32		fd;$/;"	m	union:v4l2_plane32::__anon2	file:
+fe	tuner-core.c	/^	struct dvb_frontend fe;$/;"	m	struct:tuner	typeref:struct:tuner::dvb_frontend	file:
+fe_set_config	tuner-core.c	/^static int fe_set_config(struct dvb_frontend *fe, void *priv_cfg)$/;"	f	file:
+fe_set_params	tuner-core.c	/^static void fe_set_params(struct dvb_frontend *fe,$/;"	f	file:
+fe_standby	tuner-core.c	/^static void fe_standby(struct dvb_frontend *fe)$/;"	f	file:
+field	v4l2-compat-ioctl32.c	/^		__u32		field;$/;"	m	struct:v4l2_framebuffer32::__anon4	file:
+field	v4l2-compat-ioctl32.c	/^	__u32			field;	\/* enum v4l2_field *\/$/;"	m	struct:v4l2_buffer32	file:
+field	v4l2-compat-ioctl32.c	/^	__u32		  	field;	\/* enum v4l2_field *\/$/;"	m	struct:v4l2_window32	file:
+fill_event	v4l2-ctrls.c	/^static void fill_event(struct v4l2_event *ev, struct v4l2_ctrl *ctrl, u32 changes)$/;"	f	file:
+find_private_ref	v4l2-ctrls.c	/^static struct v4l2_ctrl_ref *find_private_ref($/;"	f	file:
+find_ref	v4l2-ctrls.c	/^static struct v4l2_ctrl_ref *find_ref(struct v4l2_ctrl_handler *hdl, u32 id)$/;"	f	file:
+find_ref_lock	v4l2-ctrls.c	/^static struct v4l2_ctrl_ref *find_ref_lock($/;"	f	file:
+fixed_get_rate	v4l2-clk.c	/^static unsigned long fixed_get_rate(struct v4l2_clk *clk)$/;"	f	file:
+flags	v4l2-compat-ioctl32.c	/^	__u32			flags;$/;"	m	struct:v4l2_buffer32	file:
+flags	v4l2-compat-ioctl32.c	/^	__u32			flags;$/;"	m	struct:v4l2_framebuffer32	file:
+flags	v4l2-ioctl.c	/^	u32 flags;$/;"	m	struct:v4l2_ioctl_info	file:
+flags	videobuf2-core.c	/^	unsigned int flags;$/;"	m	struct:vb2_fileio_data	file:
+fmt	v4l2-compat-ioctl32.c	/^	} fmt;$/;"	m	struct:v4l2_format32	typeref:union:v4l2_format32::__anon1	file:
+fmt	v4l2-compat-ioctl32.c	/^	} fmt;$/;"	m	struct:v4l2_framebuffer32	typeref:struct:v4l2_framebuffer32::__anon4	file:
+fnc	videobuf2-core.c	/^	vb2_thread_fnc fnc;$/;"	m	struct:vb2_threadio_data	file:
+format	v4l2-compat-ioctl32.c	/^	struct v4l2_format32	format;$/;"	m	struct:v4l2_create_buffers32	typeref:struct:v4l2_create_buffers32::v4l2_format32	file:
+framelines	v4l2-compat-ioctl32.c	/^	__u32		     framelines;$/;"	m	struct:v4l2_standard32	file:
+frameperiod	v4l2-compat-ioctl32.c	/^	struct v4l2_fract    frameperiod; \/* Frames, not fields *\/$/;"	m	struct:v4l2_standard32	typeref:struct:v4l2_standard32::v4l2_fract	file:
+func	v4l2-ioctl.c	/^		int (*func)(const struct v4l2_ioctl_ops *ops,$/;"	m	union:v4l2_ioctl_info::__anon7	file:
+get_ctrl	v4l2-ctrls.c	/^static int get_ctrl(struct v4l2_ctrl *ctrl, struct v4l2_ext_control *c)$/;"	f	file:
+get_index	v4l2-dev.c	/^static int get_index(struct video_device *vdev)$/;"	f	file:
+get_queue_ctx	v4l2-mem2mem.c	/^static struct v4l2_m2m_queue_ctx *get_queue_ctx(struct v4l2_m2m_ctx *m2m_ctx,$/;"	f	file:
+get_v4l2_buffer32	v4l2-compat-ioctl32.c	/^static int get_v4l2_buffer32(struct v4l2_buffer *kp, struct v4l2_buffer32 __user *up)$/;"	f	file:
+get_v4l2_create32	v4l2-compat-ioctl32.c	/^static int get_v4l2_create32(struct v4l2_create_buffers *kp, struct v4l2_create_buffers32 __user *up)$/;"	f	file:
+get_v4l2_edid32	v4l2-compat-ioctl32.c	/^static int get_v4l2_edid32(struct v4l2_edid *kp, struct v4l2_edid32 __user *up)$/;"	f	file:
+get_v4l2_ext_controls32	v4l2-compat-ioctl32.c	/^static int get_v4l2_ext_controls32(struct v4l2_ext_controls *kp, struct v4l2_ext_controls32 __user *up)$/;"	f	file:
+get_v4l2_format32	v4l2-compat-ioctl32.c	/^static int get_v4l2_format32(struct v4l2_format *kp, struct v4l2_format32 __user *up)$/;"	f	file:
+get_v4l2_framebuffer32	v4l2-compat-ioctl32.c	/^static int get_v4l2_framebuffer32(struct v4l2_framebuffer *kp, struct v4l2_framebuffer32 __user *up)$/;"	f	file:
+get_v4l2_input32	v4l2-compat-ioctl32.c	/^static inline int get_v4l2_input32(struct v4l2_input *kp, struct v4l2_input32 __user *up)$/;"	f	file:
+get_v4l2_pix_format	v4l2-compat-ioctl32.c	/^static inline int get_v4l2_pix_format(struct v4l2_pix_format *kp, struct v4l2_pix_format __user *up)$/;"	f	file:
+get_v4l2_pix_format_mplane	v4l2-compat-ioctl32.c	/^static inline int get_v4l2_pix_format_mplane(struct v4l2_pix_format_mplane *kp,$/;"	f	file:
+get_v4l2_plane32	v4l2-compat-ioctl32.c	/^static int get_v4l2_plane32(struct v4l2_plane __user *up, struct v4l2_plane32 __user *up32,$/;"	f	file:
+get_v4l2_sliced_vbi_format	v4l2-compat-ioctl32.c	/^static inline int get_v4l2_sliced_vbi_format(struct v4l2_sliced_vbi_format *kp, struct v4l2_sliced_vbi_format __user *up)$/;"	f	file:
+get_v4l2_standard32	v4l2-compat-ioctl32.c	/^static int get_v4l2_standard32(struct v4l2_standard *kp, struct v4l2_standard32 __user *up)$/;"	f	file:
+get_v4l2_vbi_format	v4l2-compat-ioctl32.c	/^static inline int get_v4l2_vbi_format(struct v4l2_vbi_format *kp, struct v4l2_vbi_format __user *up)$/;"	f	file:
+get_v4l2_window32	v4l2-compat-ioctl32.c	/^static int get_v4l2_window32(struct v4l2_window *kp, struct v4l2_window32 __user *up)$/;"	f	file:
+handler	videobuf2-dma-contig.c	/^	struct vb2_vmarea_handler	handler;$/;"	m	struct:vb2_dc_buf	typeref:struct:vb2_dc_buf::vb2_vmarea_handler	file:
+handler	videobuf2-dma-sg.c	/^	struct vb2_vmarea_handler	handler;$/;"	m	struct:vb2_dma_sg_buf	typeref:struct:vb2_dma_sg_buf::vb2_vmarea_handler	file:
+handler	videobuf2-vmalloc.c	/^	struct vb2_vmarea_handler	handler;$/;"	m	struct:vb2_vmalloc_buf	typeref:struct:vb2_vmalloc_buf::vb2_vmarea_handler	file:
+handler_new_ref	v4l2-ctrls.c	/^static int handler_new_ref(struct v4l2_ctrl_handler *hdl,$/;"	f	file:
+handler_set_err	v4l2-ctrls.c	/^static inline int handler_set_err(struct v4l2_ctrl_handler *hdl, int err)$/;"	f	file:
+has_op	v4l2-ctrls.c	30;"	d	file:
+height	v4l2-compat-ioctl32.c	/^		__u32		height;$/;"	m	struct:v4l2_framebuffer32::__anon4	file:
+i2c	tuner-core.c	/^	struct i2c_client   *i2c;$/;"	m	struct:tuner	typeref:struct:tuner::i2c_client	file:
+id	v4l2-compat-ioctl32.c	/^	__u32				id;$/;"	m	struct:v4l2_event32	file:
+id	v4l2-compat-ioctl32.c	/^	__u32		     id[2]; \/* __u64 would get the alignment wrong *\/$/;"	m	struct:v4l2_standard32	file:
+id	v4l2-compat-ioctl32.c	/^	__u32 id;$/;"	m	struct:v4l2_ext_control32	file:
+index	v4l2-compat-ioctl32.c	/^	__u32			index;$/;"	m	struct:v4l2_buffer32	file:
+index	v4l2-compat-ioctl32.c	/^	__u32			index;$/;"	m	struct:v4l2_create_buffers32	file:
+index	v4l2-compat-ioctl32.c	/^	__u32		     index;$/;"	m	struct:v4l2_standard32	file:
+index	v4l2-compat-ioctl32.c	/^	__u32	     index;		\/*  Which input *\/$/;"	m	struct:v4l2_input32	file:
+index_show	v4l2-dev.c	/^static ssize_t index_show(struct device *cd,$/;"	f	file:
+initial_index	videobuf2-core.c	/^	unsigned int initial_index;$/;"	m	struct:vb2_fileio_data	file:
+ioctl	v4l2-ioctl.c	/^	unsigned int ioctl;$/;"	m	struct:v4l2_ioctl_info	file:
+is_cur_manual	v4l2-ctrls.c	/^static bool is_cur_manual(const struct v4l2_ctrl *master)$/;"	f	file:
+is_new_manual	v4l2-ctrls.c	/^static bool is_new_manual(const struct v4l2_ctrl *master)$/;"	f	file:
+is_state_active_or_queued	videobuf-core.c	/^static int is_state_active_or_queued(struct videobuf_queue *q, struct videobuf_buffer *vb)$/;"	f	file:
+is_valid_ioctl	v4l2-ioctl.c	40;"	d	file:
+job_queue	v4l2-mem2mem.c	/^	struct list_head	job_queue;$/;"	m	struct:v4l2_m2m_dev	typeref:struct:v4l2_m2m_dev::list_head	file:
+job_spinlock	v4l2-mem2mem.c	/^	spinlock_t		job_spinlock;$/;"	m	struct:v4l2_m2m_dev	file:
+length	v4l2-compat-ioctl32.c	/^	__u32			length;$/;"	m	struct:v4l2_buffer32	file:
+length	v4l2-compat-ioctl32.c	/^	__u32			length;$/;"	m	struct:v4l2_plane32	file:
+list	tuner-core.c	/^	struct list_head    list;$/;"	m	struct:tuner	typeref:struct:tuner::list_head	file:
+log_ctrl	v4l2-ctrls.c	/^static void log_ctrl(const struct v4l2_ctrl *ctrl,$/;"	f	file:
+log_memop	videobuf2-core.c	52;"	d	file:
+log_qop	videobuf2-core.c	91;"	d	file:
+log_vb_qop	videobuf2-core.c	114;"	d	file:
+m	v4l2-compat-ioctl32.c	/^	} m;$/;"	m	struct:v4l2_buffer32	typeref:union:v4l2_buffer32::__anon3	file:
+m	v4l2-compat-ioctl32.c	/^	} m;$/;"	m	struct:v4l2_plane32	typeref:union:v4l2_plane32::__anon2	file:
+m2m_ops	v4l2-mem2mem.c	/^	const struct v4l2_m2m_ops *m2m_ops;$/;"	m	struct:v4l2_m2m_dev	typeref:struct:v4l2_m2m_dev::v4l2_m2m_ops	file:
+magic	videobuf-dma-contig.c	/^	u32 magic;$/;"	m	struct:videobuf_dma_contig_memory	file:
+match_devname	v4l2-async.c	/^static bool match_devname(struct device *dev, struct v4l2_async_subdev *asd)$/;"	f	file:
+match_i2c	v4l2-async.c	/^static bool match_i2c(struct device *dev, struct v4l2_async_subdev *asd)$/;"	f	file:
+match_of	v4l2-async.c	/^static bool match_of(struct device *dev, struct v4l2_async_subdev *asd)$/;"	f	file:
+mem_offset	v4l2-compat-ioctl32.c	/^		__u32		mem_offset;$/;"	m	union:v4l2_plane32::__anon2	file:
+memory	v4l2-compat-ioctl32.c	/^	__u32			memory;	\/* enum v4l2_memory *\/$/;"	m	struct:v4l2_buffer32	file:
+memory	v4l2-compat-ioctl32.c	/^	__u32			memory;	\/* enum v4l2_memory *\/$/;"	m	struct:v4l2_create_buffers32	file:
+mode	tuner-core.c	/^	enum v4l2_tuner_type mode;$/;"	m	struct:tuner	typeref:enum:tuner::v4l2_tuner_type	file:
+mode_mask	tuner-core.c	/^	unsigned int        mode_mask; \/* Combination of allowable modes *\/$/;"	m	struct:tuner	file:
+mref	v4l2-ctrls.c	/^	struct v4l2_ctrl_ref *mref;$/;"	m	struct:v4l2_ctrl_helper	typeref:struct:v4l2_ctrl_helper::v4l2_ctrl_ref	file:
+n_pages	videobuf2-vmalloc.c	/^	unsigned int			n_pages;$/;"	m	struct:vb2_vmalloc_buf	file:
+name	tuner-core.c	/^	const char          *name;$/;"	m	struct:tuner	file:
+name	v4l2-compat-ioctl32.c	/^	__u8		     name[24];$/;"	m	struct:v4l2_standard32	file:
+name	v4l2-compat-ioctl32.c	/^	__u8	     name[32];		\/*  Label *\/$/;"	m	struct:v4l2_input32	file:
+name	v4l2-ioctl.c	/^	const char * const name;$/;"	m	struct:v4l2_ioctl_info	file:
+name_show	v4l2-dev.c	/^static ssize_t name_show(struct device *cd,$/;"	f	file:
+native_ioctl	v4l2-compat-ioctl32.c	/^static long native_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+new_to_cur	v4l2-ctrls.c	/^static void new_to_cur(struct v4l2_fh *fh, struct v4l2_ctrl *ctrl, u32 ch_flags)$/;"	f	file:
+new_to_user	v4l2-ctrls.c	/^static int new_to_user(struct v4l2_ext_control *c,$/;"	f	file:
+next	v4l2-compat-ioctl32.c	/^	compat_caddr_t 		next;$/;"	m	struct:v4l2_clip32	file:
+next	v4l2-ctrls.c	/^	u32 next;$/;"	m	struct:v4l2_ctrl_helper	file:
+no_autodetect	tuner-core.c	/^static unsigned int no_autodetect;$/;"	v	file:
+node2id	v4l2-ctrls.c	/^static inline u32 node2id(struct list_head *node)$/;"	f	file:
+ntsc	tuner-core.c	/^static char ntsc[] = "-";$/;"	v	file:
+num_pages	videobuf2-dma-sg.c	/^	unsigned int			num_pages;$/;"	m	struct:vb2_dma_sg_buf	file:
+offset	v4l2-compat-ioctl32.c	/^		__u32           offset;$/;"	m	union:v4l2_buffer32::__anon3	file:
+offset	v4l2-ioctl.c	/^		u32 offset;$/;"	m	union:v4l2_ioctl_info::__anon7	file:
+offset	videobuf2-dma-sg.c	/^	int				offset;$/;"	m	struct:vb2_dma_sg_buf	file:
+ops	v4l2-clk.c	/^	struct v4l2_clk_ops ops;$/;"	m	struct:v4l2_clk_fixed	typeref:struct:v4l2_clk_fixed::v4l2_clk_ops	file:
+p	videobuf2-core.c	/^	struct v4l2_plane p;$/;"	m	struct:vb2_fileio_data	typeref:struct:vb2_fileio_data::v4l2_plane	file:
+pad	v4l2-compat-ioctl32.c	/^	__u32 pad;$/;"	m	struct:v4l2_edid32	file:
+pages	videobuf2-dma-sg.c	/^	struct page			**pages;$/;"	m	struct:vb2_dma_sg_buf	typeref:struct:vb2_dma_sg_buf::page	file:
+pages	videobuf2-vmalloc.c	/^	struct page			**pages;$/;"	m	struct:vb2_vmalloc_buf	typeref:struct:vb2_vmalloc_buf::page	file:
+pal	tuner-core.c	/^static char pal[] = "--";$/;"	v	file:
+pending	v4l2-compat-ioctl32.c	/^	__u32				pending;$/;"	m	struct:v4l2_event32	file:
+pix	v4l2-compat-ioctl32.c	/^		struct v4l2_pix_format	pix;$/;"	m	union:v4l2_format32::__anon1	typeref:struct:v4l2_format32::__anon1::v4l2_pix_format	file:
+pix_mp	v4l2-compat-ioctl32.c	/^		struct v4l2_pix_format_mplane	pix_mp;$/;"	m	union:v4l2_format32::__anon1	typeref:struct:v4l2_format32::__anon1::v4l2_pix_format_mplane	file:
+pixelformat	v4l2-compat-ioctl32.c	/^		__u32		pixelformat;$/;"	m	struct:v4l2_framebuffer32::__anon4	file:
+planes	v4l2-compat-ioctl32.c	/^		compat_caddr_t  planes;$/;"	m	union:v4l2_buffer32::__anon3	file:
+pos	videobuf2-core.c	/^	unsigned int pos;$/;"	m	struct:vb2_fileio_buf	file:
+prepare_ext_ctrls	v4l2-ctrls.c	/^static int prepare_ext_ctrls(struct v4l2_ctrl_handler *hdl,$/;"	f	file:
+prio_is_valid	v4l2-dev.c	/^static inline bool prio_is_valid(enum v4l2_priority prio)$/;"	f	file:
+priv	v4l2-compat-ioctl32.c	/^		__u32		priv;$/;"	m	struct:v4l2_framebuffer32::__anon4	file:
+priv	videobuf2-core.c	/^	void *priv;$/;"	m	struct:vb2_threadio_data	file:
+prt_names	v4l2-ioctl.c	166;"	d	file:
+ptr_to_ptr	v4l2-ctrls.c	/^static void ptr_to_ptr(struct v4l2_ctrl *ctrl,$/;"	f	file:
+ptr_to_user	v4l2-ctrls.c	/^static int ptr_to_user(struct v4l2_ext_control *c,$/;"	f	file:
+put_v4l2_buffer32	v4l2-compat-ioctl32.c	/^static int put_v4l2_buffer32(struct v4l2_buffer *kp, struct v4l2_buffer32 __user *up)$/;"	f	file:
+put_v4l2_create32	v4l2-compat-ioctl32.c	/^static int put_v4l2_create32(struct v4l2_create_buffers *kp, struct v4l2_create_buffers32 __user *up)$/;"	f	file:
+put_v4l2_edid32	v4l2-compat-ioctl32.c	/^static int put_v4l2_edid32(struct v4l2_edid *kp, struct v4l2_edid32 __user *up)$/;"	f	file:
+put_v4l2_event32	v4l2-compat-ioctl32.c	/^static int put_v4l2_event32(struct v4l2_event *kp, struct v4l2_event32 __user *up)$/;"	f	file:
+put_v4l2_ext_controls32	v4l2-compat-ioctl32.c	/^static int put_v4l2_ext_controls32(struct v4l2_ext_controls *kp, struct v4l2_ext_controls32 __user *up)$/;"	f	file:
+put_v4l2_format32	v4l2-compat-ioctl32.c	/^static int put_v4l2_format32(struct v4l2_format *kp, struct v4l2_format32 __user *up)$/;"	f	file:
+put_v4l2_framebuffer32	v4l2-compat-ioctl32.c	/^static int put_v4l2_framebuffer32(struct v4l2_framebuffer *kp, struct v4l2_framebuffer32 __user *up)$/;"	f	file:
+put_v4l2_input32	v4l2-compat-ioctl32.c	/^static inline int put_v4l2_input32(struct v4l2_input *kp, struct v4l2_input32 __user *up)$/;"	f	file:
+put_v4l2_pix_format	v4l2-compat-ioctl32.c	/^static inline int put_v4l2_pix_format(struct v4l2_pix_format *kp, struct v4l2_pix_format __user *up)$/;"	f	file:
+put_v4l2_pix_format_mplane	v4l2-compat-ioctl32.c	/^static inline int put_v4l2_pix_format_mplane(struct v4l2_pix_format_mplane *kp,$/;"	f	file:
+put_v4l2_plane32	v4l2-compat-ioctl32.c	/^static int put_v4l2_plane32(struct v4l2_plane __user *up, struct v4l2_plane32 __user *up32,$/;"	f	file:
+put_v4l2_sliced_vbi_format	v4l2-compat-ioctl32.c	/^static inline int put_v4l2_sliced_vbi_format(struct v4l2_sliced_vbi_format *kp, struct v4l2_sliced_vbi_format __user *up)$/;"	f	file:
+put_v4l2_standard32	v4l2-compat-ioctl32.c	/^static int put_v4l2_standard32(struct v4l2_standard *kp, struct v4l2_standard32 __user *up)$/;"	f	file:
+put_v4l2_vbi_format	v4l2-compat-ioctl32.c	/^static inline int put_v4l2_vbi_format(struct v4l2_vbi_format *kp, struct v4l2_vbi_format __user *up)$/;"	f	file:
+put_v4l2_window32	v4l2-compat-ioctl32.c	/^static int put_v4l2_window32(struct v4l2_window *kp, struct v4l2_window32 __user *up)$/;"	f	file:
+q_count	videobuf2-core.c	/^	unsigned int q_count;$/;"	m	struct:vb2_fileio_data	file:
+qops	videobuf-dma-contig.c	/^static struct videobuf_qtype_ops qops = {$/;"	v	typeref:struct:videobuf_qtype_ops	file:
+qops	videobuf-vmalloc.c	/^static struct videobuf_qtype_ops qops = {$/;"	v	typeref:struct:videobuf_qtype_ops	file:
+queued	videobuf2-core.c	/^	unsigned int queued:1;$/;"	m	struct:vb2_fileio_buf	file:
+radio_freq	tuner-core.c	/^	unsigned int        radio_freq;$/;"	m	struct:tuner	file:
+radio_range	tuner-core.c	/^static unsigned int radio_range[2] = { 65, 108 };$/;"	v	file:
+rate	v4l2-clk.c	/^	unsigned long rate;$/;"	m	struct:v4l2_clk_fixed	file:
+raw_data	v4l2-compat-ioctl32.c	/^		__u8	raw_data[200];        \/* user-defined *\/$/;"	m	union:v4l2_format32::__anon1	file:
+refcount	videobuf2-dma-contig.c	/^	atomic_t			refcount;$/;"	m	struct:vb2_dc_buf	file:
+refcount	videobuf2-dma-sg.c	/^	atomic_t			refcount;$/;"	m	struct:vb2_dma_sg_buf	file:
+refcount	videobuf2-vmalloc.c	/^	atomic_t			refcount;$/;"	m	struct:vb2_vmalloc_buf	file:
+req	videobuf2-core.c	/^	struct v4l2_requestbuffers req;$/;"	m	struct:vb2_fileio_data	typeref:struct:vb2_fileio_data::v4l2_requestbuffers	file:
+reserved	v4l2-compat-ioctl32.c	/^	__u32				reserved[8];$/;"	m	struct:v4l2_event32	file:
+reserved	v4l2-compat-ioctl32.c	/^	__u32			reserved;$/;"	m	struct:v4l2_buffer32	file:
+reserved	v4l2-compat-ioctl32.c	/^	__u32			reserved[11];$/;"	m	struct:v4l2_plane32	file:
+reserved	v4l2-compat-ioctl32.c	/^	__u32			reserved[8];$/;"	m	struct:v4l2_create_buffers32	file:
+reserved	v4l2-compat-ioctl32.c	/^	__u32		     reserved[4];$/;"	m	struct:v4l2_standard32	file:
+reserved	v4l2-compat-ioctl32.c	/^	__u32	     reserved[4];$/;"	m	struct:v4l2_input32	file:
+reserved	v4l2-compat-ioctl32.c	/^	__u32 reserved[5];$/;"	m	struct:v4l2_edid32	file:
+reserved	v4l2-compat-ioctl32.c	/^       __u32 reserved[2];$/;"	m	struct:v4l2_ext_controls32	file:
+reserved2	v4l2-compat-ioctl32.c	/^	__u32			reserved2;$/;"	m	struct:v4l2_buffer32	file:
+reserved2	v4l2-compat-ioctl32.c	/^	__u32 reserved2[1];$/;"	m	struct:v4l2_ext_control32	file:
+sd	tuner-core.c	/^	struct v4l2_subdev  sd;$/;"	m	struct:tuner	typeref:struct:tuner::v4l2_subdev	file:
+secam	tuner-core.c	/^static char secam[] = "--";$/;"	v	file:
+send_event	v4l2-ctrls.c	/^static void send_event(struct v4l2_fh *fh, struct v4l2_ctrl *ctrl, u32 changes)$/;"	f	file:
+sequence	v4l2-compat-ioctl32.c	/^	__u32				sequence;$/;"	m	struct:v4l2_event32	file:
+sequence	v4l2-compat-ioctl32.c	/^	__u32			sequence;$/;"	m	struct:v4l2_buffer32	file:
+set_ctrl	v4l2-ctrls.c	/^static int set_ctrl(struct v4l2_fh *fh, struct v4l2_ctrl *ctrl,$/;"	f	file:
+set_ctrl_lock	v4l2-ctrls.c	/^static int set_ctrl_lock(struct v4l2_fh *fh, struct v4l2_ctrl *ctrl,$/;"	f	file:
+set_freq	tuner-core.c	/^static void set_freq(struct tuner *t, unsigned int freq)$/;"	f	file:
+set_mode	tuner-core.c	/^static int set_mode(struct tuner *t, enum v4l2_tuner_type mode)$/;"	f	file:
+set_radio_freq	tuner-core.c	/^static void set_radio_freq(struct i2c_client *c, unsigned int freq)$/;"	f	file:
+set_tv_freq	tuner-core.c	/^static void set_tv_freq(struct i2c_client *c, unsigned int freq)$/;"	f	file:
+set_type	tuner-core.c	/^static void set_type(struct i2c_client *c, unsigned int type,$/;"	f	file:
+sev_pos	v4l2-event.c	/^static unsigned sev_pos(const struct v4l2_subscribed_event *sev, unsigned idx)$/;"	f	file:
+sg_ops	videobuf-dma-sg.c	/^static struct videobuf_qtype_ops sg_ops = {$/;"	v	typeref:struct:videobuf_qtype_ops	file:
+sg_table	videobuf2-dma-sg.c	/^	struct sg_table			sg_table;$/;"	m	struct:vb2_dma_sg_buf	typeref:struct:vb2_dma_sg_buf::sg_table	file:
+sgt	videobuf2-dma-contig.c	/^	struct sg_table sgt;$/;"	m	struct:vb2_dc_attachment	typeref:struct:vb2_dc_attachment::sg_table	file:
+sgt_base	videobuf2-dma-contig.c	/^	struct sg_table			*sgt_base;$/;"	m	struct:vb2_dc_buf	typeref:struct:vb2_dc_buf::sg_table	file:
+show_i2c	tuner-core.c	/^static unsigned int show_i2c;$/;"	v	file:
+size	v4l2-compat-ioctl32.c	/^	__u32 size;$/;"	m	struct:v4l2_ext_control32	file:
+size	videobuf-dma-contig.c	/^	unsigned long size;$/;"	m	struct:videobuf_dma_contig_memory	file:
+size	videobuf2-core.c	/^	unsigned int size;$/;"	m	struct:vb2_fileio_buf	file:
+size	videobuf2-dma-contig.c	/^	unsigned long			size;$/;"	m	struct:vb2_dc_buf	file:
+size	videobuf2-dma-sg.c	/^	size_t				size;$/;"	m	struct:vb2_dma_sg_buf	file:
+size	videobuf2-vmalloc.c	/^	unsigned long			size;$/;"	m	struct:vb2_vmalloc_buf	file:
+sizeimage	v4l2-compat-ioctl32.c	/^		__u32		sizeimage;$/;"	m	struct:v4l2_framebuffer32::__anon4	file:
+sliced	v4l2-compat-ioctl32.c	/^		struct v4l2_sliced_vbi_format	sliced;$/;"	m	union:v4l2_format32::__anon1	typeref:struct:v4l2_format32::__anon1::v4l2_sliced_vbi_format	file:
+standards	v4l2-ioctl.c	/^static const struct std_descr standards[] = {$/;"	v	typeref:struct:std_descr	file:
+standby	tuner-core.c	/^	bool                standby;	\/* Standby mode *\/$/;"	m	struct:tuner	file:
+start_block	v4l2-compat-ioctl32.c	/^	__u32 start_block;$/;"	m	struct:v4l2_edid32	file:
+status	v4l2-compat-ioctl32.c	/^	__u32	     status;$/;"	m	struct:v4l2_input32	file:
+std	tuner-core.c	/^	v4l2_std_id         std;$/;"	m	struct:tuner	file:
+std	v4l2-compat-ioctl32.c	/^	v4l2_std_id  std;$/;"	m	struct:v4l2_input32	file:
+std	v4l2-ioctl.c	/^	v4l2_std_id std;$/;"	m	struct:std_descr	file:
+std_descr	v4l2-ioctl.c	/^struct std_descr {$/;"	s	file:
+std_equal	v4l2-ctrls.c	/^static bool std_equal(const struct v4l2_ctrl *ctrl, u32 idx,$/;"	f	file:
+std_init	v4l2-ctrls.c	/^static void std_init(const struct v4l2_ctrl *ctrl, u32 idx,$/;"	f	file:
+std_log	v4l2-ctrls.c	/^static void std_log(const struct v4l2_ctrl *ctrl)$/;"	f	file:
+std_type_ops	v4l2-ctrls.c	/^static const struct v4l2_ctrl_type_ops std_type_ops = {$/;"	v	typeref:struct:v4l2_ctrl_type_ops	file:
+std_validate	v4l2-ctrls.c	/^static int std_validate(const struct v4l2_ctrl *ctrl, u32 idx,$/;"	f	file:
+stop	videobuf2-core.c	/^	bool stop;$/;"	m	struct:vb2_threadio_data	file:
+stream_next_buffer	videobuf-core.c	/^static int stream_next_buffer(struct videobuf_queue *q,$/;"	f	file:
+stream_next_buffer_check_queue	videobuf-core.c	/^static int stream_next_buffer_check_queue(struct videobuf_queue *q, int noblock)$/;"	f	file:
+string	v4l2-compat-ioctl32.c	/^		compat_caddr_t string; \/* actually char * *\/$/;"	m	union:v4l2_ext_control32::__anon5	file:
+subdev_close	v4l2-subdev.c	/^static int subdev_close(struct file *file)$/;"	f	file:
+subdev_compat_ioctl32	v4l2-subdev.c	/^static long subdev_compat_ioctl32(struct file *file, unsigned int cmd,$/;"	f	file:
+subdev_do_ioctl	v4l2-subdev.c	/^static long subdev_do_ioctl(struct file *file, unsigned int cmd, void *arg)$/;"	f	file:
+subdev_fh_free	v4l2-subdev.c	/^static void subdev_fh_free(struct v4l2_subdev_fh *fh)$/;"	f	file:
+subdev_fh_init	v4l2-subdev.c	/^static int subdev_fh_init(struct v4l2_subdev_fh *fh, struct v4l2_subdev *sd)$/;"	f	file:
+subdev_ioctl	v4l2-subdev.c	/^static long subdev_ioctl(struct file *file, unsigned int cmd,$/;"	f	file:
+subdev_open	v4l2-subdev.c	/^static int subdev_open(struct file *file)$/;"	f	file:
+subdev_poll	v4l2-subdev.c	/^static unsigned int subdev_poll(struct file *file, poll_table *wait)$/;"	f	file:
+thread	videobuf2-core.c	/^	struct task_struct *thread;$/;"	m	struct:vb2_threadio_data	typeref:struct:vb2_threadio_data::task_struct	file:
+timecode	v4l2-compat-ioctl32.c	/^	struct v4l2_timecode	timecode;$/;"	m	struct:v4l2_buffer32	typeref:struct:v4l2_buffer32::v4l2_timecode	file:
+timestamp	v4l2-compat-ioctl32.c	/^	struct compat_timespec		timestamp;$/;"	m	struct:v4l2_event32	typeref:struct:v4l2_event32::compat_timespec	file:
+timestamp	v4l2-compat-ioctl32.c	/^	struct compat_timeval	timestamp;$/;"	m	struct:v4l2_buffer32	typeref:struct:v4l2_buffer32::compat_timeval	file:
+to_tuner	tuner-core.c	/^static inline struct tuner *to_tuner(struct v4l2_subdev *sd)$/;"	f	file:
+try_or_set_cluster	v4l2-ctrls.c	/^static int try_or_set_cluster(struct v4l2_fh *fh, struct v4l2_ctrl *master,$/;"	f	file:
+try_set_ext_ctrls	v4l2-ctrls.c	/^static int try_set_ext_ctrls(struct v4l2_fh *fh, struct v4l2_ctrl_handler *hdl,$/;"	f	file:
+tuner	tuner-core.c	/^struct tuner {$/;"	s	file:
+tuner	v4l2-compat-ioctl32.c	/^	__u32        tuner;             \/*  Associated tuner *\/$/;"	m	struct:v4l2_input32	file:
+tuner-objs	Makefile	/^tuner-objs	:=	tuner-core.o$/;"	m
+tuner_analog_ops	tuner-core.c	/^static const struct analog_demod_ops tuner_analog_ops = {$/;"	v	typeref:struct:analog_demod_ops	file:
+tuner_command	tuner-core.c	/^static int tuner_command(struct i2c_client *client, unsigned cmd, void *arg)$/;"	f	file:
+tuner_core_ops	tuner-core.c	/^static const struct v4l2_subdev_core_ops tuner_core_ops = {$/;"	v	typeref:struct:v4l2_subdev_core_ops	file:
+tuner_dbg	tuner-core.c	105;"	d	file:
+tuner_debug	tuner-core.c	/^static int tuner_debug;$/;"	v	file:
+tuner_detach	tuner-core.c	/^static void tuner_detach(struct dvb_frontend *fe)$/;"	f	file:
+tuner_driver	tuner-core.c	/^module_i2c_driver(tuner_driver);$/;"	v
+tuner_driver	tuner-core.c	/^static struct i2c_driver tuner_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+tuner_err	tuner-core.c	99;"	d	file:
+tuner_fixup_std	tuner-core.c	/^static v4l2_std_id tuner_fixup_std(struct tuner *t, v4l2_std_id std)$/;"	f	file:
+tuner_g_frequency	tuner-core.c	/^static int tuner_g_frequency(struct v4l2_subdev *sd, struct v4l2_frequency *f)$/;"	f	file:
+tuner_g_tuner	tuner-core.c	/^static int tuner_g_tuner(struct v4l2_subdev *sd, struct v4l2_tuner *vt)$/;"	f	file:
+tuner_id	tuner-core.c	/^static const struct i2c_device_id tuner_id[] = {$/;"	v	typeref:struct:i2c_device_id	file:
+tuner_info	tuner-core.c	93;"	d	file:
+tuner_log_status	tuner-core.c	/^static int tuner_log_status(struct v4l2_subdev *sd)$/;"	f	file:
+tuner_lookup	tuner-core.c	/^static void tuner_lookup(struct i2c_adapter *adap,$/;"	f	file:
+tuner_ops	tuner-core.c	/^static const struct v4l2_subdev_ops tuner_ops = {$/;"	v	typeref:struct:v4l2_subdev_ops	file:
+tuner_ops	tuner-core.c	/^static const struct v4l2_subdev_ops tuner_ops;$/;"	v	typeref:struct:v4l2_subdev_ops	file:
+tuner_pm_ops	tuner-core.c	/^static const struct dev_pm_ops tuner_pm_ops = {$/;"	v	typeref:struct:dev_pm_ops	file:
+tuner_probe	tuner-core.c	/^static int tuner_probe(struct i2c_client *client,$/;"	f	file:
+tuner_remove	tuner-core.c	/^static int tuner_remove(struct i2c_client *client)$/;"	f	file:
+tuner_resume	tuner-core.c	/^static int tuner_resume(struct device *dev)$/;"	f	file:
+tuner_s_config	tuner-core.c	/^static int tuner_s_config(struct v4l2_subdev *sd,$/;"	f	file:
+tuner_s_frequency	tuner-core.c	/^static int tuner_s_frequency(struct v4l2_subdev *sd, const struct v4l2_frequency *f)$/;"	f	file:
+tuner_s_power	tuner-core.c	/^static int tuner_s_power(struct v4l2_subdev *sd, int on)$/;"	f	file:
+tuner_s_radio	tuner-core.c	/^static int tuner_s_radio(struct v4l2_subdev *sd)$/;"	f	file:
+tuner_s_std	tuner-core.c	/^static int tuner_s_std(struct v4l2_subdev *sd, v4l2_std_id std)$/;"	f	file:
+tuner_s_tuner	tuner-core.c	/^static int tuner_s_tuner(struct v4l2_subdev *sd, const struct v4l2_tuner *vt)$/;"	f	file:
+tuner_s_type_addr	tuner-core.c	/^static int tuner_s_type_addr(struct v4l2_subdev *sd,$/;"	f	file:
+tuner_status	tuner-core.c	/^static void tuner_status(struct dvb_frontend *fe)$/;"	f	file:
+tuner_suspend	tuner-core.c	/^static int tuner_suspend(struct device *dev)$/;"	f	file:
+tuner_symbol_probe	tuner-core.c	152;"	d	file:
+tuner_symbol_probe	tuner-core.c	177;"	d	file:
+tuner_tuner_ops	tuner-core.c	/^static const struct v4l2_subdev_tuner_ops tuner_tuner_ops = {$/;"	v	typeref:struct:v4l2_subdev_tuner_ops	file:
+tuner_video_ops	tuner-core.c	/^static const struct v4l2_subdev_video_ops tuner_video_ops = {$/;"	v	typeref:struct:v4l2_subdev_video_ops	file:
+tuner_warn	tuner-core.c	87;"	d	file:
+tv_freq	tuner-core.c	/^	unsigned int        tv_freq;$/;"	m	struct:tuner	file:
+tv_range	tuner-core.c	/^static unsigned int tv_range[2] = { 44, 958 };$/;"	v	file:
+type	tuner-core.c	/^	unsigned int        type; \/* chip type id *\/$/;"	m	struct:tuner	file:
+type	v4l2-compat-ioctl32.c	/^	__u32				type;$/;"	m	struct:v4l2_event32	file:
+type	v4l2-compat-ioctl32.c	/^	__u32			type;	\/* enum v4l2_buf_type *\/$/;"	m	struct:v4l2_buffer32	file:
+type	v4l2-compat-ioctl32.c	/^	__u32	     type;		\/*  Type of input *\/$/;"	m	struct:v4l2_input32	file:
+type	v4l2-compat-ioctl32.c	/^	__u32	type;	\/* enum v4l2_buf_type *\/$/;"	m	struct:v4l2_format32	file:
+u	v4l2-compat-ioctl32.c	/^	} u;$/;"	m	struct:v4l2_event32	typeref:union:v4l2_event32::__anon6	file:
+u	v4l2-ioctl.c	/^	} u;$/;"	m	struct:v4l2_ioctl_info	typeref:union:v4l2_ioctl_info::__anon7	file:
+update_from_auto_cluster	v4l2-ctrls.c	/^static void update_from_auto_cluster(struct v4l2_ctrl *master)$/;"	f	file:
+user_to_new	v4l2-ctrls.c	/^static int user_to_new(struct v4l2_ext_control *c,$/;"	f	file:
+user_to_ptr	v4l2-ctrls.c	/^static int user_to_ptr(struct v4l2_ext_control *c,$/;"	f	file:
+userptr	v4l2-compat-ioctl32.c	/^		compat_long_t	userptr;$/;"	m	union:v4l2_plane32::__anon2	file:
+userptr	v4l2-compat-ioctl32.c	/^		compat_long_t   userptr;$/;"	m	union:v4l2_buffer32::__anon3	file:
+v4l2_async_belongs	v4l2-async.c	/^static struct v4l2_async_subdev *v4l2_async_belongs(struct v4l2_async_notifier *notifier,$/;"	f	file:
+v4l2_async_cleanup	v4l2-async.c	/^static void v4l2_async_cleanup(struct v4l2_subdev *sd)$/;"	f	file:
+v4l2_async_notifier_register	v4l2-async.c	/^EXPORT_SYMBOL(v4l2_async_notifier_register);$/;"	v
+v4l2_async_notifier_register	v4l2-async.c	/^int v4l2_async_notifier_register(struct v4l2_device *v4l2_dev,$/;"	f
+v4l2_async_notifier_unregister	v4l2-async.c	/^EXPORT_SYMBOL(v4l2_async_notifier_unregister);$/;"	v
+v4l2_async_notifier_unregister	v4l2-async.c	/^void v4l2_async_notifier_unregister(struct v4l2_async_notifier *notifier)$/;"	f
+v4l2_async_register_subdev	v4l2-async.c	/^EXPORT_SYMBOL(v4l2_async_register_subdev);$/;"	v
+v4l2_async_register_subdev	v4l2-async.c	/^int v4l2_async_register_subdev(struct v4l2_subdev *sd)$/;"	f
+v4l2_async_test_notify	v4l2-async.c	/^static int v4l2_async_test_notify(struct v4l2_async_notifier *notifier,$/;"	f	file:
+v4l2_async_unregister_subdev	v4l2-async.c	/^EXPORT_SYMBOL(v4l2_async_unregister_subdev);$/;"	v
+v4l2_async_unregister_subdev	v4l2-async.c	/^void v4l2_async_unregister_subdev(struct v4l2_subdev *sd)$/;"	f
+v4l2_buffer32	v4l2-compat-ioctl32.c	/^struct v4l2_buffer32 {$/;"	s	file:
+v4l2_calc_aspect_ratio	v4l2-dv-timings.c	/^EXPORT_SYMBOL_GPL(v4l2_calc_aspect_ratio);$/;"	v
+v4l2_calc_aspect_ratio	v4l2-dv-timings.c	/^struct v4l2_fract v4l2_calc_aspect_ratio(u8 hor_landscape, u8 vert_portrait)$/;"	f
+v4l2_clip32	v4l2-compat-ioctl32.c	/^struct v4l2_clip32 {$/;"	s	file:
+v4l2_clk_disable	v4l2-clk.c	/^EXPORT_SYMBOL(v4l2_clk_disable);$/;"	v
+v4l2_clk_disable	v4l2-clk.c	/^void v4l2_clk_disable(struct v4l2_clk *clk)$/;"	f
+v4l2_clk_enable	v4l2-clk.c	/^EXPORT_SYMBOL(v4l2_clk_enable);$/;"	v
+v4l2_clk_enable	v4l2-clk.c	/^int v4l2_clk_enable(struct v4l2_clk *clk)$/;"	f
+v4l2_clk_find	v4l2-clk.c	/^static struct v4l2_clk *v4l2_clk_find(const char *dev_id, const char *id)$/;"	f	file:
+v4l2_clk_fixed	v4l2-clk.c	/^struct v4l2_clk_fixed {$/;"	s	file:
+v4l2_clk_get	v4l2-clk.c	/^EXPORT_SYMBOL(v4l2_clk_get);$/;"	v
+v4l2_clk_get	v4l2-clk.c	/^struct v4l2_clk *v4l2_clk_get(struct device *dev, const char *id)$/;"	f
+v4l2_clk_get_rate	v4l2-clk.c	/^EXPORT_SYMBOL(v4l2_clk_get_rate);$/;"	v
+v4l2_clk_get_rate	v4l2-clk.c	/^unsigned long v4l2_clk_get_rate(struct v4l2_clk *clk)$/;"	f
+v4l2_clk_lock_driver	v4l2-clk.c	/^static int v4l2_clk_lock_driver(struct v4l2_clk *clk)$/;"	f	file:
+v4l2_clk_put	v4l2-clk.c	/^EXPORT_SYMBOL(v4l2_clk_put);$/;"	v
+v4l2_clk_put	v4l2-clk.c	/^void v4l2_clk_put(struct v4l2_clk *clk)$/;"	f
+v4l2_clk_register	v4l2-clk.c	/^EXPORT_SYMBOL(v4l2_clk_register);$/;"	v
+v4l2_clk_register	v4l2-clk.c	/^struct v4l2_clk *v4l2_clk_register(const struct v4l2_clk_ops *ops,$/;"	f
+v4l2_clk_set_rate	v4l2-clk.c	/^EXPORT_SYMBOL(v4l2_clk_set_rate);$/;"	v
+v4l2_clk_set_rate	v4l2-clk.c	/^int v4l2_clk_set_rate(struct v4l2_clk *clk, unsigned long rate)$/;"	f
+v4l2_clk_unlock_driver	v4l2-clk.c	/^static void v4l2_clk_unlock_driver(struct v4l2_clk *clk)$/;"	f	file:
+v4l2_clk_unregister	v4l2-clk.c	/^EXPORT_SYMBOL(v4l2_clk_unregister);$/;"	v
+v4l2_clk_unregister	v4l2-clk.c	/^void v4l2_clk_unregister(struct v4l2_clk *clk)$/;"	f
+v4l2_clk_unregister_fixed	v4l2-clk.c	/^EXPORT_SYMBOL(v4l2_clk_unregister_fixed);$/;"	v
+v4l2_clk_unregister_fixed	v4l2-clk.c	/^void v4l2_clk_unregister_fixed(struct v4l2_clk *clk)$/;"	f
+v4l2_compat_ioctl32	v4l2-compat-ioctl32.c	/^EXPORT_SYMBOL_GPL(v4l2_compat_ioctl32);$/;"	v
+v4l2_compat_ioctl32	v4l2-compat-ioctl32.c	/^long v4l2_compat_ioctl32(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f
+v4l2_create_buffers32	v4l2-compat-ioctl32.c	/^struct v4l2_create_buffers32 {$/;"	s	file:
+v4l2_ctrl_activate	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_activate);$/;"	v
+v4l2_ctrl_activate	v4l2-ctrls.c	/^void v4l2_ctrl_activate(struct v4l2_ctrl *ctrl, bool active)$/;"	f
+v4l2_ctrl_add_ctrl	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_add_ctrl);$/;"	v
+v4l2_ctrl_add_ctrl	v4l2-ctrls.c	/^struct v4l2_ctrl *v4l2_ctrl_add_ctrl(struct v4l2_ctrl_handler *hdl,$/;"	f
+v4l2_ctrl_add_event	v4l2-ctrls.c	/^static int v4l2_ctrl_add_event(struct v4l2_subscribed_event *sev, unsigned elems)$/;"	f	file:
+v4l2_ctrl_add_handler	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_add_handler);$/;"	v
+v4l2_ctrl_add_handler	v4l2-ctrls.c	/^int v4l2_ctrl_add_handler(struct v4l2_ctrl_handler *hdl,$/;"	f
+v4l2_ctrl_auto_cluster	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_auto_cluster);$/;"	v
+v4l2_ctrl_auto_cluster	v4l2-ctrls.c	/^void v4l2_ctrl_auto_cluster(unsigned ncontrols, struct v4l2_ctrl **controls,$/;"	f
+v4l2_ctrl_check	v4l2-common.c	/^EXPORT_SYMBOL(v4l2_ctrl_check);$/;"	v
+v4l2_ctrl_check	v4l2-common.c	/^int v4l2_ctrl_check(struct v4l2_ext_control *ctrl, struct v4l2_queryctrl *qctrl,$/;"	f
+v4l2_ctrl_cluster	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_cluster);$/;"	v
+v4l2_ctrl_cluster	v4l2-ctrls.c	/^void v4l2_ctrl_cluster(unsigned ncontrols, struct v4l2_ctrl **controls)$/;"	f
+v4l2_ctrl_del_event	v4l2-ctrls.c	/^static void v4l2_ctrl_del_event(struct v4l2_subscribed_event *sev)$/;"	f	file:
+v4l2_ctrl_fill	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_fill);$/;"	v
+v4l2_ctrl_fill	v4l2-ctrls.c	/^void v4l2_ctrl_fill(u32 id, const char **name, enum v4l2_ctrl_type *type,$/;"	f
+v4l2_ctrl_find	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_find);$/;"	v
+v4l2_ctrl_find	v4l2-ctrls.c	/^struct v4l2_ctrl *v4l2_ctrl_find(struct v4l2_ctrl_handler *hdl, u32 id)$/;"	f
+v4l2_ctrl_g_ctrl	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_g_ctrl);$/;"	v
+v4l2_ctrl_g_ctrl	v4l2-ctrls.c	/^s32 v4l2_ctrl_g_ctrl(struct v4l2_ctrl *ctrl)$/;"	f
+v4l2_ctrl_g_ctrl_int64	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_g_ctrl_int64);$/;"	v
+v4l2_ctrl_g_ctrl_int64	v4l2-ctrls.c	/^s64 v4l2_ctrl_g_ctrl_int64(struct v4l2_ctrl *ctrl)$/;"	f
+v4l2_ctrl_get_int_menu	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_get_int_menu);$/;"	v
+v4l2_ctrl_get_int_menu	v4l2-ctrls.c	/^const s64 *v4l2_ctrl_get_int_menu(u32 id, u32 *len)$/;"	f
+v4l2_ctrl_get_menu	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_get_menu);$/;"	v
+v4l2_ctrl_get_menu	v4l2-ctrls.c	/^const char * const *v4l2_ctrl_get_menu(u32 id)$/;"	f
+v4l2_ctrl_get_name	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_get_name);$/;"	v
+v4l2_ctrl_get_name	v4l2-ctrls.c	/^const char *v4l2_ctrl_get_name(u32 id)$/;"	f
+v4l2_ctrl_grab	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_grab);$/;"	v
+v4l2_ctrl_grab	v4l2-ctrls.c	/^void v4l2_ctrl_grab(struct v4l2_ctrl *ctrl, bool grabbed)$/;"	f
+v4l2_ctrl_handler_free	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_handler_free);$/;"	v
+v4l2_ctrl_handler_free	v4l2-ctrls.c	/^void v4l2_ctrl_handler_free(struct v4l2_ctrl_handler *hdl)$/;"	f
+v4l2_ctrl_handler_init_class	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_handler_init_class);$/;"	v
+v4l2_ctrl_handler_init_class	v4l2-ctrls.c	/^int v4l2_ctrl_handler_init_class(struct v4l2_ctrl_handler *hdl,$/;"	f
+v4l2_ctrl_handler_log_status	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_handler_log_status);$/;"	v
+v4l2_ctrl_handler_log_status	v4l2-ctrls.c	/^void v4l2_ctrl_handler_log_status(struct v4l2_ctrl_handler *hdl,$/;"	f
+v4l2_ctrl_handler_setup	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_handler_setup);$/;"	v
+v4l2_ctrl_handler_setup	v4l2-ctrls.c	/^int v4l2_ctrl_handler_setup(struct v4l2_ctrl_handler *hdl)$/;"	f
+v4l2_ctrl_helper	v4l2-ctrls.c	/^struct v4l2_ctrl_helper {$/;"	s	file:
+v4l2_ctrl_log_status	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_log_status);$/;"	v
+v4l2_ctrl_log_status	v4l2-ctrls.c	/^int v4l2_ctrl_log_status(struct file *file, void *fh)$/;"	f
+v4l2_ctrl_merge	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_merge);$/;"	v
+v4l2_ctrl_merge	v4l2-ctrls.c	/^void v4l2_ctrl_merge(const struct v4l2_event *old, struct v4l2_event *new)$/;"	f
+v4l2_ctrl_new	v4l2-ctrls.c	/^static struct v4l2_ctrl *v4l2_ctrl_new(struct v4l2_ctrl_handler *hdl,$/;"	f	file:
+v4l2_ctrl_new_custom	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_new_custom);$/;"	v
+v4l2_ctrl_new_custom	v4l2-ctrls.c	/^struct v4l2_ctrl *v4l2_ctrl_new_custom(struct v4l2_ctrl_handler *hdl,$/;"	f
+v4l2_ctrl_new_int_menu	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_new_int_menu);$/;"	v
+v4l2_ctrl_new_int_menu	v4l2-ctrls.c	/^struct v4l2_ctrl *v4l2_ctrl_new_int_menu(struct v4l2_ctrl_handler *hdl,$/;"	f
+v4l2_ctrl_new_std	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_new_std);$/;"	v
+v4l2_ctrl_new_std	v4l2-ctrls.c	/^struct v4l2_ctrl *v4l2_ctrl_new_std(struct v4l2_ctrl_handler *hdl,$/;"	f
+v4l2_ctrl_new_std_menu	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_new_std_menu);$/;"	v
+v4l2_ctrl_new_std_menu	v4l2-ctrls.c	/^struct v4l2_ctrl *v4l2_ctrl_new_std_menu(struct v4l2_ctrl_handler *hdl,$/;"	f
+v4l2_ctrl_new_std_menu_items	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_new_std_menu_items);$/;"	v
+v4l2_ctrl_new_std_menu_items	v4l2-ctrls.c	/^struct v4l2_ctrl *v4l2_ctrl_new_std_menu_items(struct v4l2_ctrl_handler *hdl,$/;"	f
+v4l2_ctrl_next	v4l2-common.c	/^EXPORT_SYMBOL(v4l2_ctrl_next);$/;"	v
+v4l2_ctrl_next	v4l2-common.c	/^u32 v4l2_ctrl_next(const u32 * const * ctrl_classes, u32 id)$/;"	f
+v4l2_ctrl_notify	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_notify);$/;"	v
+v4l2_ctrl_notify	v4l2-ctrls.c	/^void v4l2_ctrl_notify(struct v4l2_ctrl *ctrl, v4l2_ctrl_notify_fnc notify, void *priv)$/;"	f
+v4l2_ctrl_poll	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_poll);$/;"	v
+v4l2_ctrl_poll	v4l2-ctrls.c	/^unsigned int v4l2_ctrl_poll(struct file *file, struct poll_table_struct *wait)$/;"	f
+v4l2_ctrl_query_fill	v4l2-common.c	/^EXPORT_SYMBOL(v4l2_ctrl_query_fill);$/;"	v
+v4l2_ctrl_query_fill	v4l2-common.c	/^int v4l2_ctrl_query_fill(struct v4l2_queryctrl *qctrl, s32 _min, s32 _max, s32 _step, s32 _def)$/;"	f
+v4l2_ctrl_query_menu	v4l2-common.c	/^EXPORT_SYMBOL(v4l2_ctrl_query_menu);$/;"	v
+v4l2_ctrl_query_menu	v4l2-common.c	/^int v4l2_ctrl_query_menu(struct v4l2_querymenu *qmenu, struct v4l2_queryctrl *qctrl,$/;"	f
+v4l2_ctrl_query_menu_valid_items	v4l2-common.c	/^EXPORT_SYMBOL(v4l2_ctrl_query_menu_valid_items);$/;"	v
+v4l2_ctrl_query_menu_valid_items	v4l2-common.c	/^int v4l2_ctrl_query_menu_valid_items(struct v4l2_querymenu *qmenu, const u32 *ids)$/;"	f
+v4l2_ctrl_radio_filter	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_radio_filter);$/;"	v
+v4l2_ctrl_radio_filter	v4l2-ctrls.c	/^bool v4l2_ctrl_radio_filter(const struct v4l2_ctrl *ctrl)$/;"	f
+v4l2_ctrl_replace	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_replace);$/;"	v
+v4l2_ctrl_replace	v4l2-ctrls.c	/^void v4l2_ctrl_replace(struct v4l2_event *old, const struct v4l2_event *new)$/;"	f
+v4l2_ctrl_sub_ev_ops	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_sub_ev_ops);$/;"	v
+v4l2_ctrl_sub_ev_ops	v4l2-ctrls.c	/^const struct v4l2_subscribed_event_ops v4l2_ctrl_sub_ev_ops = {$/;"	v	typeref:struct:v4l2_subscribed_event_ops
+v4l2_ctrl_subdev_log_status	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_subdev_log_status);$/;"	v
+v4l2_ctrl_subdev_log_status	v4l2-ctrls.c	/^int v4l2_ctrl_subdev_log_status(struct v4l2_subdev *sd)$/;"	f
+v4l2_ctrl_subdev_subscribe_event	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_subdev_subscribe_event);$/;"	v
+v4l2_ctrl_subdev_subscribe_event	v4l2-ctrls.c	/^int v4l2_ctrl_subdev_subscribe_event(struct v4l2_subdev *sd, struct v4l2_fh *fh,$/;"	f
+v4l2_ctrl_subscribe_event	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_ctrl_subscribe_event);$/;"	v
+v4l2_ctrl_subscribe_event	v4l2-ctrls.c	/^int v4l2_ctrl_subscribe_event(struct v4l2_fh *fh,$/;"	f
+v4l2_detect_cvt	v4l2-dv-timings.c	/^EXPORT_SYMBOL_GPL(v4l2_detect_cvt);$/;"	v
+v4l2_detect_cvt	v4l2-dv-timings.c	/^bool v4l2_detect_cvt(unsigned frame_height, unsigned hfreq, unsigned vsync,$/;"	f
+v4l2_detect_gtf	v4l2-dv-timings.c	/^EXPORT_SYMBOL_GPL(v4l2_detect_gtf);$/;"	v
+v4l2_detect_gtf	v4l2-dv-timings.c	/^bool v4l2_detect_gtf(unsigned frame_height,$/;"	f
+v4l2_device_disconnect	v4l2-device.c	/^EXPORT_SYMBOL_GPL(v4l2_device_disconnect);$/;"	v
+v4l2_device_disconnect	v4l2-device.c	/^void v4l2_device_disconnect(struct v4l2_device *v4l2_dev)$/;"	f
+v4l2_device_put	v4l2-device.c	/^EXPORT_SYMBOL_GPL(v4l2_device_put);$/;"	v
+v4l2_device_put	v4l2-device.c	/^int v4l2_device_put(struct v4l2_device *v4l2_dev)$/;"	f
+v4l2_device_register	v4l2-device.c	/^EXPORT_SYMBOL_GPL(v4l2_device_register);$/;"	v
+v4l2_device_register	v4l2-device.c	/^int v4l2_device_register(struct device *dev, struct v4l2_device *v4l2_dev)$/;"	f
+v4l2_device_register_subdev	v4l2-device.c	/^EXPORT_SYMBOL_GPL(v4l2_device_register_subdev);$/;"	v
+v4l2_device_register_subdev	v4l2-device.c	/^int v4l2_device_register_subdev(struct v4l2_device *v4l2_dev,$/;"	f
+v4l2_device_register_subdev_nodes	v4l2-device.c	/^EXPORT_SYMBOL_GPL(v4l2_device_register_subdev_nodes);$/;"	v
+v4l2_device_register_subdev_nodes	v4l2-device.c	/^int v4l2_device_register_subdev_nodes(struct v4l2_device *v4l2_dev)$/;"	f
+v4l2_device_release	v4l2-dev.c	/^static void v4l2_device_release(struct device *cd)$/;"	f	file:
+v4l2_device_release	v4l2-device.c	/^static void v4l2_device_release(struct kref *ref)$/;"	f	file:
+v4l2_device_release_subdev_node	v4l2-device.c	/^static void v4l2_device_release_subdev_node(struct video_device *vdev)$/;"	f	file:
+v4l2_device_set_name	v4l2-device.c	/^EXPORT_SYMBOL_GPL(v4l2_device_set_name);$/;"	v
+v4l2_device_set_name	v4l2-device.c	/^int v4l2_device_set_name(struct v4l2_device *v4l2_dev, const char *basename,$/;"	f
+v4l2_device_unregister	v4l2-device.c	/^EXPORT_SYMBOL_GPL(v4l2_device_unregister);$/;"	v
+v4l2_device_unregister	v4l2-device.c	/^void v4l2_device_unregister(struct v4l2_device *v4l2_dev)$/;"	f
+v4l2_device_unregister_subdev	v4l2-device.c	/^EXPORT_SYMBOL_GPL(v4l2_device_unregister_subdev);$/;"	v
+v4l2_device_unregister_subdev	v4l2-device.c	/^void v4l2_device_unregister_subdev(struct v4l2_subdev *sd)$/;"	f
+v4l2_dv_timings_presets	v4l2-dv-timings.c	/^EXPORT_SYMBOL_GPL(v4l2_dv_timings_presets);$/;"	v
+v4l2_dv_timings_presets	v4l2-dv-timings.c	/^const struct v4l2_dv_timings v4l2_dv_timings_presets[] = {$/;"	v	typeref:struct:v4l2_dv_timings
+v4l2_edid32	v4l2-compat-ioctl32.c	/^struct v4l2_edid32 {$/;"	s	file:
+v4l2_enum_dv_timings_cap	v4l2-dv-timings.c	/^EXPORT_SYMBOL_GPL(v4l2_enum_dv_timings_cap);$/;"	v
+v4l2_enum_dv_timings_cap	v4l2-dv-timings.c	/^int v4l2_enum_dv_timings_cap(struct v4l2_enum_dv_timings *t,$/;"	f
+v4l2_event32	v4l2-compat-ioctl32.c	/^struct v4l2_event32 {$/;"	s	file:
+v4l2_event_dequeue	v4l2-event.c	/^EXPORT_SYMBOL_GPL(v4l2_event_dequeue);$/;"	v
+v4l2_event_dequeue	v4l2-event.c	/^int v4l2_event_dequeue(struct v4l2_fh *fh, struct v4l2_event *event,$/;"	f
+v4l2_event_pending	v4l2-event.c	/^EXPORT_SYMBOL_GPL(v4l2_event_pending);$/;"	v
+v4l2_event_pending	v4l2-event.c	/^int v4l2_event_pending(struct v4l2_fh *fh)$/;"	f
+v4l2_event_queue	v4l2-event.c	/^EXPORT_SYMBOL_GPL(v4l2_event_queue);$/;"	v
+v4l2_event_queue	v4l2-event.c	/^void v4l2_event_queue(struct video_device *vdev, const struct v4l2_event *ev)$/;"	f
+v4l2_event_queue_fh	v4l2-event.c	/^EXPORT_SYMBOL_GPL(v4l2_event_queue_fh);$/;"	v
+v4l2_event_queue_fh	v4l2-event.c	/^void v4l2_event_queue_fh(struct v4l2_fh *fh, const struct v4l2_event *ev)$/;"	f
+v4l2_event_src_ch_ops	v4l2-event.c	/^static const struct v4l2_subscribed_event_ops v4l2_event_src_ch_ops = {$/;"	v	typeref:struct:v4l2_subscribed_event_ops	file:
+v4l2_event_src_merge	v4l2-event.c	/^static void v4l2_event_src_merge(const struct v4l2_event *old,$/;"	f	file:
+v4l2_event_src_replace	v4l2-event.c	/^static void v4l2_event_src_replace(struct v4l2_event *old,$/;"	f	file:
+v4l2_event_subdev_unsubscribe	v4l2-event.c	/^EXPORT_SYMBOL_GPL(v4l2_event_subdev_unsubscribe);$/;"	v
+v4l2_event_subdev_unsubscribe	v4l2-event.c	/^int v4l2_event_subdev_unsubscribe(struct v4l2_subdev *sd, struct v4l2_fh *fh,$/;"	f
+v4l2_event_subscribe	v4l2-event.c	/^EXPORT_SYMBOL_GPL(v4l2_event_subscribe);$/;"	v
+v4l2_event_subscribe	v4l2-event.c	/^int v4l2_event_subscribe(struct v4l2_fh *fh,$/;"	f
+v4l2_event_subscribed	v4l2-event.c	/^static struct v4l2_subscribed_event *v4l2_event_subscribed($/;"	f	file:
+v4l2_event_unsubscribe	v4l2-event.c	/^EXPORT_SYMBOL_GPL(v4l2_event_unsubscribe);$/;"	v
+v4l2_event_unsubscribe	v4l2-event.c	/^int v4l2_event_unsubscribe(struct v4l2_fh *fh,$/;"	f
+v4l2_event_unsubscribe_all	v4l2-event.c	/^EXPORT_SYMBOL_GPL(v4l2_event_unsubscribe_all);$/;"	v
+v4l2_event_unsubscribe_all	v4l2-event.c	/^void v4l2_event_unsubscribe_all(struct v4l2_fh *fh)$/;"	f
+v4l2_ext_control32	v4l2-compat-ioctl32.c	/^struct v4l2_ext_control32 {$/;"	s	file:
+v4l2_ext_controls32	v4l2-compat-ioctl32.c	/^struct v4l2_ext_controls32 {$/;"	s	file:
+v4l2_fh_add	v4l2-fh.c	/^EXPORT_SYMBOL_GPL(v4l2_fh_add);$/;"	v
+v4l2_fh_add	v4l2-fh.c	/^void v4l2_fh_add(struct v4l2_fh *fh)$/;"	f
+v4l2_fh_del	v4l2-fh.c	/^EXPORT_SYMBOL_GPL(v4l2_fh_del);$/;"	v
+v4l2_fh_del	v4l2-fh.c	/^void v4l2_fh_del(struct v4l2_fh *fh)$/;"	f
+v4l2_fh_exit	v4l2-fh.c	/^EXPORT_SYMBOL_GPL(v4l2_fh_exit);$/;"	v
+v4l2_fh_exit	v4l2-fh.c	/^void v4l2_fh_exit(struct v4l2_fh *fh)$/;"	f
+v4l2_fh_init	v4l2-fh.c	/^EXPORT_SYMBOL_GPL(v4l2_fh_init);$/;"	v
+v4l2_fh_init	v4l2-fh.c	/^void v4l2_fh_init(struct v4l2_fh *fh, struct video_device *vdev)$/;"	f
+v4l2_fh_is_singular	v4l2-fh.c	/^EXPORT_SYMBOL_GPL(v4l2_fh_is_singular);$/;"	v
+v4l2_fh_is_singular	v4l2-fh.c	/^int v4l2_fh_is_singular(struct v4l2_fh *fh)$/;"	f
+v4l2_fh_open	v4l2-fh.c	/^EXPORT_SYMBOL_GPL(v4l2_fh_open);$/;"	v
+v4l2_fh_open	v4l2-fh.c	/^int v4l2_fh_open(struct file *filp)$/;"	f
+v4l2_fh_release	v4l2-fh.c	/^EXPORT_SYMBOL_GPL(v4l2_fh_release);$/;"	v
+v4l2_fh_release	v4l2-fh.c	/^int v4l2_fh_release(struct file *filp)$/;"	f
+v4l2_field_names	v4l2-ioctl.c	/^EXPORT_SYMBOL(v4l2_field_names);$/;"	v
+v4l2_field_names	v4l2-ioctl.c	/^const char *v4l2_field_names[] = {$/;"	v
+v4l2_find_dv_timings_cap	v4l2-dv-timings.c	/^EXPORT_SYMBOL_GPL(v4l2_find_dv_timings_cap);$/;"	v
+v4l2_find_dv_timings_cap	v4l2-dv-timings.c	/^bool v4l2_find_dv_timings_cap(struct v4l2_dv_timings *t,$/;"	f
+v4l2_find_nearest_format	v4l2-common.c	/^EXPORT_SYMBOL_GPL(v4l2_find_nearest_format);$/;"	v
+v4l2_find_nearest_format	v4l2-common.c	/^const struct v4l2_frmsize_discrete *v4l2_find_nearest_format($/;"	f
+v4l2_fops	v4l2-dev.c	/^static const struct file_operations v4l2_fops = {$/;"	v	typeref:struct:file_operations	file:
+v4l2_format32	v4l2-compat-ioctl32.c	/^struct v4l2_format32 {$/;"	s	file:
+v4l2_framebuffer32	v4l2-compat-ioctl32.c	/^struct v4l2_framebuffer32 {$/;"	s	file:
+v4l2_g_ctrl	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_g_ctrl);$/;"	v
+v4l2_g_ctrl	v4l2-ctrls.c	/^int v4l2_g_ctrl(struct v4l2_ctrl_handler *hdl, struct v4l2_control *control)$/;"	f
+v4l2_g_ext_ctrls	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_g_ext_ctrls);$/;"	v
+v4l2_g_ext_ctrls	v4l2-ctrls.c	/^int v4l2_g_ext_ctrls(struct v4l2_ctrl_handler *hdl, struct v4l2_ext_controls *cs)$/;"	f
+v4l2_get_timestamp	v4l2-common.c	/^EXPORT_SYMBOL_GPL(v4l2_get_timestamp);$/;"	v
+v4l2_get_timestamp	v4l2-common.c	/^void v4l2_get_timestamp(struct timeval *tv)$/;"	f
+v4l2_get_unmapped_area	v4l2-dev.c	/^static unsigned long v4l2_get_unmapped_area(struct file *filp,$/;"	f	file:
+v4l2_get_unmapped_area	v4l2-dev.c	398;"	d	file:
+v4l2_i2c_new_subdev	v4l2-common.c	/^EXPORT_SYMBOL_GPL(v4l2_i2c_new_subdev);$/;"	v
+v4l2_i2c_new_subdev	v4l2-common.c	/^struct v4l2_subdev *v4l2_i2c_new_subdev(struct v4l2_device *v4l2_dev,$/;"	f
+v4l2_i2c_new_subdev_board	v4l2-common.c	/^EXPORT_SYMBOL_GPL(v4l2_i2c_new_subdev_board);$/;"	v
+v4l2_i2c_new_subdev_board	v4l2-common.c	/^struct v4l2_subdev *v4l2_i2c_new_subdev_board(struct v4l2_device *v4l2_dev,$/;"	f
+v4l2_i2c_subdev_addr	v4l2-common.c	/^EXPORT_SYMBOL_GPL(v4l2_i2c_subdev_addr);$/;"	v
+v4l2_i2c_subdev_addr	v4l2-common.c	/^unsigned short v4l2_i2c_subdev_addr(struct v4l2_subdev *sd)$/;"	f
+v4l2_i2c_subdev_init	v4l2-common.c	/^EXPORT_SYMBOL_GPL(v4l2_i2c_subdev_init);$/;"	v
+v4l2_i2c_subdev_init	v4l2-common.c	/^void v4l2_i2c_subdev_init(struct v4l2_subdev *sd, struct i2c_client *client,$/;"	f
+v4l2_i2c_tuner_addrs	v4l2-common.c	/^EXPORT_SYMBOL_GPL(v4l2_i2c_tuner_addrs);$/;"	v
+v4l2_i2c_tuner_addrs	v4l2-common.c	/^const unsigned short *v4l2_i2c_tuner_addrs(enum v4l2_i2c_tuner_type type)$/;"	f
+v4l2_input32	v4l2-compat-ioctl32.c	/^struct v4l2_input32 {$/;"	s	file:
+v4l2_ioctl	v4l2-dev.c	/^static long v4l2_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+v4l2_ioctl_get_lock	v4l2-ioctl.c	/^struct mutex *v4l2_ioctl_get_lock(struct video_device *vdev, unsigned cmd)$/;"	f
+v4l2_ioctl_info	v4l2-ioctl.c	/^struct v4l2_ioctl_info {$/;"	s	file:
+v4l2_ioctls	v4l2-ioctl.c	/^static struct v4l2_ioctl_info v4l2_ioctls[] = {$/;"	v	typeref:struct:v4l2_ioctl_info	file:
+v4l2_is_known_ioctl	v4l2-ioctl.c	/^bool v4l2_is_known_ioctl(unsigned int cmd)$/;"	f
+v4l2_m2m_buf_queue	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_buf_queue);$/;"	v
+v4l2_m2m_buf_queue	v4l2-mem2mem.c	/^void v4l2_m2m_buf_queue(struct v4l2_m2m_ctx *m2m_ctx, struct vb2_buffer *vb)$/;"	f
+v4l2_m2m_buf_remove	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_buf_remove);$/;"	v
+v4l2_m2m_buf_remove	v4l2-mem2mem.c	/^void *v4l2_m2m_buf_remove(struct v4l2_m2m_queue_ctx *q_ctx)$/;"	f
+v4l2_m2m_cancel_job	v4l2-mem2mem.c	/^static void v4l2_m2m_cancel_job(struct v4l2_m2m_ctx *m2m_ctx)$/;"	f	file:
+v4l2_m2m_create_bufs	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_create_bufs);$/;"	v
+v4l2_m2m_create_bufs	v4l2-mem2mem.c	/^int v4l2_m2m_create_bufs(struct file *file, struct v4l2_m2m_ctx *m2m_ctx,$/;"	f
+v4l2_m2m_ctx_init	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_ctx_init);$/;"	v
+v4l2_m2m_ctx_init	v4l2-mem2mem.c	/^struct v4l2_m2m_ctx *v4l2_m2m_ctx_init(struct v4l2_m2m_dev *m2m_dev,$/;"	f
+v4l2_m2m_ctx_release	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_ctx_release);$/;"	v
+v4l2_m2m_ctx_release	v4l2-mem2mem.c	/^void v4l2_m2m_ctx_release(struct v4l2_m2m_ctx *m2m_ctx)$/;"	f
+v4l2_m2m_dev	v4l2-mem2mem.c	/^struct v4l2_m2m_dev {$/;"	s	file:
+v4l2_m2m_dqbuf	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_dqbuf);$/;"	v
+v4l2_m2m_dqbuf	v4l2-mem2mem.c	/^int v4l2_m2m_dqbuf(struct file *file, struct v4l2_m2m_ctx *m2m_ctx,$/;"	f
+v4l2_m2m_expbuf	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_expbuf);$/;"	v
+v4l2_m2m_expbuf	v4l2-mem2mem.c	/^int v4l2_m2m_expbuf(struct file *file, struct v4l2_m2m_ctx *m2m_ctx,$/;"	f
+v4l2_m2m_fop_mmap	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_fop_mmap);$/;"	v
+v4l2_m2m_fop_mmap	v4l2-mem2mem.c	/^int v4l2_m2m_fop_mmap(struct file *file, struct vm_area_struct *vma)$/;"	f
+v4l2_m2m_fop_poll	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_fop_poll);$/;"	v
+v4l2_m2m_fop_poll	v4l2-mem2mem.c	/^unsigned int v4l2_m2m_fop_poll(struct file *file, poll_table *wait)$/;"	f
+v4l2_m2m_get_curr_priv	v4l2-mem2mem.c	/^EXPORT_SYMBOL(v4l2_m2m_get_curr_priv);$/;"	v
+v4l2_m2m_get_curr_priv	v4l2-mem2mem.c	/^void *v4l2_m2m_get_curr_priv(struct v4l2_m2m_dev *m2m_dev)$/;"	f
+v4l2_m2m_get_vq	v4l2-mem2mem.c	/^EXPORT_SYMBOL(v4l2_m2m_get_vq);$/;"	v
+v4l2_m2m_get_vq	v4l2-mem2mem.c	/^struct vb2_queue *v4l2_m2m_get_vq(struct v4l2_m2m_ctx *m2m_ctx,$/;"	f
+v4l2_m2m_init	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_init);$/;"	v
+v4l2_m2m_init	v4l2-mem2mem.c	/^struct v4l2_m2m_dev *v4l2_m2m_init(const struct v4l2_m2m_ops *m2m_ops)$/;"	f
+v4l2_m2m_ioctl_create_bufs	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_ioctl_create_bufs);$/;"	v
+v4l2_m2m_ioctl_create_bufs	v4l2-mem2mem.c	/^int v4l2_m2m_ioctl_create_bufs(struct file *file, void *priv,$/;"	f
+v4l2_m2m_ioctl_dqbuf	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_ioctl_dqbuf);$/;"	v
+v4l2_m2m_ioctl_dqbuf	v4l2-mem2mem.c	/^int v4l2_m2m_ioctl_dqbuf(struct file *file, void *priv,$/;"	f
+v4l2_m2m_ioctl_expbuf	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_ioctl_expbuf);$/;"	v
+v4l2_m2m_ioctl_expbuf	v4l2-mem2mem.c	/^int v4l2_m2m_ioctl_expbuf(struct file *file, void *priv,$/;"	f
+v4l2_m2m_ioctl_qbuf	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_ioctl_qbuf);$/;"	v
+v4l2_m2m_ioctl_qbuf	v4l2-mem2mem.c	/^int v4l2_m2m_ioctl_qbuf(struct file *file, void *priv,$/;"	f
+v4l2_m2m_ioctl_querybuf	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_ioctl_querybuf);$/;"	v
+v4l2_m2m_ioctl_querybuf	v4l2-mem2mem.c	/^int v4l2_m2m_ioctl_querybuf(struct file *file, void *priv,$/;"	f
+v4l2_m2m_ioctl_reqbufs	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_ioctl_reqbufs);$/;"	v
+v4l2_m2m_ioctl_reqbufs	v4l2-mem2mem.c	/^int v4l2_m2m_ioctl_reqbufs(struct file *file, void *priv,$/;"	f
+v4l2_m2m_ioctl_streamoff	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_ioctl_streamoff);$/;"	v
+v4l2_m2m_ioctl_streamoff	v4l2-mem2mem.c	/^int v4l2_m2m_ioctl_streamoff(struct file *file, void *priv,$/;"	f
+v4l2_m2m_ioctl_streamon	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_ioctl_streamon);$/;"	v
+v4l2_m2m_ioctl_streamon	v4l2-mem2mem.c	/^int v4l2_m2m_ioctl_streamon(struct file *file, void *priv,$/;"	f
+v4l2_m2m_job_finish	v4l2-mem2mem.c	/^EXPORT_SYMBOL(v4l2_m2m_job_finish);$/;"	v
+v4l2_m2m_job_finish	v4l2-mem2mem.c	/^void v4l2_m2m_job_finish(struct v4l2_m2m_dev *m2m_dev,$/;"	f
+v4l2_m2m_mmap	v4l2-mem2mem.c	/^EXPORT_SYMBOL(v4l2_m2m_mmap);$/;"	v
+v4l2_m2m_mmap	v4l2-mem2mem.c	/^int v4l2_m2m_mmap(struct file *file, struct v4l2_m2m_ctx *m2m_ctx,$/;"	f
+v4l2_m2m_next_buf	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_next_buf);$/;"	v
+v4l2_m2m_next_buf	v4l2-mem2mem.c	/^void *v4l2_m2m_next_buf(struct v4l2_m2m_queue_ctx *q_ctx)$/;"	f
+v4l2_m2m_poll	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_poll);$/;"	v
+v4l2_m2m_poll	v4l2-mem2mem.c	/^unsigned int v4l2_m2m_poll(struct file *file, struct v4l2_m2m_ctx *m2m_ctx,$/;"	f
+v4l2_m2m_qbuf	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_qbuf);$/;"	v
+v4l2_m2m_qbuf	v4l2-mem2mem.c	/^int v4l2_m2m_qbuf(struct file *file, struct v4l2_m2m_ctx *m2m_ctx,$/;"	f
+v4l2_m2m_querybuf	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_querybuf);$/;"	v
+v4l2_m2m_querybuf	v4l2-mem2mem.c	/^int v4l2_m2m_querybuf(struct file *file, struct v4l2_m2m_ctx *m2m_ctx,$/;"	f
+v4l2_m2m_release	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_release);$/;"	v
+v4l2_m2m_release	v4l2-mem2mem.c	/^void v4l2_m2m_release(struct v4l2_m2m_dev *m2m_dev)$/;"	f
+v4l2_m2m_reqbufs	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_reqbufs);$/;"	v
+v4l2_m2m_reqbufs	v4l2-mem2mem.c	/^int v4l2_m2m_reqbufs(struct file *file, struct v4l2_m2m_ctx *m2m_ctx,$/;"	f
+v4l2_m2m_streamoff	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_streamoff);$/;"	v
+v4l2_m2m_streamoff	v4l2-mem2mem.c	/^int v4l2_m2m_streamoff(struct file *file, struct v4l2_m2m_ctx *m2m_ctx,$/;"	f
+v4l2_m2m_streamon	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_streamon);$/;"	v
+v4l2_m2m_streamon	v4l2-mem2mem.c	/^int v4l2_m2m_streamon(struct file *file, struct v4l2_m2m_ctx *m2m_ctx,$/;"	f
+v4l2_m2m_try_run	v4l2-mem2mem.c	/^static void v4l2_m2m_try_run(struct v4l2_m2m_dev *m2m_dev)$/;"	f	file:
+v4l2_m2m_try_schedule	v4l2-mem2mem.c	/^EXPORT_SYMBOL_GPL(v4l2_m2m_try_schedule);$/;"	v
+v4l2_m2m_try_schedule	v4l2-mem2mem.c	/^void v4l2_m2m_try_schedule(struct v4l2_m2m_ctx *m2m_ctx)$/;"	f
+v4l2_match_dv_timings	v4l2-dv-timings.c	/^EXPORT_SYMBOL_GPL(v4l2_match_dv_timings);$/;"	v
+v4l2_match_dv_timings	v4l2-dv-timings.c	/^bool v4l2_match_dv_timings(const struct v4l2_dv_timings *t1,$/;"	f
+v4l2_memory_names	v4l2-ioctl.c	/^static const char *v4l2_memory_names[] = {$/;"	v	file:
+v4l2_mmap	v4l2-dev.c	/^static int v4l2_mmap(struct file *filp, struct vm_area_struct *vm)$/;"	f	file:
+v4l2_norm_to_name	v4l2-ioctl.c	/^EXPORT_SYMBOL(v4l2_norm_to_name);$/;"	v
+v4l2_norm_to_name	v4l2-ioctl.c	/^const char *v4l2_norm_to_name(v4l2_std_id id)$/;"	f
+v4l2_of_parse_csi_bus	v4l2-of.c	/^static void v4l2_of_parse_csi_bus(const struct device_node *node,$/;"	f	file:
+v4l2_of_parse_endpoint	v4l2-of.c	/^EXPORT_SYMBOL(v4l2_of_parse_endpoint);$/;"	v
+v4l2_of_parse_endpoint	v4l2-of.c	/^int v4l2_of_parse_endpoint(const struct device_node *node,$/;"	f
+v4l2_of_parse_parallel_bus	v4l2-of.c	/^static void v4l2_of_parse_parallel_bus(const struct device_node *node,$/;"	f	file:
+v4l2_open	v4l2-dev.c	/^static int v4l2_open(struct inode *inode, struct file *filp)$/;"	f	file:
+v4l2_plane32	v4l2-compat-ioctl32.c	/^struct v4l2_plane32 {$/;"	s	file:
+v4l2_poll	v4l2-dev.c	/^static unsigned int v4l2_poll(struct file *filp, struct poll_table_struct *poll)$/;"	f	file:
+v4l2_print_dv_timings	v4l2-dv-timings.c	/^EXPORT_SYMBOL_GPL(v4l2_print_dv_timings);$/;"	v
+v4l2_print_dv_timings	v4l2-dv-timings.c	/^void v4l2_print_dv_timings(const char *dev_prefix, const char *prefix,$/;"	f
+v4l2_prio_change	v4l2-dev.c	/^EXPORT_SYMBOL(v4l2_prio_change);$/;"	v
+v4l2_prio_change	v4l2-dev.c	/^int v4l2_prio_change(struct v4l2_prio_state *global, enum v4l2_priority *local,$/;"	f
+v4l2_prio_check	v4l2-dev.c	/^EXPORT_SYMBOL(v4l2_prio_check);$/;"	v
+v4l2_prio_check	v4l2-dev.c	/^int v4l2_prio_check(struct v4l2_prio_state *global, enum v4l2_priority local)$/;"	f
+v4l2_prio_close	v4l2-dev.c	/^EXPORT_SYMBOL(v4l2_prio_close);$/;"	v
+v4l2_prio_close	v4l2-dev.c	/^void v4l2_prio_close(struct v4l2_prio_state *global, enum v4l2_priority local)$/;"	f
+v4l2_prio_init	v4l2-dev.c	/^EXPORT_SYMBOL(v4l2_prio_init);$/;"	v
+v4l2_prio_init	v4l2-dev.c	/^void v4l2_prio_init(struct v4l2_prio_state *global)$/;"	f
+v4l2_prio_max	v4l2-dev.c	/^EXPORT_SYMBOL(v4l2_prio_max);$/;"	v
+v4l2_prio_max	v4l2-dev.c	/^enum v4l2_priority v4l2_prio_max(struct v4l2_prio_state *global)$/;"	f
+v4l2_prio_open	v4l2-dev.c	/^EXPORT_SYMBOL(v4l2_prio_open);$/;"	v
+v4l2_prio_open	v4l2-dev.c	/^void v4l2_prio_open(struct v4l2_prio_state *global, enum v4l2_priority *local)$/;"	f
+v4l2_query_ext_ctrl	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_query_ext_ctrl);$/;"	v
+v4l2_query_ext_ctrl	v4l2-ctrls.c	/^int v4l2_query_ext_ctrl(struct v4l2_ctrl_handler *hdl, struct v4l2_query_ext_ctrl *qc)$/;"	f
+v4l2_queryctrl	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_queryctrl);$/;"	v
+v4l2_queryctrl	v4l2-ctrls.c	/^int v4l2_queryctrl(struct v4l2_ctrl_handler *hdl, struct v4l2_queryctrl *qc)$/;"	f
+v4l2_querymenu	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_querymenu);$/;"	v
+v4l2_querymenu	v4l2-ctrls.c	/^int v4l2_querymenu(struct v4l2_ctrl_handler *hdl, struct v4l2_querymenu *qm)$/;"	f
+v4l2_read	v4l2-dev.c	/^static ssize_t v4l2_read(struct file *filp, char __user *buf,$/;"	f	file:
+v4l2_release	v4l2-dev.c	/^static int v4l2_release(struct inode *inode, struct file *filp)$/;"	f	file:
+v4l2_s_ctrl	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_s_ctrl);$/;"	v
+v4l2_s_ctrl	v4l2-ctrls.c	/^int v4l2_s_ctrl(struct v4l2_fh *fh, struct v4l2_ctrl_handler *hdl,$/;"	f
+v4l2_s_ext_ctrls	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_s_ext_ctrls);$/;"	v
+v4l2_s_ext_ctrls	v4l2-ctrls.c	/^int v4l2_s_ext_ctrls(struct v4l2_fh *fh, struct v4l2_ctrl_handler *hdl,$/;"	f
+v4l2_spi_new_subdev	v4l2-common.c	/^EXPORT_SYMBOL_GPL(v4l2_spi_new_subdev);$/;"	v
+v4l2_spi_new_subdev	v4l2-common.c	/^struct v4l2_subdev *v4l2_spi_new_subdev(struct v4l2_device *v4l2_dev,$/;"	f
+v4l2_spi_subdev_init	v4l2-common.c	/^EXPORT_SYMBOL_GPL(v4l2_spi_subdev_init);$/;"	v
+v4l2_spi_subdev_init	v4l2-common.c	/^void v4l2_spi_subdev_init(struct v4l2_subdev *sd, struct spi_device *spi,$/;"	f
+v4l2_src_change_event_subdev_subscribe	v4l2-event.c	/^EXPORT_SYMBOL_GPL(v4l2_src_change_event_subdev_subscribe);$/;"	v
+v4l2_src_change_event_subdev_subscribe	v4l2-event.c	/^int v4l2_src_change_event_subdev_subscribe(struct v4l2_subdev *sd,$/;"	f
+v4l2_src_change_event_subscribe	v4l2-event.c	/^EXPORT_SYMBOL_GPL(v4l2_src_change_event_subscribe);$/;"	v
+v4l2_src_change_event_subscribe	v4l2-event.c	/^int v4l2_src_change_event_subscribe(struct v4l2_fh *fh,$/;"	f
+v4l2_standard32	v4l2-compat-ioctl32.c	/^struct v4l2_standard32 {$/;"	s	file:
+v4l2_subdev_fops	v4l2-subdev.c	/^const struct v4l2_file_operations v4l2_subdev_fops = {$/;"	v	typeref:struct:v4l2_file_operations
+v4l2_subdev_g_ctrl	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_subdev_g_ctrl);$/;"	v
+v4l2_subdev_g_ctrl	v4l2-ctrls.c	/^int v4l2_subdev_g_ctrl(struct v4l2_subdev *sd, struct v4l2_control *control)$/;"	f
+v4l2_subdev_g_ext_ctrls	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_subdev_g_ext_ctrls);$/;"	v
+v4l2_subdev_g_ext_ctrls	v4l2-ctrls.c	/^int v4l2_subdev_g_ext_ctrls(struct v4l2_subdev *sd, struct v4l2_ext_controls *cs)$/;"	f
+v4l2_subdev_init	v4l2-subdev.c	/^EXPORT_SYMBOL(v4l2_subdev_init);$/;"	v
+v4l2_subdev_init	v4l2-subdev.c	/^void v4l2_subdev_init(struct v4l2_subdev *sd, const struct v4l2_subdev_ops *ops)$/;"	f
+v4l2_subdev_link_validate	v4l2-subdev.c	/^EXPORT_SYMBOL_GPL(v4l2_subdev_link_validate);$/;"	v
+v4l2_subdev_link_validate	v4l2-subdev.c	/^int v4l2_subdev_link_validate(struct media_link *link)$/;"	f
+v4l2_subdev_link_validate_default	v4l2-subdev.c	/^EXPORT_SYMBOL_GPL(v4l2_subdev_link_validate_default);$/;"	v
+v4l2_subdev_link_validate_default	v4l2-subdev.c	/^int v4l2_subdev_link_validate_default(struct v4l2_subdev *sd,$/;"	f
+v4l2_subdev_link_validate_get_format	v4l2-subdev.c	/^v4l2_subdev_link_validate_get_format(struct media_pad *pad,$/;"	f	file:
+v4l2_subdev_queryctrl	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_subdev_queryctrl);$/;"	v
+v4l2_subdev_queryctrl	v4l2-ctrls.c	/^int v4l2_subdev_queryctrl(struct v4l2_subdev *sd, struct v4l2_queryctrl *qc)$/;"	f
+v4l2_subdev_querymenu	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_subdev_querymenu);$/;"	v
+v4l2_subdev_querymenu	v4l2-ctrls.c	/^int v4l2_subdev_querymenu(struct v4l2_subdev *sd, struct v4l2_querymenu *qm)$/;"	f
+v4l2_subdev_s_ctrl	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_subdev_s_ctrl);$/;"	v
+v4l2_subdev_s_ctrl	v4l2-ctrls.c	/^int v4l2_subdev_s_ctrl(struct v4l2_subdev *sd, struct v4l2_control *control)$/;"	f
+v4l2_subdev_s_ext_ctrls	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_subdev_s_ext_ctrls);$/;"	v
+v4l2_subdev_s_ext_ctrls	v4l2-ctrls.c	/^int v4l2_subdev_s_ext_ctrls(struct v4l2_subdev *sd, struct v4l2_ext_controls *cs)$/;"	f
+v4l2_subdev_try_ext_ctrls	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_subdev_try_ext_ctrls);$/;"	v
+v4l2_subdev_try_ext_ctrls	v4l2-ctrls.c	/^int v4l2_subdev_try_ext_ctrls(struct v4l2_subdev *sd, struct v4l2_ext_controls *cs)$/;"	f
+v4l2_try_ext_ctrls	v4l2-ctrls.c	/^EXPORT_SYMBOL(v4l2_try_ext_ctrls);$/;"	v
+v4l2_try_ext_ctrls	v4l2-ctrls.c	/^int v4l2_try_ext_ctrls(struct v4l2_ctrl_handler *hdl, struct v4l2_ext_controls *cs)$/;"	f
+v4l2_type_names	v4l2-ioctl.c	/^EXPORT_SYMBOL(v4l2_type_names);$/;"	v
+v4l2_type_names	v4l2-ioctl.c	/^const char *v4l2_type_names[] = {$/;"	v
+v4l2_valid_dv_timings	v4l2-dv-timings.c	/^EXPORT_SYMBOL_GPL(v4l2_valid_dv_timings);$/;"	v
+v4l2_valid_dv_timings	v4l2-dv-timings.c	/^bool v4l2_valid_dv_timings(const struct v4l2_dv_timings *t,$/;"	f
+v4l2_video_std_construct	v4l2-ioctl.c	/^EXPORT_SYMBOL(v4l2_video_std_construct);$/;"	v
+v4l2_video_std_construct	v4l2-ioctl.c	/^int v4l2_video_std_construct(struct v4l2_standard *vs,$/;"	f
+v4l2_video_std_frame_period	v4l2-ioctl.c	/^EXPORT_SYMBOL(v4l2_video_std_frame_period);$/;"	v
+v4l2_video_std_frame_period	v4l2-ioctl.c	/^void v4l2_video_std_frame_period(int id, struct v4l2_fract *frameperiod)$/;"	f
+v4l2_window32	v4l2-compat-ioctl32.c	/^struct v4l2_window32 {$/;"	s	file:
+v4l2_write	v4l2-dev.c	/^static ssize_t v4l2_write(struct file *filp, const char __user *buf,$/;"	f	file:
+v4l_bound_align_image	v4l2-common.c	/^EXPORT_SYMBOL_GPL(v4l_bound_align_image);$/;"	v
+v4l_bound_align_image	v4l2-common.c	/^void v4l_bound_align_image(u32 *w, unsigned int wmin, unsigned int wmax,$/;"	f
+v4l_create_bufs	v4l2-ioctl.c	/^static int v4l_create_bufs(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_cropcap	v4l2-ioctl.c	/^static int v4l_cropcap(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_dbg_g_chip_info	v4l2-ioctl.c	/^static int v4l_dbg_g_chip_info(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_dbg_g_register	v4l2-ioctl.c	/^static int v4l_dbg_g_register(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_dbg_s_register	v4l2-ioctl.c	/^static int v4l_dbg_s_register(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_dqbuf	v4l2-ioctl.c	/^static int v4l_dqbuf(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_dqevent	v4l2-ioctl.c	/^static int v4l_dqevent(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_enum_fmt	v4l2-ioctl.c	/^static int v4l_enum_fmt(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_enum_freq_bands	v4l2-ioctl.c	/^static int v4l_enum_freq_bands(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_enuminput	v4l2-ioctl.c	/^static int v4l_enuminput(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_enumoutput	v4l2-ioctl.c	/^static int v4l_enumoutput(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_enumstd	v4l2-ioctl.c	/^static int v4l_enumstd(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_g_crop	v4l2-ioctl.c	/^static int v4l_g_crop(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_g_ctrl	v4l2-ioctl.c	/^static int v4l_g_ctrl(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_g_ext_ctrls	v4l2-ioctl.c	/^static int v4l_g_ext_ctrls(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_g_fmt	v4l2-ioctl.c	/^static int v4l_g_fmt(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_g_frequency	v4l2-ioctl.c	/^static int v4l_g_frequency(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_g_modulator	v4l2-ioctl.c	/^static int v4l_g_modulator(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_g_parm	v4l2-ioctl.c	/^static int v4l_g_parm(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_g_priority	v4l2-ioctl.c	/^static int v4l_g_priority(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_g_sliced_vbi_cap	v4l2-ioctl.c	/^static int v4l_g_sliced_vbi_cap(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_g_tuner	v4l2-ioctl.c	/^static int v4l_g_tuner(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_log_status	v4l2-ioctl.c	/^static int v4l_log_status(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_overlay	v4l2-ioctl.c	/^static int v4l_overlay(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_prepare_buf	v4l2-ioctl.c	/^static int v4l_prepare_buf(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_print_audio	v4l2-ioctl.c	/^static void v4l_print_audio(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_audioout	v4l2-ioctl.c	/^static void v4l_print_audioout(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_buffer	v4l2-ioctl.c	/^static void v4l_print_buffer(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_buftype	v4l2-ioctl.c	/^static void v4l_print_buftype(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_control	v4l2-ioctl.c	/^static void v4l_print_control(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_create_buffers	v4l2-ioctl.c	/^static void v4l_print_create_buffers(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_crop	v4l2-ioctl.c	/^static void v4l_print_crop(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_cropcap	v4l2-ioctl.c	/^static void v4l_print_cropcap(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_dbg_chip_info	v4l2-ioctl.c	/^static void v4l_print_dbg_chip_info(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_dbg_register	v4l2-ioctl.c	/^static void v4l_print_dbg_register(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_decoder_cmd	v4l2-ioctl.c	/^static void v4l_print_decoder_cmd(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_default	v4l2-ioctl.c	/^static void v4l_print_default(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_dv_timings	v4l2-ioctl.c	/^static void v4l_print_dv_timings(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_dv_timings_cap	v4l2-ioctl.c	/^static void v4l_print_dv_timings_cap(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_edid	v4l2-ioctl.c	/^static void v4l_print_edid(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_enc_idx	v4l2-ioctl.c	/^static void v4l_print_enc_idx(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_encoder_cmd	v4l2-ioctl.c	/^static void v4l_print_encoder_cmd(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_enum_dv_timings	v4l2-ioctl.c	/^static void v4l_print_enum_dv_timings(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_enuminput	v4l2-ioctl.c	/^static void v4l_print_enuminput(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_enumoutput	v4l2-ioctl.c	/^static void v4l_print_enumoutput(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_event	v4l2-ioctl.c	/^static void v4l_print_event(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_event_subscription	v4l2-ioctl.c	/^static void v4l_print_event_subscription(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_exportbuffer	v4l2-ioctl.c	/^static void v4l_print_exportbuffer(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_ext_controls	v4l2-ioctl.c	/^static void v4l_print_ext_controls(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_fmtdesc	v4l2-ioctl.c	/^static void v4l_print_fmtdesc(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_format	v4l2-ioctl.c	/^static void v4l_print_format(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_framebuffer	v4l2-ioctl.c	/^static void v4l_print_framebuffer(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_freq_band	v4l2-ioctl.c	/^static void v4l_print_freq_band(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_frequency	v4l2-ioctl.c	/^static void v4l_print_frequency(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_frmivalenum	v4l2-ioctl.c	/^static void v4l_print_frmivalenum(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_frmsizeenum	v4l2-ioctl.c	/^static void v4l_print_frmsizeenum(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_hw_freq_seek	v4l2-ioctl.c	/^static void v4l_print_hw_freq_seek(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_jpegcompression	v4l2-ioctl.c	/^static void v4l_print_jpegcompression(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_modulator	v4l2-ioctl.c	/^static void v4l_print_modulator(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_newline	v4l2-ioctl.c	/^static void v4l_print_newline(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_query_ext_ctrl	v4l2-ioctl.c	/^static void v4l_print_query_ext_ctrl(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_querycap	v4l2-ioctl.c	/^static void v4l_print_querycap(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_queryctrl	v4l2-ioctl.c	/^static void v4l_print_queryctrl(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_querymenu	v4l2-ioctl.c	/^static void v4l_print_querymenu(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_requestbuffers	v4l2-ioctl.c	/^static void v4l_print_requestbuffers(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_selection	v4l2-ioctl.c	/^static void v4l_print_selection(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_sliced_vbi_cap	v4l2-ioctl.c	/^static void v4l_print_sliced_vbi_cap(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_standard	v4l2-ioctl.c	/^static void v4l_print_standard(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_std	v4l2-ioctl.c	/^static void v4l_print_std(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_streamparm	v4l2-ioctl.c	/^static void v4l_print_streamparm(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_tuner	v4l2-ioctl.c	/^static void v4l_print_tuner(const void *arg, bool write_only)$/;"	f	file:
+v4l_print_u32	v4l2-ioctl.c	/^static void v4l_print_u32(const void *arg, bool write_only)$/;"	f	file:
+v4l_printk_ioctl	v4l2-ioctl.c	/^EXPORT_SYMBOL(v4l_printk_ioctl);$/;"	v
+v4l_printk_ioctl	v4l2-ioctl.c	/^void v4l_printk_ioctl(const char *prefix, unsigned int cmd)$/;"	f
+v4l_qbuf	v4l2-ioctl.c	/^static int v4l_qbuf(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_query_ext_ctrl	v4l2-ioctl.c	/^static int v4l_query_ext_ctrl(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_querybuf	v4l2-ioctl.c	/^static int v4l_querybuf(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_querycap	v4l2-ioctl.c	/^static int v4l_querycap(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_queryctrl	v4l2-ioctl.c	/^static int v4l_queryctrl(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_querymenu	v4l2-ioctl.c	/^static int v4l_querymenu(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_querystd	v4l2-ioctl.c	/^static int v4l_querystd(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_reqbufs	v4l2-ioctl.c	/^static int v4l_reqbufs(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_s_crop	v4l2-ioctl.c	/^static int v4l_s_crop(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_s_ctrl	v4l2-ioctl.c	/^static int v4l_s_ctrl(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_s_ext_ctrls	v4l2-ioctl.c	/^static int v4l_s_ext_ctrls(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_s_fmt	v4l2-ioctl.c	/^static int v4l_s_fmt(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_s_frequency	v4l2-ioctl.c	/^static int v4l_s_frequency(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_s_hw_freq_seek	v4l2-ioctl.c	/^static int v4l_s_hw_freq_seek(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_s_input	v4l2-ioctl.c	/^static int v4l_s_input(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_s_output	v4l2-ioctl.c	/^static int v4l_s_output(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_s_parm	v4l2-ioctl.c	/^static int v4l_s_parm(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_s_priority	v4l2-ioctl.c	/^static int v4l_s_priority(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_s_std	v4l2-ioctl.c	/^static int v4l_s_std(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_s_tuner	v4l2-ioctl.c	/^static int v4l_s_tuner(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_sanitize_format	v4l2-ioctl.c	/^static void v4l_sanitize_format(struct v4l2_format *fmt)$/;"	f	file:
+v4l_streamoff	v4l2-ioctl.c	/^static int v4l_streamoff(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_streamon	v4l2-ioctl.c	/^static int v4l_streamon(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_subscribe_event	v4l2-ioctl.c	/^static int v4l_subscribe_event(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_try_ext_ctrls	v4l2-ioctl.c	/^static int v4l_try_ext_ctrls(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_try_fmt	v4l2-ioctl.c	/^static int v4l_try_fmt(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+v4l_unsubscribe_event	v4l2-ioctl.c	/^static int v4l_unsubscribe_event(const struct v4l2_ioctl_ops *ops,$/;"	f	file:
+vaddr	videobuf-dma-contig.c	/^	void *vaddr;$/;"	m	struct:videobuf_dma_contig_memory	file:
+vaddr	videobuf2-core.c	/^	void *vaddr;$/;"	m	struct:vb2_fileio_buf	file:
+vaddr	videobuf2-dma-contig.c	/^	void				*vaddr;$/;"	m	struct:vb2_dc_buf	file:
+vaddr	videobuf2-dma-sg.c	/^	void				*vaddr;$/;"	m	struct:vb2_dma_sg_buf	file:
+vaddr	videobuf2-vmalloc.c	/^	void				*vaddr;$/;"	m	struct:vb2_vmalloc_buf	file:
+validate_ctrls	v4l2-ctrls.c	/^static int validate_ctrls(struct v4l2_ext_controls *cs,$/;"	f	file:
+validate_new	v4l2-ctrls.c	/^static int validate_new(const struct v4l2_ctrl *ctrl,$/;"	f	file:
+value	v4l2-compat-ioctl32.c	/^		__s32 value;$/;"	m	union:v4l2_ext_control32::__anon5	file:
+value64	v4l2-compat-ioctl32.c	/^		__s64 value64;$/;"	m	union:v4l2_ext_control32::__anon5	file:
+vb2_buffer_done	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_buffer_done);$/;"	v
+vb2_buffer_done	videobuf2-core.c	/^void vb2_buffer_done(struct vb2_buffer *vb, enum vb2_buffer_state state)$/;"	f
+vb2_common_vm_close	videobuf2-memops.c	/^static void vb2_common_vm_close(struct vm_area_struct *vma)$/;"	f	file:
+vb2_common_vm_open	videobuf2-memops.c	/^static void vb2_common_vm_open(struct vm_area_struct *vma)$/;"	f	file:
+vb2_common_vm_ops	videobuf2-memops.c	/^EXPORT_SYMBOL_GPL(vb2_common_vm_ops);$/;"	v
+vb2_common_vm_ops	videobuf2-memops.c	/^const struct vm_operations_struct vb2_common_vm_ops = {$/;"	v	typeref:struct:vm_operations_struct
+vb2_create_bufs	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_create_bufs);$/;"	v
+vb2_create_bufs	videobuf2-core.c	/^int vb2_create_bufs(struct vb2_queue *q, struct v4l2_create_buffers *create)$/;"	f
+vb2_dc_alloc	videobuf2-dma-contig.c	/^static void *vb2_dc_alloc(void *alloc_ctx, unsigned long size, gfp_t gfp_flags)$/;"	f	file:
+vb2_dc_attach_dmabuf	videobuf2-dma-contig.c	/^static void *vb2_dc_attach_dmabuf(void *alloc_ctx, struct dma_buf *dbuf,$/;"	f	file:
+vb2_dc_attachment	videobuf2-dma-contig.c	/^struct vb2_dc_attachment {$/;"	s	file:
+vb2_dc_buf	videobuf2-dma-contig.c	/^struct vb2_dc_buf {$/;"	s	file:
+vb2_dc_conf	videobuf2-dma-contig.c	/^struct vb2_dc_conf {$/;"	s	file:
+vb2_dc_cookie	videobuf2-dma-contig.c	/^static void *vb2_dc_cookie(void *buf_priv)$/;"	f	file:
+vb2_dc_detach_dmabuf	videobuf2-dma-contig.c	/^static void vb2_dc_detach_dmabuf(void *mem_priv)$/;"	f	file:
+vb2_dc_dmabuf_ops	videobuf2-dma-contig.c	/^static struct dma_buf_ops vb2_dc_dmabuf_ops = {$/;"	v	typeref:struct:dma_buf_ops	file:
+vb2_dc_dmabuf_ops_attach	videobuf2-dma-contig.c	/^static int vb2_dc_dmabuf_ops_attach(struct dma_buf *dbuf, struct device *dev,$/;"	f	file:
+vb2_dc_dmabuf_ops_detach	videobuf2-dma-contig.c	/^static void vb2_dc_dmabuf_ops_detach(struct dma_buf *dbuf,$/;"	f	file:
+vb2_dc_dmabuf_ops_kmap	videobuf2-dma-contig.c	/^static void *vb2_dc_dmabuf_ops_kmap(struct dma_buf *dbuf, unsigned long pgnum)$/;"	f	file:
+vb2_dc_dmabuf_ops_map	videobuf2-dma-contig.c	/^static struct sg_table *vb2_dc_dmabuf_ops_map($/;"	f	file:
+vb2_dc_dmabuf_ops_mmap	videobuf2-dma-contig.c	/^static int vb2_dc_dmabuf_ops_mmap(struct dma_buf *dbuf,$/;"	f	file:
+vb2_dc_dmabuf_ops_release	videobuf2-dma-contig.c	/^static void vb2_dc_dmabuf_ops_release(struct dma_buf *dbuf)$/;"	f	file:
+vb2_dc_dmabuf_ops_unmap	videobuf2-dma-contig.c	/^static void vb2_dc_dmabuf_ops_unmap(struct dma_buf_attachment *db_attach,$/;"	f	file:
+vb2_dc_dmabuf_ops_vmap	videobuf2-dma-contig.c	/^static void *vb2_dc_dmabuf_ops_vmap(struct dma_buf *dbuf)$/;"	f	file:
+vb2_dc_finish	videobuf2-dma-contig.c	/^static void vb2_dc_finish(void *buf_priv)$/;"	f	file:
+vb2_dc_get_base_sgt	videobuf2-dma-contig.c	/^static struct sg_table *vb2_dc_get_base_sgt(struct vb2_dc_buf *buf)$/;"	f	file:
+vb2_dc_get_contiguous_size	videobuf2-dma-contig.c	/^static unsigned long vb2_dc_get_contiguous_size(struct sg_table *sgt)$/;"	f	file:
+vb2_dc_get_dmabuf	videobuf2-dma-contig.c	/^static struct dma_buf *vb2_dc_get_dmabuf(void *buf_priv, unsigned long flags)$/;"	f	file:
+vb2_dc_get_user_pages	videobuf2-dma-contig.c	/^static int vb2_dc_get_user_pages(unsigned long start, struct page **pages,$/;"	f	file:
+vb2_dc_get_user_pfn	videobuf2-dma-contig.c	/^static int vb2_dc_get_user_pfn(unsigned long start, int n_pages,$/;"	f	file:
+vb2_dc_get_userptr	videobuf2-dma-contig.c	/^static void *vb2_dc_get_userptr(void *alloc_ctx, unsigned long vaddr,$/;"	f	file:
+vb2_dc_map_dmabuf	videobuf2-dma-contig.c	/^static int vb2_dc_map_dmabuf(void *mem_priv)$/;"	f	file:
+vb2_dc_mmap	videobuf2-dma-contig.c	/^static int vb2_dc_mmap(void *buf_priv, struct vm_area_struct *vma)$/;"	f	file:
+vb2_dc_num_users	videobuf2-dma-contig.c	/^static unsigned int vb2_dc_num_users(void *buf_priv)$/;"	f	file:
+vb2_dc_pfn_to_dma	videobuf2-dma-contig.c	/^static inline dma_addr_t vb2_dc_pfn_to_dma(struct device *dev, unsigned long pfn)$/;"	f	file:
+vb2_dc_prepare	videobuf2-dma-contig.c	/^static void vb2_dc_prepare(void *buf_priv)$/;"	f	file:
+vb2_dc_put	videobuf2-dma-contig.c	/^static void vb2_dc_put(void *buf_priv)$/;"	f	file:
+vb2_dc_put_dirty_page	videobuf2-dma-contig.c	/^static void vb2_dc_put_dirty_page(struct page *page)$/;"	f	file:
+vb2_dc_put_userptr	videobuf2-dma-contig.c	/^static void vb2_dc_put_userptr(void *buf_priv)$/;"	f	file:
+vb2_dc_sgt_foreach_page	videobuf2-dma-contig.c	/^static void vb2_dc_sgt_foreach_page(struct sg_table *sgt,$/;"	f	file:
+vb2_dc_unmap_dmabuf	videobuf2-dma-contig.c	/^static void vb2_dc_unmap_dmabuf(void *mem_priv)$/;"	f	file:
+vb2_dc_vaddr	videobuf2-dma-contig.c	/^static void *vb2_dc_vaddr(void *buf_priv)$/;"	f	file:
+vb2_discard_done	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_discard_done);$/;"	v
+vb2_discard_done	videobuf2-core.c	/^void vb2_discard_done(struct vb2_queue *q)$/;"	f
+vb2_dma_contig_cleanup_ctx	videobuf2-dma-contig.c	/^EXPORT_SYMBOL_GPL(vb2_dma_contig_cleanup_ctx);$/;"	v
+vb2_dma_contig_cleanup_ctx	videobuf2-dma-contig.c	/^void vb2_dma_contig_cleanup_ctx(void *alloc_ctx)$/;"	f
+vb2_dma_contig_init_ctx	videobuf2-dma-contig.c	/^EXPORT_SYMBOL_GPL(vb2_dma_contig_init_ctx);$/;"	v
+vb2_dma_contig_init_ctx	videobuf2-dma-contig.c	/^void *vb2_dma_contig_init_ctx(struct device *dev)$/;"	f
+vb2_dma_contig_memops	videobuf2-dma-contig.c	/^EXPORT_SYMBOL_GPL(vb2_dma_contig_memops);$/;"	v
+vb2_dma_contig_memops	videobuf2-dma-contig.c	/^const struct vb2_mem_ops vb2_dma_contig_memops = {$/;"	v	typeref:struct:vb2_mem_ops
+vb2_dma_sg_alloc	videobuf2-dma-sg.c	/^static void *vb2_dma_sg_alloc(void *alloc_ctx, unsigned long size, gfp_t gfp_flags)$/;"	f	file:
+vb2_dma_sg_alloc_compacted	videobuf2-dma-sg.c	/^static int vb2_dma_sg_alloc_compacted(struct vb2_dma_sg_buf *buf,$/;"	f	file:
+vb2_dma_sg_buf	videobuf2-dma-sg.c	/^struct vb2_dma_sg_buf {$/;"	s	file:
+vb2_dma_sg_cookie	videobuf2-dma-sg.c	/^static void *vb2_dma_sg_cookie(void *buf_priv)$/;"	f	file:
+vb2_dma_sg_get_userptr	videobuf2-dma-sg.c	/^static void *vb2_dma_sg_get_userptr(void *alloc_ctx, unsigned long vaddr,$/;"	f	file:
+vb2_dma_sg_memops	videobuf2-dma-sg.c	/^EXPORT_SYMBOL_GPL(vb2_dma_sg_memops);$/;"	v
+vb2_dma_sg_memops	videobuf2-dma-sg.c	/^const struct vb2_mem_ops vb2_dma_sg_memops = {$/;"	v	typeref:struct:vb2_mem_ops
+vb2_dma_sg_mmap	videobuf2-dma-sg.c	/^static int vb2_dma_sg_mmap(void *buf_priv, struct vm_area_struct *vma)$/;"	f	file:
+vb2_dma_sg_num_users	videobuf2-dma-sg.c	/^static unsigned int vb2_dma_sg_num_users(void *buf_priv)$/;"	f	file:
+vb2_dma_sg_put	videobuf2-dma-sg.c	/^static void vb2_dma_sg_put(void *buf_priv)$/;"	f	file:
+vb2_dma_sg_put_userptr	videobuf2-dma-sg.c	/^static void vb2_dma_sg_put_userptr(void *buf_priv)$/;"	f	file:
+vb2_dma_sg_vaddr	videobuf2-dma-sg.c	/^static void *vb2_dma_sg_vaddr(void *buf_priv)$/;"	f	file:
+vb2_dqbuf	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_dqbuf);$/;"	v
+vb2_dqbuf	videobuf2-core.c	/^int vb2_dqbuf(struct vb2_queue *q, struct v4l2_buffer *b, bool nonblocking)$/;"	f
+vb2_dvb_alloc_frontend	videobuf2-dvb.c	/^EXPORT_SYMBOL(vb2_dvb_alloc_frontend);$/;"	v
+vb2_dvb_alloc_frontend	videobuf2-dvb.c	/^struct vb2_dvb_frontend *vb2_dvb_alloc_frontend($/;"	f
+vb2_dvb_dealloc_frontends	videobuf2-dvb.c	/^EXPORT_SYMBOL(vb2_dvb_dealloc_frontends);$/;"	v
+vb2_dvb_dealloc_frontends	videobuf2-dvb.c	/^void vb2_dvb_dealloc_frontends(struct vb2_dvb_frontends *f)$/;"	f
+vb2_dvb_find_frontend	videobuf2-dvb.c	/^EXPORT_SYMBOL(vb2_dvb_find_frontend);$/;"	v
+vb2_dvb_find_frontend	videobuf2-dvb.c	/^int vb2_dvb_find_frontend(struct vb2_dvb_frontends *f,$/;"	f
+vb2_dvb_get_frontend	videobuf2-dvb.c	/^EXPORT_SYMBOL(vb2_dvb_get_frontend);$/;"	v
+vb2_dvb_get_frontend	videobuf2-dvb.c	/^struct vb2_dvb_frontend *vb2_dvb_get_frontend($/;"	f
+vb2_dvb_register_adapter	videobuf2-dvb.c	/^static int vb2_dvb_register_adapter(struct vb2_dvb_frontends *fe,$/;"	f	file:
+vb2_dvb_register_bus	videobuf2-dvb.c	/^EXPORT_SYMBOL(vb2_dvb_register_bus);$/;"	v
+vb2_dvb_register_bus	videobuf2-dvb.c	/^int vb2_dvb_register_bus(struct vb2_dvb_frontends *f,$/;"	f
+vb2_dvb_register_frontend	videobuf2-dvb.c	/^static int vb2_dvb_register_frontend(struct dvb_adapter *adapter,$/;"	f	file:
+vb2_dvb_start_feed	videobuf2-dvb.c	/^static int vb2_dvb_start_feed(struct dvb_demux_feed *feed)$/;"	f	file:
+vb2_dvb_stop_feed	videobuf2-dvb.c	/^static int vb2_dvb_stop_feed(struct dvb_demux_feed *feed)$/;"	f	file:
+vb2_dvb_unregister_bus	videobuf2-dvb.c	/^EXPORT_SYMBOL(vb2_dvb_unregister_bus);$/;"	v
+vb2_dvb_unregister_bus	videobuf2-dvb.c	/^void vb2_dvb_unregister_bus(struct vb2_dvb_frontends *f)$/;"	f
+vb2_expbuf	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_expbuf);$/;"	v
+vb2_expbuf	videobuf2-core.c	/^int vb2_expbuf(struct vb2_queue *q, struct v4l2_exportbuffer *eb)$/;"	f
+vb2_fileio_buf	videobuf2-core.c	/^struct vb2_fileio_buf {$/;"	s	file:
+vb2_fileio_data	videobuf2-core.c	/^struct vb2_fileio_data {$/;"	s	file:
+vb2_fop_get_unmapped_area	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_fop_get_unmapped_area);$/;"	v
+vb2_fop_get_unmapped_area	videobuf2-core.c	/^unsigned long vb2_fop_get_unmapped_area(struct file *file, unsigned long addr,$/;"	f
+vb2_fop_mmap	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_fop_mmap);$/;"	v
+vb2_fop_mmap	videobuf2-core.c	/^int vb2_fop_mmap(struct file *file, struct vm_area_struct *vma)$/;"	f
+vb2_fop_poll	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_fop_poll);$/;"	v
+vb2_fop_poll	videobuf2-core.c	/^unsigned int vb2_fop_poll(struct file *file, poll_table *wait)$/;"	f
+vb2_fop_read	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_fop_read);$/;"	v
+vb2_fop_read	videobuf2-core.c	/^ssize_t vb2_fop_read(struct file *file, char __user *buf,$/;"	f
+vb2_fop_release	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_fop_release);$/;"	v
+vb2_fop_release	videobuf2-core.c	/^int vb2_fop_release(struct file *file)$/;"	f
+vb2_fop_write	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_fop_write);$/;"	v
+vb2_fop_write	videobuf2-core.c	/^ssize_t vb2_fop_write(struct file *file, const char __user *buf,$/;"	f
+vb2_get_contig_userptr	videobuf2-memops.c	/^EXPORT_SYMBOL_GPL(vb2_get_contig_userptr);$/;"	v
+vb2_get_contig_userptr	videobuf2-memops.c	/^int vb2_get_contig_userptr(unsigned long vaddr, unsigned long size,$/;"	f
+vb2_get_unmapped_area	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_get_unmapped_area);$/;"	v
+vb2_get_unmapped_area	videobuf2-core.c	/^unsigned long vb2_get_unmapped_area(struct vb2_queue *q,$/;"	f
+vb2_get_vma	videobuf2-memops.c	/^EXPORT_SYMBOL_GPL(vb2_get_vma);$/;"	v
+vb2_get_vma	videobuf2-memops.c	/^struct vm_area_struct *vb2_get_vma(struct vm_area_struct *vma)$/;"	f
+vb2_internal_dqbuf	videobuf2-core.c	/^static int vb2_internal_dqbuf(struct vb2_queue *q, struct v4l2_buffer *b, bool nonblocking)$/;"	f	file:
+vb2_internal_qbuf	videobuf2-core.c	/^static int vb2_internal_qbuf(struct vb2_queue *q, struct v4l2_buffer *b)$/;"	f	file:
+vb2_internal_streamoff	videobuf2-core.c	/^static int vb2_internal_streamoff(struct vb2_queue *q, enum v4l2_buf_type type)$/;"	f	file:
+vb2_internal_streamon	videobuf2-core.c	/^static int vb2_internal_streamon(struct vb2_queue *q, enum v4l2_buf_type type)$/;"	f	file:
+vb2_ioctl_create_bufs	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_ioctl_create_bufs);$/;"	v
+vb2_ioctl_create_bufs	videobuf2-core.c	/^int vb2_ioctl_create_bufs(struct file *file, void *priv,$/;"	f
+vb2_ioctl_dqbuf	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_ioctl_dqbuf);$/;"	v
+vb2_ioctl_dqbuf	videobuf2-core.c	/^int vb2_ioctl_dqbuf(struct file *file, void *priv, struct v4l2_buffer *p)$/;"	f
+vb2_ioctl_expbuf	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_ioctl_expbuf);$/;"	v
+vb2_ioctl_expbuf	videobuf2-core.c	/^int vb2_ioctl_expbuf(struct file *file, void *priv, struct v4l2_exportbuffer *p)$/;"	f
+vb2_ioctl_prepare_buf	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_ioctl_prepare_buf);$/;"	v
+vb2_ioctl_prepare_buf	videobuf2-core.c	/^int vb2_ioctl_prepare_buf(struct file *file, void *priv,$/;"	f
+vb2_ioctl_qbuf	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_ioctl_qbuf);$/;"	v
+vb2_ioctl_qbuf	videobuf2-core.c	/^int vb2_ioctl_qbuf(struct file *file, void *priv, struct v4l2_buffer *p)$/;"	f
+vb2_ioctl_querybuf	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_ioctl_querybuf);$/;"	v
+vb2_ioctl_querybuf	videobuf2-core.c	/^int vb2_ioctl_querybuf(struct file *file, void *priv, struct v4l2_buffer *p)$/;"	f
+vb2_ioctl_reqbufs	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_ioctl_reqbufs);$/;"	v
+vb2_ioctl_reqbufs	videobuf2-core.c	/^int vb2_ioctl_reqbufs(struct file *file, void *priv,$/;"	f
+vb2_ioctl_streamoff	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_ioctl_streamoff);$/;"	v
+vb2_ioctl_streamoff	videobuf2-core.c	/^int vb2_ioctl_streamoff(struct file *file, void *priv, enum v4l2_buf_type i)$/;"	f
+vb2_ioctl_streamon	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_ioctl_streamon);$/;"	v
+vb2_ioctl_streamon	videobuf2-core.c	/^int vb2_ioctl_streamon(struct file *file, void *priv, enum v4l2_buf_type i)$/;"	f
+vb2_mmap	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_mmap);$/;"	v
+vb2_mmap	videobuf2-core.c	/^int vb2_mmap(struct vb2_queue *q, struct vm_area_struct *vma)$/;"	f
+vb2_ops_wait_finish	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_ops_wait_finish);$/;"	v
+vb2_ops_wait_finish	videobuf2-core.c	/^void vb2_ops_wait_finish(struct vb2_queue *vq)$/;"	f
+vb2_ops_wait_prepare	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_ops_wait_prepare);$/;"	v
+vb2_ops_wait_prepare	videobuf2-core.c	/^void vb2_ops_wait_prepare(struct vb2_queue *vq)$/;"	f
+vb2_plane_cookie	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_plane_cookie);$/;"	v
+vb2_plane_cookie	videobuf2-core.c	/^void *vb2_plane_cookie(struct vb2_buffer *vb, unsigned int plane_no)$/;"	f
+vb2_plane_vaddr	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_plane_vaddr);$/;"	v
+vb2_plane_vaddr	videobuf2-core.c	/^void *vb2_plane_vaddr(struct vb2_buffer *vb, unsigned int plane_no)$/;"	f
+vb2_poll	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_poll);$/;"	v
+vb2_poll	videobuf2-core.c	/^unsigned int vb2_poll(struct vb2_queue *q, struct file *file, poll_table *wait)$/;"	f
+vb2_prepare_buf	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_prepare_buf);$/;"	v
+vb2_prepare_buf	videobuf2-core.c	/^int vb2_prepare_buf(struct vb2_queue *q, struct v4l2_buffer *b)$/;"	f
+vb2_put_vma	videobuf2-memops.c	/^EXPORT_SYMBOL_GPL(vb2_put_vma);$/;"	v
+vb2_put_vma	videobuf2-memops.c	/^void vb2_put_vma(struct vm_area_struct *vma)$/;"	f
+vb2_qbuf	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_qbuf);$/;"	v
+vb2_qbuf	videobuf2-core.c	/^int vb2_qbuf(struct vb2_queue *q, struct v4l2_buffer *b)$/;"	f
+vb2_querybuf	videobuf2-core.c	/^EXPORT_SYMBOL(vb2_querybuf);$/;"	v
+vb2_querybuf	videobuf2-core.c	/^int vb2_querybuf(struct vb2_queue *q, struct v4l2_buffer *b)$/;"	f
+vb2_queue_error	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_queue_error);$/;"	v
+vb2_queue_error	videobuf2-core.c	/^void vb2_queue_error(struct vb2_queue *q)$/;"	f
+vb2_queue_init	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_queue_init);$/;"	v
+vb2_queue_init	videobuf2-core.c	/^int vb2_queue_init(struct vb2_queue *q)$/;"	f
+vb2_queue_is_busy	videobuf2-core.c	/^static inline bool vb2_queue_is_busy(struct video_device *vdev, struct file *file)$/;"	f	file:
+vb2_queue_or_prepare_buf	videobuf2-core.c	/^static int vb2_queue_or_prepare_buf(struct vb2_queue *q, struct v4l2_buffer *b,$/;"	f	file:
+vb2_queue_release	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_queue_release);$/;"	v
+vb2_queue_release	videobuf2-core.c	/^void vb2_queue_release(struct vb2_queue *q)$/;"	f
+vb2_read	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_read);$/;"	v
+vb2_read	videobuf2-core.c	/^size_t vb2_read(struct vb2_queue *q, char __user *data, size_t count,$/;"	f
+vb2_reqbufs	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_reqbufs);$/;"	v
+vb2_reqbufs	videobuf2-core.c	/^int vb2_reqbufs(struct vb2_queue *q, struct v4l2_requestbuffers *req)$/;"	f
+vb2_start_streaming	videobuf2-core.c	/^static int vb2_start_streaming(struct vb2_queue *q)$/;"	f	file:
+vb2_streamoff	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_streamoff);$/;"	v
+vb2_streamoff	videobuf2-core.c	/^int vb2_streamoff(struct vb2_queue *q, enum v4l2_buf_type type)$/;"	f
+vb2_streamon	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_streamon);$/;"	v
+vb2_streamon	videobuf2-core.c	/^int vb2_streamon(struct vb2_queue *q, enum v4l2_buf_type type)$/;"	f
+vb2_thread	videobuf2-core.c	/^static int vb2_thread(void *data)$/;"	f	file:
+vb2_thread_start	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_thread_start);$/;"	v
+vb2_thread_start	videobuf2-core.c	/^int vb2_thread_start(struct vb2_queue *q, vb2_thread_fnc fnc, void *priv,$/;"	f
+vb2_thread_stop	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_thread_stop);$/;"	v
+vb2_thread_stop	videobuf2-core.c	/^int vb2_thread_stop(struct vb2_queue *q)$/;"	f
+vb2_threadio_data	videobuf2-core.c	/^struct vb2_threadio_data {$/;"	s	file:
+vb2_vmalloc_alloc	videobuf2-vmalloc.c	/^static void *vb2_vmalloc_alloc(void *alloc_ctx, unsigned long size, gfp_t gfp_flags)$/;"	f	file:
+vb2_vmalloc_attach_dmabuf	videobuf2-vmalloc.c	/^static void *vb2_vmalloc_attach_dmabuf(void *alloc_ctx, struct dma_buf *dbuf,$/;"	f	file:
+vb2_vmalloc_buf	videobuf2-vmalloc.c	/^struct vb2_vmalloc_buf {$/;"	s	file:
+vb2_vmalloc_detach_dmabuf	videobuf2-vmalloc.c	/^static void vb2_vmalloc_detach_dmabuf(void *mem_priv)$/;"	f	file:
+vb2_vmalloc_get_userptr	videobuf2-vmalloc.c	/^static void *vb2_vmalloc_get_userptr(void *alloc_ctx, unsigned long vaddr,$/;"	f	file:
+vb2_vmalloc_map_dmabuf	videobuf2-vmalloc.c	/^static int vb2_vmalloc_map_dmabuf(void *mem_priv)$/;"	f	file:
+vb2_vmalloc_memops	videobuf2-vmalloc.c	/^EXPORT_SYMBOL_GPL(vb2_vmalloc_memops);$/;"	v
+vb2_vmalloc_memops	videobuf2-vmalloc.c	/^const struct vb2_mem_ops vb2_vmalloc_memops = {$/;"	v	typeref:struct:vb2_mem_ops
+vb2_vmalloc_mmap	videobuf2-vmalloc.c	/^static int vb2_vmalloc_mmap(void *buf_priv, struct vm_area_struct *vma)$/;"	f	file:
+vb2_vmalloc_num_users	videobuf2-vmalloc.c	/^static unsigned int vb2_vmalloc_num_users(void *buf_priv)$/;"	f	file:
+vb2_vmalloc_put	videobuf2-vmalloc.c	/^static void vb2_vmalloc_put(void *buf_priv)$/;"	f	file:
+vb2_vmalloc_put_userptr	videobuf2-vmalloc.c	/^static void vb2_vmalloc_put_userptr(void *buf_priv)$/;"	f	file:
+vb2_vmalloc_unmap_dmabuf	videobuf2-vmalloc.c	/^static void vb2_vmalloc_unmap_dmabuf(void *mem_priv)$/;"	f	file:
+vb2_vmalloc_vaddr	videobuf2-vmalloc.c	/^static void *vb2_vmalloc_vaddr(void *buf_priv)$/;"	f	file:
+vb2_wait_for_all_buffers	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_wait_for_all_buffers);$/;"	v
+vb2_wait_for_all_buffers	videobuf2-core.c	/^int vb2_wait_for_all_buffers(struct vb2_queue *q)$/;"	f
+vb2_write	videobuf2-core.c	/^EXPORT_SYMBOL_GPL(vb2_write);$/;"	v
+vb2_write	videobuf2-core.c	/^size_t vb2_write(struct vb2_queue *q, const char __user *data, size_t count,$/;"	f
+vbi	v4l2-compat-ioctl32.c	/^		struct v4l2_vbi_format	vbi;$/;"	m	union:v4l2_format32::__anon1	typeref:struct:v4l2_format32::__anon1::v4l2_vbi_format	file:
+video_class	v4l2-dev.c	/^static struct class video_class = {$/;"	v	typeref:struct:class	file:
+video_devdata	v4l2-dev.c	/^EXPORT_SYMBOL(video_devdata);$/;"	v
+video_devdata	v4l2-dev.c	/^struct video_device *video_devdata(struct file *file)$/;"	f
+video_device	v4l2-dev.c	/^ATTRIBUTE_GROUPS(video_device);$/;"	v
+video_device	v4l2-dev.c	/^static struct video_device *video_device[VIDEO_NUM_DEVICES];$/;"	v	typeref:struct:video_device	file:
+video_device_alloc	v4l2-dev.c	/^EXPORT_SYMBOL(video_device_alloc);$/;"	v
+video_device_alloc	v4l2-dev.c	/^struct video_device *video_device_alloc(void)$/;"	f
+video_device_attrs	v4l2-dev.c	/^static struct attribute *video_device_attrs[] = {$/;"	v	typeref:struct:attribute	file:
+video_device_release	v4l2-dev.c	/^EXPORT_SYMBOL(video_device_release);$/;"	v
+video_device_release	v4l2-dev.c	/^void video_device_release(struct video_device *vdev)$/;"	f
+video_device_release_empty	v4l2-dev.c	/^EXPORT_SYMBOL(video_device_release_empty);$/;"	v
+video_device_release_empty	v4l2-dev.c	/^void video_device_release_empty(struct video_device *vdev)$/;"	f
+video_get	v4l2-dev.c	/^static inline void video_get(struct video_device *vdev)$/;"	f	file:
+video_ioctl2	v4l2-ioctl.c	/^EXPORT_SYMBOL(video_ioctl2);$/;"	v
+video_ioctl2	v4l2-ioctl.c	/^long video_ioctl2(struct file *file,$/;"	f
+video_put	v4l2-dev.c	/^static inline void video_put(struct video_device *vdev)$/;"	f	file:
+video_unregister_device	v4l2-dev.c	/^EXPORT_SYMBOL(video_unregister_device);$/;"	v
+video_unregister_device	v4l2-dev.c	/^void video_unregister_device(struct video_device *vdev)$/;"	f
+video_usercopy	v4l2-ioctl.c	/^EXPORT_SYMBOL(video_usercopy);$/;"	v
+video_usercopy	v4l2-ioctl.c	/^video_usercopy(struct file *file, unsigned int cmd, unsigned long arg,$/;"	f
+videobuf_alloc_vb	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_alloc_vb);$/;"	v
+videobuf_alloc_vb	videobuf-core.c	/^struct videobuf_buffer *videobuf_alloc_vb(struct videobuf_queue *q)$/;"	f
+videobuf_dma_contig_free	videobuf-dma-contig.c	/^EXPORT_SYMBOL_GPL(videobuf_dma_contig_free);$/;"	v
+videobuf_dma_contig_free	videobuf-dma-contig.c	/^void videobuf_dma_contig_free(struct videobuf_queue *q,$/;"	f
+videobuf_dma_contig_memory	videobuf-dma-contig.c	/^struct videobuf_dma_contig_memory {$/;"	s	file:
+videobuf_dma_contig_user_get	videobuf-dma-contig.c	/^static int videobuf_dma_contig_user_get(struct videobuf_dma_contig_memory *mem,$/;"	f	file:
+videobuf_dma_contig_user_put	videobuf-dma-contig.c	/^static void videobuf_dma_contig_user_put(struct videobuf_dma_contig_memory *mem)$/;"	f	file:
+videobuf_dma_free	videobuf-dma-sg.c	/^EXPORT_SYMBOL_GPL(videobuf_dma_free);$/;"	v
+videobuf_dma_free	videobuf-dma-sg.c	/^int videobuf_dma_free(struct videobuf_dmabuf *dma)$/;"	f
+videobuf_dma_init	videobuf-dma-sg.c	/^EXPORT_SYMBOL_GPL(videobuf_dma_init);$/;"	v
+videobuf_dma_init	videobuf-dma-sg.c	/^void videobuf_dma_init(struct videobuf_dmabuf *dma)$/;"	f
+videobuf_dma_init_kernel	videobuf-dma-sg.c	/^EXPORT_SYMBOL_GPL(videobuf_dma_init_kernel);$/;"	v
+videobuf_dma_init_kernel	videobuf-dma-sg.c	/^int videobuf_dma_init_kernel(struct videobuf_dmabuf *dma, int direction,$/;"	f
+videobuf_dma_init_overlay	videobuf-dma-sg.c	/^EXPORT_SYMBOL_GPL(videobuf_dma_init_overlay);$/;"	v
+videobuf_dma_init_overlay	videobuf-dma-sg.c	/^int videobuf_dma_init_overlay(struct videobuf_dmabuf *dma, int direction,$/;"	f
+videobuf_dma_init_user	videobuf-dma-sg.c	/^EXPORT_SYMBOL_GPL(videobuf_dma_init_user);$/;"	v
+videobuf_dma_init_user	videobuf-dma-sg.c	/^int videobuf_dma_init_user(struct videobuf_dmabuf *dma, int direction,$/;"	f
+videobuf_dma_init_user_locked	videobuf-dma-sg.c	/^static int videobuf_dma_init_user_locked(struct videobuf_dmabuf *dma,$/;"	f	file:
+videobuf_dma_map	videobuf-dma-sg.c	/^EXPORT_SYMBOL_GPL(videobuf_dma_map);$/;"	v
+videobuf_dma_map	videobuf-dma-sg.c	/^int videobuf_dma_map(struct device *dev, struct videobuf_dmabuf *dma)$/;"	f
+videobuf_dma_unmap	videobuf-dma-sg.c	/^EXPORT_SYMBOL_GPL(videobuf_dma_unmap);$/;"	v
+videobuf_dma_unmap	videobuf-dma-sg.c	/^int videobuf_dma_unmap(struct device *dev, struct videobuf_dmabuf *dma)$/;"	f
+videobuf_dqbuf	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_dqbuf);$/;"	v
+videobuf_dqbuf	videobuf-core.c	/^int videobuf_dqbuf(struct videobuf_queue *q,$/;"	f
+videobuf_dvb_alloc_frontend	videobuf-dvb.c	/^EXPORT_SYMBOL(videobuf_dvb_alloc_frontend);$/;"	v
+videobuf_dvb_alloc_frontend	videobuf-dvb.c	/^struct videobuf_dvb_frontend *videobuf_dvb_alloc_frontend($/;"	f
+videobuf_dvb_dealloc_frontends	videobuf-dvb.c	/^EXPORT_SYMBOL(videobuf_dvb_dealloc_frontends);$/;"	v
+videobuf_dvb_dealloc_frontends	videobuf-dvb.c	/^void videobuf_dvb_dealloc_frontends(struct videobuf_dvb_frontends *f)$/;"	f
+videobuf_dvb_find_frontend	videobuf-dvb.c	/^EXPORT_SYMBOL(videobuf_dvb_find_frontend);$/;"	v
+videobuf_dvb_find_frontend	videobuf-dvb.c	/^int videobuf_dvb_find_frontend(struct videobuf_dvb_frontends *f,$/;"	f
+videobuf_dvb_get_frontend	videobuf-dvb.c	/^EXPORT_SYMBOL(videobuf_dvb_get_frontend);$/;"	v
+videobuf_dvb_get_frontend	videobuf-dvb.c	/^struct videobuf_dvb_frontend *videobuf_dvb_get_frontend($/;"	f
+videobuf_dvb_register_adapter	videobuf-dvb.c	/^static int videobuf_dvb_register_adapter(struct videobuf_dvb_frontends *fe,$/;"	f	file:
+videobuf_dvb_register_bus	videobuf-dvb.c	/^EXPORT_SYMBOL(videobuf_dvb_register_bus);$/;"	v
+videobuf_dvb_register_bus	videobuf-dvb.c	/^int videobuf_dvb_register_bus(struct videobuf_dvb_frontends *f,$/;"	f
+videobuf_dvb_register_frontend	videobuf-dvb.c	/^static int videobuf_dvb_register_frontend(struct dvb_adapter *adapter,$/;"	f	file:
+videobuf_dvb_start_feed	videobuf-dvb.c	/^static int videobuf_dvb_start_feed(struct dvb_demux_feed *feed)$/;"	f	file:
+videobuf_dvb_stop_feed	videobuf-dvb.c	/^static int videobuf_dvb_stop_feed(struct dvb_demux_feed *feed)$/;"	f	file:
+videobuf_dvb_thread	videobuf-dvb.c	/^static int videobuf_dvb_thread(void *data)$/;"	f	file:
+videobuf_dvb_unregister_bus	videobuf-dvb.c	/^EXPORT_SYMBOL(videobuf_dvb_unregister_bus);$/;"	v
+videobuf_dvb_unregister_bus	videobuf-dvb.c	/^void videobuf_dvb_unregister_bus(struct videobuf_dvb_frontends *f)$/;"	f
+videobuf_iolock	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_iolock);$/;"	v
+videobuf_iolock	videobuf-core.c	/^int videobuf_iolock(struct videobuf_queue *q, struct videobuf_buffer *vb,$/;"	f
+videobuf_mmap_free	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_mmap_free);$/;"	v
+videobuf_mmap_free	videobuf-core.c	/^int videobuf_mmap_free(struct videobuf_queue *q)$/;"	f
+videobuf_mmap_mapper	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_mmap_mapper);$/;"	v
+videobuf_mmap_mapper	videobuf-core.c	/^int videobuf_mmap_mapper(struct videobuf_queue *q, struct vm_area_struct *vma)$/;"	f
+videobuf_mmap_setup	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_mmap_setup);$/;"	v
+videobuf_mmap_setup	videobuf-core.c	/^int videobuf_mmap_setup(struct videobuf_queue *q,$/;"	f
+videobuf_next_field	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_next_field);$/;"	v
+videobuf_next_field	videobuf-core.c	/^enum v4l2_field videobuf_next_field(struct videobuf_queue *q)$/;"	f
+videobuf_pages_to_sg	videobuf-dma-sg.c	/^static struct scatterlist *videobuf_pages_to_sg(struct page **pages,$/;"	f	file:
+videobuf_poll_stream	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_poll_stream);$/;"	v
+videobuf_poll_stream	videobuf-core.c	/^unsigned int videobuf_poll_stream(struct file *file,$/;"	f
+videobuf_qbuf	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_qbuf);$/;"	v
+videobuf_qbuf	videobuf-core.c	/^int videobuf_qbuf(struct videobuf_queue *q, struct v4l2_buffer *b)$/;"	f
+videobuf_querybuf	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_querybuf);$/;"	v
+videobuf_querybuf	videobuf-core.c	/^int videobuf_querybuf(struct videobuf_queue *q, struct v4l2_buffer *b)$/;"	f
+videobuf_queue_cancel	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_queue_cancel);$/;"	v
+videobuf_queue_cancel	videobuf-core.c	/^void videobuf_queue_cancel(struct videobuf_queue *q)$/;"	f
+videobuf_queue_core_init	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_queue_core_init);$/;"	v
+videobuf_queue_core_init	videobuf-core.c	/^void videobuf_queue_core_init(struct videobuf_queue *q,$/;"	f
+videobuf_queue_dma_contig_init	videobuf-dma-contig.c	/^EXPORT_SYMBOL_GPL(videobuf_queue_dma_contig_init);$/;"	v
+videobuf_queue_dma_contig_init	videobuf-dma-contig.c	/^void videobuf_queue_dma_contig_init(struct videobuf_queue *q,$/;"	f
+videobuf_queue_is_busy	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_queue_is_busy);$/;"	v
+videobuf_queue_is_busy	videobuf-core.c	/^int videobuf_queue_is_busy(struct videobuf_queue *q)$/;"	f
+videobuf_queue_sg_init	videobuf-dma-sg.c	/^EXPORT_SYMBOL_GPL(videobuf_queue_sg_init);$/;"	v
+videobuf_queue_sg_init	videobuf-dma-sg.c	/^void videobuf_queue_sg_init(struct videobuf_queue *q,$/;"	f
+videobuf_queue_to_vaddr	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_queue_to_vaddr);$/;"	v
+videobuf_queue_to_vaddr	videobuf-core.c	/^void *videobuf_queue_to_vaddr(struct videobuf_queue *q,$/;"	f
+videobuf_queue_vmalloc_init	videobuf-vmalloc.c	/^EXPORT_SYMBOL_GPL(videobuf_queue_vmalloc_init);$/;"	v
+videobuf_queue_vmalloc_init	videobuf-vmalloc.c	/^void videobuf_queue_vmalloc_init(struct videobuf_queue *q,$/;"	f
+videobuf_read_one	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_read_one);$/;"	v
+videobuf_read_one	videobuf-core.c	/^ssize_t videobuf_read_one(struct videobuf_queue *q,$/;"	f
+videobuf_read_start	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_read_start);$/;"	v
+videobuf_read_start	videobuf-core.c	/^int videobuf_read_start(struct videobuf_queue *q)$/;"	f
+videobuf_read_stop	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_read_stop);$/;"	v
+videobuf_read_stop	videobuf-core.c	/^void videobuf_read_stop(struct videobuf_queue *q)$/;"	f
+videobuf_read_stream	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_read_stream);$/;"	v
+videobuf_read_stream	videobuf-core.c	/^ssize_t videobuf_read_stream(struct videobuf_queue *q,$/;"	f
+videobuf_read_zerocopy	videobuf-core.c	/^static ssize_t videobuf_read_zerocopy(struct videobuf_queue *q,$/;"	f	file:
+videobuf_reqbufs	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_reqbufs);$/;"	v
+videobuf_reqbufs	videobuf-core.c	/^int videobuf_reqbufs(struct videobuf_queue *q,$/;"	f
+videobuf_sg_alloc	videobuf-dma-sg.c	/^EXPORT_SYMBOL_GPL(videobuf_sg_alloc);$/;"	v
+videobuf_sg_alloc	videobuf-dma-sg.c	/^void *videobuf_sg_alloc(size_t size)$/;"	f
+videobuf_status	videobuf-core.c	/^static void videobuf_status(struct videobuf_queue *q, struct v4l2_buffer *b,$/;"	f	file:
+videobuf_stop	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_stop);$/;"	v
+videobuf_stop	videobuf-core.c	/^void videobuf_stop(struct videobuf_queue *q)$/;"	f
+videobuf_streamoff	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_streamoff);$/;"	v
+videobuf_streamoff	videobuf-core.c	/^int videobuf_streamoff(struct videobuf_queue *q)$/;"	f
+videobuf_streamon	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_streamon);$/;"	v
+videobuf_streamon	videobuf-core.c	/^int videobuf_streamon(struct videobuf_queue *q)$/;"	f
+videobuf_to_dma	videobuf-dma-sg.c	/^EXPORT_SYMBOL_GPL(videobuf_to_dma);$/;"	v
+videobuf_to_dma	videobuf-dma-sg.c	/^struct videobuf_dmabuf *videobuf_to_dma(struct videobuf_buffer *buf)$/;"	f
+videobuf_to_dma_contig	videobuf-dma-contig.c	/^EXPORT_SYMBOL_GPL(videobuf_to_dma_contig);$/;"	v
+videobuf_to_dma_contig	videobuf-dma-contig.c	/^dma_addr_t videobuf_to_dma_contig(struct videobuf_buffer *buf)$/;"	f
+videobuf_to_vmalloc	videobuf-vmalloc.c	/^EXPORT_SYMBOL_GPL(videobuf_to_vmalloc);$/;"	v
+videobuf_to_vmalloc	videobuf-vmalloc.c	/^void *videobuf_to_vmalloc(struct videobuf_buffer *buf)$/;"	f
+videobuf_vm_close	videobuf-dma-contig.c	/^static void videobuf_vm_close(struct vm_area_struct *vma)$/;"	f	file:
+videobuf_vm_close	videobuf-dma-sg.c	/^static void videobuf_vm_close(struct vm_area_struct *vma)$/;"	f	file:
+videobuf_vm_close	videobuf-vmalloc.c	/^static void videobuf_vm_close(struct vm_area_struct *vma)$/;"	f	file:
+videobuf_vm_fault	videobuf-dma-sg.c	/^static int videobuf_vm_fault(struct vm_area_struct *vma, struct vm_fault *vmf)$/;"	f	file:
+videobuf_vm_open	videobuf-dma-contig.c	/^static void videobuf_vm_open(struct vm_area_struct *vma)$/;"	f	file:
+videobuf_vm_open	videobuf-dma-sg.c	/^static void videobuf_vm_open(struct vm_area_struct *vma)$/;"	f	file:
+videobuf_vm_open	videobuf-vmalloc.c	/^static void videobuf_vm_open(struct vm_area_struct *vma)$/;"	f	file:
+videobuf_vm_ops	videobuf-dma-contig.c	/^static const struct vm_operations_struct videobuf_vm_ops = {$/;"	v	typeref:struct:vm_operations_struct	file:
+videobuf_vm_ops	videobuf-dma-sg.c	/^static const struct vm_operations_struct videobuf_vm_ops = {$/;"	v	typeref:struct:vm_operations_struct	file:
+videobuf_vm_ops	videobuf-vmalloc.c	/^static const struct vm_operations_struct videobuf_vm_ops = {$/;"	v	typeref:struct:vm_operations_struct	file:
+videobuf_vmalloc_free	videobuf-vmalloc.c	/^EXPORT_SYMBOL_GPL(videobuf_vmalloc_free);$/;"	v
+videobuf_vmalloc_free	videobuf-vmalloc.c	/^void videobuf_vmalloc_free(struct videobuf_buffer *buf)$/;"	f
+videobuf_vmalloc_to_sg	videobuf-dma-sg.c	/^static struct scatterlist *videobuf_vmalloc_to_sg(unsigned char *virt,$/;"	f	file:
+videobuf_waiton	videobuf-core.c	/^EXPORT_SYMBOL_GPL(videobuf_waiton);$/;"	v
+videobuf_waiton	videobuf-core.c	/^int videobuf_waiton(struct videobuf_queue *q, struct videobuf_buffer *vb,$/;"	f
+videodev-objs	Makefile	/^videodev-objs	:=	v4l2-dev.o v4l2-ioctl.o v4l2-device.o v4l2-fh.o \\$/;"	m
+videodev_exit	v4l2-dev.c	/^static void __exit videodev_exit(void)$/;"	f	file:
+videodev_init	v4l2-dev.c	/^static int __init videodev_init(void)$/;"	f	file:
+videodev_init	v4l2-dev.c	/^subsys_initcall(videodev_init);$/;"	v
+vma	videobuf2-dma-contig.c	/^	struct vm_area_struct		*vma;$/;"	m	struct:vb2_dc_buf	typeref:struct:vb2_dc_buf::vm_area_struct	file:
+vma	videobuf2-dma-sg.c	/^	struct vm_area_struct		*vma;$/;"	m	struct:vb2_dma_sg_buf	typeref:struct:vb2_dma_sg_buf::vm_area_struct	file:
+vma	videobuf2-vmalloc.c	/^	struct vm_area_struct		*vma;$/;"	m	struct:vb2_vmalloc_buf	typeref:struct:vb2_vmalloc_buf::vm_area_struct	file:
+vma_is_io	videobuf2-dma-contig.c	/^static inline int vma_is_io(struct vm_area_struct *vma)$/;"	f	file:
+vma_is_io	videobuf2-dma-sg.c	/^static inline int vma_is_io(struct vm_area_struct *vma)$/;"	f	file:
+w	v4l2-compat-ioctl32.c	/^	struct v4l2_rect        w;$/;"	m	struct:v4l2_window32	typeref:struct:v4l2_window32::v4l2_rect	file:
+width	v4l2-compat-ioctl32.c	/^		__u32		width;$/;"	m	struct:v4l2_framebuffer32::__anon4	file:
+win	v4l2-compat-ioctl32.c	/^		struct v4l2_window32	win;$/;"	m	union:v4l2_format32::__anon1	typeref:struct:v4l2_format32::__anon1::v4l2_window32	file:
+write	videobuf2-dma-sg.c	/^	int				write;$/;"	m	struct:vb2_dma_sg_buf	file:
+write	videobuf2-vmalloc.c	/^	int				write;$/;"	m	struct:vb2_vmalloc_buf	file:
